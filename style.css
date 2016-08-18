@@ -3,17 +3,18 @@ body {
 }
 
 .container {
-  max-width: 800px;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
+  text-align: auto;
 }
 
 header {
+}
 
+header img {
 }
 
 .navbar {
   background-color: #fff;
   position: relative;
+  margin-left: auto;
+  margin-right: auto;
 }
