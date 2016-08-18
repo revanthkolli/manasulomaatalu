@@ -1,5 +1,4 @@
 body {
-  background-color: #7d7;
 }
 
 .container {
@@ -21,3 +20,4 @@ nav, .navbar {
 
 .navbar-nav {
   float: none !important;
+}
