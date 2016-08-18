@@ -20,11 +20,4 @@ nav, .navbar {
 }
 
 .navbar-nav {
-  float: none;
-}
-
-@media (min-width: 768px) {
-  .navbar-nav {
-    float: none;
-  }
-}
+  float: none !important;
