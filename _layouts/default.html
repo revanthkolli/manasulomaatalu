@@ -11,26 +11,28 @@
 
     <link rel="stylesheet" type="text/css" href="{{ site.github.url }}/style.css" />
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.caption }}" href="{{ site.github.url }}/feed.xml" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
 
     <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
   </head>
 
   <body>
-    <div class="wrapper-masthead">
+    <div class="wrapper-head">
       <div class="container">
-        <header class="masthead clearfix">
+        <header>
           <a href="{{ site.github.url }}/" class="site-avatar"><img src="{{ site.logo }}" /></a>
 
-          <div class="site-info">
+          <!-- <div class="site-info">
             <h1 class="site-name"><a href="{{ site.github.url }}/">{{ site.name }}</a></h1>
             <p class="site-description">{{ site.caption }}</p>
-          </div>
+          </div> -->
 
-          <nav>
-            <a href="{{ site.github.url }}/">Blog</a>
-            <a href="{{ site.github.url }}/about">About</a>
-          </nav>
         </header>
+        <nav>
+          <a href="{{ site.github.url }}/">Blog</a>
+          <a href="{{ site.github.url }}/about">About</a>
+        </nav>
       </div>
     </div>
 
@@ -45,7 +47,7 @@
         </footer>
       </div>
     </div>
-
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     {% include analytics.html %}
   </body>
 </html>
