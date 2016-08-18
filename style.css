@@ -1,5 +1,5 @@
 body {
-
+  background-color: #FFF;
 }
 
 .container {
@@ -14,17 +14,11 @@ header img {
   margin-right: auto;
 }
 
-nav {
-  text-align: center;
+
+nav, .navbar {
+  background-color: #000;
 }
 
-nav ul {
-  display: inline-block;
-}
-
-.navbar {
-  background-color: #fff;
-  position: relative;
-  margin-left: auto;
-  margin-right: auto;
+.navbar-nav {
+  float: none;
 }
