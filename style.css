@@ -123,7 +123,7 @@ nav, .navbar {
   color: #E5B135;
 }
 
-#main a:hover, #main a:focus, #main a:active {
+#main a:hover, #main a:focus {
   text-decoration: none;
   color: #25758F;
 }
@@ -211,7 +211,7 @@ footer a {
   padding-right: 5px;
 }
 
-footer a:hover, footer a:focus, footer a:active {
+footer a:hover, footer a:focus {
   color: #25758F;
   text-decoration: none;
 }
