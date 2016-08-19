@@ -33,6 +33,12 @@ nav, .navbar {
   background-color: #fff;
 }
 
+.navbar-nav > a:focus, .navbar-nav > a:hover {
+  color: #25758F;
+  text-decoration: none;
+  background-color: #fff;
+}
+
 @media (min-width: 768px){
     .navbar-nav{
         float:none;
