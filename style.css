@@ -33,7 +33,7 @@ nav, .navbar {
   background-color: #fff;
 }
 
-.navbar-nav > a:focus, .navbar-nav > a:hover {
+.navbar-nav > li > a:focus, .navbar-nav > li > a:hover {
   color: #25758F;
   text-decoration: none;
   background-color: #fff;
