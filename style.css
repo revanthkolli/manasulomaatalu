@@ -27,7 +27,7 @@ nav, .navbar {
   color: #7d7d7d;
 }
 
-.navbar a:focus, .navbar a:hover, .navbar a:active {
+.navbar-nav > .active > a, .navbar-nav > .active > a:focus, .navbar-nav > .active > a:hover {
   color: #25758F;
   text-decoration: none;
   background-color: #fff;
