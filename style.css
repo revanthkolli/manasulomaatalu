@@ -23,6 +23,10 @@ nav, .navbar {
   background-color: #fff;
 }
 
+.navbar li: hover {
+  background-color: #fff;
+}
+
 .navbar a {
   color: #7d7d7d;
 }
