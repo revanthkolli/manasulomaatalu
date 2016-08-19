@@ -12,7 +12,8 @@
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.caption }}" href="{{ site.github.url }}/feed.xml" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="{{ site.github.url }}/style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
 
 
     <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
@@ -24,7 +25,7 @@
       <nav class="navbar">
         <div class="container">
           <header>
-            <a href="{{ site.github.url }}/" class="site-avatar"><img class="img img-responsive" src="{{ site.logo }}" /></a>
+            <a href="{{ site.localhost }}/" class="site-avatar"><img class="img img-responsive" src="{{ site.localhost }}/img/{{ site.logo }}" /></a>
 
             <!-- <div class="site-info">
             <h1 class="site-name"><a href="{{ site.github.url }}/">{{ site.name }}</a></h1>
@@ -42,21 +43,24 @@
           </div>
           <div id="navbar" class="collapse navbar-collapse">
             <ul class="nav navbar-nav">
-              <li class="active"><a href="#about">About</a></li>
-              <li><a href="#experience">Experience</a></li>
-              <li><a href="#projects">Projects</a></li>
-              <li><a href="#skills">Skills</a></li>
-              <li><a href="#contact">Contact</a></li>
+              <li><a href="{{ site.localhost }}/about">About</a></li>
+              <li><a href="#experience">Film Reviews</a></li>
+              <li><a href="#projects">Articles</a></li>
+              <li><a href="#skills">Stories</a></li>
             </ul>
           </div>
         </div>
       </nav>
     </div>
-
+    <div class="bg">
+      <div class="hr"></div>
+    </div>
     <div id="main" role="main" class="container">
       {{ content }}
     </div>
-
+    <div class="bg">
+      <div class="hr"></div>
+    </div>
     <div class="wrapper-footer">
       <div class="container">
         <footer class="footer">
@@ -64,7 +68,9 @@
         </footer>
       </div>
     </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="https://use.fontawesome.com/d1466105fa.js"></script>
     {% include analytics.html %}
   </body>
 </html>

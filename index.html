@@ -3,17 +3,22 @@ layout: default
 ---
 
 <div class="posts">
-  {% for post in site.posts %}
-    <article class="post">
+  {% for post in site.posts limit:5 %}
+    <a href="{{ site.baseurl }}{{ post.url }}">
+      <div class="post-cover" style="background-image: url('img/{{ post.image }}')">
+        <article class="post">
 
-      <h1><a href="{{ site.github.url }}{{ post.url }}">{{ post.title }}</a></h1>
+          <h1>{{ post.title }}</h1>
 
-      <div class="entry">
-        {{ post.excerpt }}
+          <div class="entry">
+            {{ post.description }}
+          </div>
+
+          <div class="post-categories">
+            {{ post.categories }}
+          </div>
+        </article>
       </div>
-
-      <a href="{{ site.github.url }}{{ post.url }}" class="read-more">Read More</a>
-    </article>
-    <hr>
+    </a>
   {% endfor %}
 </div>

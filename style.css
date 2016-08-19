@@ -7,16 +7,45 @@ body {
 }
 
 header {
+
 }
 
 header img {
+  max-height: 100px;
   margin-left: auto;
   margin-right: auto;
 }
 
-nav {
+.bg {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  /*width: 320px;
+  height: 320px;*/
+  border: none;
+  font: normal 100%/normal Arial, Helvetica, sans-serif;
+  color: rgba(255,255,255,1);
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  background: -webkit-linear-gradient(45deg, rgba(255,255,255,0.2) 25%, rgba(0,0,0,0) 25%, rgba(0,0,0,0) 50%, rgba(255,255,255,0.2) 50%, rgba(255,255,255,0.2) 75%, rgba(0,0,0,0) 75%, rgba(0,0,0,0) 0), #25758F;
+  background: -moz-linear-gradient(45deg, rgba(255,255,255,0.2) 25%, rgba(0,0,0,0) 25%, rgba(0,0,0,0) 50%, rgba(255,255,255,0.2) 50%, rgba(255,255,255,0.2) 75%, rgba(0,0,0,0) 75%, rgba(0,0,0,0) 0), #25758F;
+  background: linear-gradient(45deg, rgba(255,255,255,0.2) 25%, rgba(0,0,0,0) 25%, rgba(0,0,0,0) 50%, rgba(255,255,255,0.2) 50%, rgba(255,255,255,0.2) 75%, rgba(0,0,0,0) 75%, rgba(0,0,0,0) 0), #25758F;
+  background-position: auto auto;
+  -webkit-background-origin: padding-box;
+  background-origin: padding-box;
+  -webkit-background-clip: border-box;
+  background-clip: border-box;
+  -webkit-background-size: 50px 50px;
+  background-size: 50px 50px;
+  -webkit-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+  background-attachment: fixed;
+}
+
+nav, .navbar {
   padding-top: 15px;
-  font-size: 18px;
+  font-size: 21px;
+  margin-bottom: 0px;
 }
 
 nav, .navbar {
@@ -24,7 +53,25 @@ nav, .navbar {
 }
 
 .navbar a {
-  color: #7d7d7d;
+  color: #3d3d3d;
+}
+
+/* Mobile Menu Toggle */
+.navbar .navbar-toggle {
+  border-color: #25758F;
+}
+
+.navbar .navbar-toggle:hover, .navbar .navbar-toggle:active, .navbar .navbar-toggle:focus {
+  background-color: #25758F;
+}
+
+/* Mobile Menu Toggle Icon Bar */
+.navbar .navbar-toggle .icon-bar {
+  background-color: #25758F;
+}
+
+.navbar .navbar-toggle:hover .icon-bar, .navbar .navbar-toggle:active .icon-bar, .navbar .navbar-toggle:focus .icon-bar {
+  background-color: #fff;
 }
 
 .navbar-nav > .active > a, .navbar-nav > .active > a:focus, .navbar-nav > .active > a:hover {
@@ -46,4 +93,125 @@ nav, .navbar {
         display: table;
         table-layout: fixed;
     }
+}
+
+.navbar-nav {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.hr{
+  height: 15px;
+  background-color: transparent;
+}
+
+#main {
+  color: #3d3d3d;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+#main h1 {
+  font-family: 'Arvo', serif;
+}
+
+#main h1, #main h2 {
+  color: #000;
+}
+
+#main a {
+  color: #E5B135;
+}
+
+#main a:hover, #main a:focus, #main a:active {
+  text-decoration: none;
+  color: #25758F;
+}
+
+#main p {
+  text-align: left;
+  font-size: 18px;
+}
+
+.text-indent {
+  text-indent: 50px;
+}
+
+#main .post-cover {
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+}
+
+#main .posts .post {
+  height: 300px;
+  padding: 25px;
+  background-color: rgba(0,0,0,.5);
+  position: relative;
+  text-align: center;
+}
+
+#main .posts .post:hover {
+  background-color: rgba(0,0,0,.7);
+}
+
+#main .posts .post h1, .posts #main .post {
+  color: #fff;
+}
+
+#main .posts .post .entry {
+  padding: 25px;
+  color: #fff;
+}
+
+#main .posts .post .post-categories {
+  position: absolute;
+  bottom: 25px;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  color: #E5B135;
+  font-weight: bold;
+}
+
+#main .post-detail .entry {
+  padding: 25px;
+  text-align: center;
+  line-height: normal;
+}
+
+#main .post-detail .entry h2 {
+  color: #25758F;
+}
+
+#main .post-detail .entry iframe {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+#main .post-detail .entry .rating {
+  text-align: center;
+}
+
+#main .post-detail .negative_review {
+  color: red;
+}
+
+/* Footer */
+footer {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+footer a {
+  color: #3d3d3d;
+  font-size: 21px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+footer a:hover, footer a:focus, footer a:active {
+  color: #25758F;
+  text-decoration: none;
 }
