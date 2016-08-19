@@ -1,4 +1,5 @@
 body {
+  font-family: 'Open Sans', sans-serif;
 }
 
 .container {
@@ -13,9 +14,22 @@ header img {
   margin-right: auto;
 }
 
+nav {
+  padding-top: 15px;
+  font-size: 18px;
+}
 
 nav, .navbar {
   background-color: #fff;
+}
+
+.navbar a {
+  color: #7d7d7d;
+}
+
+.navbar a:focus, .navbar a:hover, .navbar a:active {
+  color: #25758F;
+  text-decoration: none;
 }
 
 @media (min-width: 768px){
