@@ -23,7 +23,7 @@ nav, .navbar {
   background-color: #fff;
 }
 
-.navbar li: hover {
+.navbar>li>a:hover, .navbar>li>a:focus {
   background-color: #fff;
 }
 
