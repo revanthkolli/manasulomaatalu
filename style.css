@@ -23,10 +23,6 @@ nav, .navbar {
   background-color: #fff;
 }
 
-.navbar>li>a:hover, .navbar>li>a:focus {
-  background-color: #fff;
-}
-
 .navbar a {
   color: #7d7d7d;
 }
@@ -34,6 +30,7 @@ nav, .navbar {
 .navbar a:focus, .navbar a:hover, .navbar a:active {
   color: #25758F;
   text-decoration: none;
+  background-color: #fff;
 }
 
 @media (min-width: 768px){
