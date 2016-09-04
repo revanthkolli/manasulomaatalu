@@ -9,8 +9,17 @@ layout: default
     {{ content }}
   </div>
 
+  <div class="share-page">
+    {% include share.html %}
+  </div>
+
   <div class="date">
     Written on {{ page.date | date: "%B %e, %Y" }}
+    <br>
+    {% assign author = site.data.authors[page.author] %}
+    {% if author %}
+    &nbsp; by <a href="{{ author.web }}" target="_blank">{{ author.name }}</a>
+    {% endif %}
   </div>
 
   {% include disqus.html %}

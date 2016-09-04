@@ -59,9 +59,11 @@ nav, .navbar {
 /* Mobile Menu Toggle */
 .navbar .navbar-toggle {
   border-color: #25758F;
+  float: none;
+  margin-right: 0px;
 }
 
-.navbar .navbar-toggle:hover, .navbar .navbar-toggle:active, .navbar .navbar-toggle:focus {
+.navbar .navbar-toggle:hover, .navbar .navbar-toggle:focus {
   background-color: #25758F;
 }
 
@@ -70,7 +72,7 @@ nav, .navbar {
   background-color: #25758F;
 }
 
-.navbar .navbar-toggle:hover .icon-bar, .navbar .navbar-toggle:active .icon-bar, .navbar .navbar-toggle:focus .icon-bar {
+.navbar .navbar-toggle:hover .icon-bar, .navbar .navbar-toggle:focus .icon-bar {
   background-color: #fff;
 }
 
@@ -93,11 +95,44 @@ nav, .navbar {
         display: table;
         table-layout: fixed;
     }
+    #main .posts .post {
+      background-color: rgba(0,0,0,.7);
+    }
 }
 
 .navbar-nav {
   padding-top: 15px;
   padding-bottom: 15px;
+}
+
+.nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
+  background-color: #fff;
+}
+
+.dropdown-menu {
+  border: none;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  border-radius: 0px;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  text-align: center;
+}
+
+.dropdown-menu li {
+  padding-top: 3px;
+  padding-bottom: 3px;
+  font-size: 15px;
+}
+
+.dropdown-menu li a {
+  font-size: 15px;
+}
+
+.dropdown-menu li a:hover {
+  background-color: #fff;
+  color: #25758F;
 }
 
 .hr{
@@ -131,6 +166,10 @@ nav, .navbar {
 #main p {
   text-align: left;
   font-size: 18px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 5vw;
+  padding-right: 5vw;
 }
 
 .text-indent {
@@ -141,10 +180,11 @@ nav, .navbar {
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: center;
+  background-color: #000;
 }
 
 #main .posts .post {
-  height: 300px;
+  /*height: 300px;*/
   padding: 25px;
   background-color: rgba(0,0,0,.5);
   position: relative;
@@ -188,6 +228,7 @@ nav, .navbar {
 #main .post-detail .entry iframe {
   padding-top: 25px;
   padding-bottom: 25px;
+  width: 80vw !important;
 }
 
 #main .post-detail .entry .rating {
@@ -196,6 +237,24 @@ nav, .navbar {
 
 #main .post-detail .negative_review {
   color: red;
+}
+
+.positive_review {
+  color: #25758F;
+}
+
+.negative_review {
+  color: red;
+}
+
+.share-page {
+  margin-bottom: 10px;
+}
+
+.share-page a, .fa {
+  font-size: 24px;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
 /* Footer */

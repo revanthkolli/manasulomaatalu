@@ -1,12 +1,16 @@
 ---
-layout: default
+layout: film-reviews
 ---
 
+<h1> Alphabetized List of Film Reviews </h1>
+
 <br>
+
 <div class="posts">
-  {% for post in site.posts limit:5 %}
+  {% assign posts = (site.categories['Movie Review'] | sort: 'title') %}
+  {% for post in posts %}
     <a href="{{ site.baseurl }}{{ post.url }}">
-      <div class="post-cover" style="background-image: url('img/{{ post.image }}')">
+      <div class="post-cover" style="background-image: url('{{ site.baseurl }}/img/{{ post.image }}')">
         <article class="post">
 
           <h1>{{ post.title }}</h1>

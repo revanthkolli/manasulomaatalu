@@ -1,10 +1,10 @@
 ---
-layout: page
+layout: about
 title: About
 permalink: /about/
 ---
 
-<h2> A Bit About the Writer </h2>
+<h1> A Bit About the Writer </h1>
 <br>
 <p>
   You might be reading this blog and find yourself with a strong urge to identify who must be a genius behind these posts.  

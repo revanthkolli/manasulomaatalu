@@ -2,9 +2,11 @@
 layout: post
 title: What Does the Success of Soggade Chinni Nayana Say About Our Society? [Extended Film Review]
 description: An extended film analysis of Soggade Chinni Nayana
-categories: "Movie-Reviews, Telugu-Cinema"
-tags: "nagarjuna, lavanya tripathi, ramya krishna, soggade chinni nayana, telugu, film review, Kalyan Krishna, Anup Rubens"
+categories: ['Movie Reviews', 'Telugu Cinema']
+tags: ['nagarjuna', 'lavanya tripathi', 'ramya krishna', 'soggade chinni nayana', 'telugu', 'film review', 'Kalyan Krishna', 'Anup Rubens']
 image: soggade_chinni_nayana_poster.jpg
+author: revanth_kolli
+rating: 2.75
 ---
 
 <p>Born in the 90&#8217;s, I grew up watching many of Nagarjuna&#8217;s movies while he was still in his prime. Some of my favorites of his include Manmadhudu, Santhosam, and, more recently, Manam. Needless to say, I was excited about being able to watch Soggade Chinni Nayana while I was still in India earlier this year.<br /></p>

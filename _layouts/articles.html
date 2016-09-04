@@ -54,7 +54,7 @@
                   <li><a href="{{ site.baseurl }}/all-film-reviews">All Film Reviews</a></li>
                 </ul>
               </li>
-              <li class="dropdown">
+              <li class="dropdown active">
                 <a href="" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true">Articles</a>
                 <ul class="dropdown-menu">
                   <li><a href="{{ site.baseurl }}/top-10">Top 10</a></li>
@@ -77,6 +77,9 @@
     </div>
     <div id="main" role="main" class="container">
       {{ content }}
+      <div class="share-page">
+        {% include share.html %}
+      </div>
     </div>
     <div class="bg">
       <div class="hr"></div>

@@ -2,9 +2,10 @@
 layout: post
 title: Why we Need More Children’s Movies in Telugu (and India in General)
 description: Let's not forget an import sector of the audience
-categories: "Telugu-Cinema"
-tags: "telugu, cinema, kids, children, disney, licensing, marketing, anganaga o dheerudu, baahuballi, eega"
+categories: ['Telugu Cinema']
+tags: ['telugu', 'cinema', 'kids', 'children', 'disney', 'licensing', 'marketing', 'anganaga o dheerudu', 'baahuballi', 'eega']
 image: disney.jpg
+author: revanth_kolli
 ---
 
 <p>The Walt Disney Company was founded in 1923 and is currently estimated to have assets worth ~$80 billion. Not only is it listed as one of the world&#8217;s most prominent brands, it has completely redefined children&#8217;s and family entertainment, from its iconic movies and short films to its theme parks.</p>
