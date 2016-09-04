@@ -1,5 +1,6 @@
 ---
 layout: film-reviews
+title: All Film Reviews - Manasulo Maatalu
 ---
 
 <h1> Alphabetized List of Film Reviews </h1>

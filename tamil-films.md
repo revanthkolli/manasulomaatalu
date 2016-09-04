@@ -1,5 +1,6 @@
 ---
 layout: film-reviews
+title: Tamil Film Reviews - Manasulo Maatalu
 ---
 
 <h1> Tamil Film Reviews </h1>
