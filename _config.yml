@@ -25,6 +25,9 @@ google_analytics:
 # local Host
 localhost: "127.0.0.1:4000/manasulomaatalu"
 
+# URL
+url: "https://revanthkolli.github.io/manasulomaatalu/"
+
 # URL for Project
 baseurl: "/manasulomaatalu"
 
