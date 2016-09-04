@@ -1,5 +1,6 @@
 ---
 layout: film-reviews
+title: Recommended Films - Manasulo Maatalu
 ---
 
 <h1> Recommended Films </h1>
