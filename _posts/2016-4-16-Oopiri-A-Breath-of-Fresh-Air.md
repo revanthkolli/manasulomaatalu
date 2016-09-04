@@ -2,7 +2,7 @@
 layout: post
 title: Oopiri - A Breath of Fresh Air
 description: A film review of the bilingual film Oopiri (Thozha)
-categories: ['Movie Reviews', 'Telugu Cinema', 'Tamil Cinema']
+categories: ['Movie Review', 'Telugu Cinema', 'Tamil Cinema']
 tags: ['gopi sundar', 'intouchables', 'karthi', 'movie review', 'nagarjuna', 'oopiri', 'p. s. vinod', 'remake', 'tamannaah', 'tamil cinema', 'telugu cinema', 'thozha', 'vamsi paidipally']
 image: oopiri_poster.jpg
 author: revanth_kolli

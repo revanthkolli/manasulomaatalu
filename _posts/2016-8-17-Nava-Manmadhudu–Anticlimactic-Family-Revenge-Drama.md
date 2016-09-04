@@ -2,7 +2,7 @@
 layout: post
 title: Nava Manmadhudu – Anticlimactic Family Revenge Drama
 description: A film review of Nava Manmadhudu (Thanga Magan)
-categories: ['Movie Reviews', 'Telugu Cinema', 'Tamil Cinema']
+categories: ['Movie Review', 'Telugu Cinema', 'Tamil Cinema']
 tags: ['a. kumaran', 'amy jackson', 'anirudh', 'dhanush', 'telugu film review', 'tamil film review', 'nava manmadhudu', 'samantha', 'thanga magan', 'velraj']
 image: nava_manmadhudu_poster.jpg
 author: revanth_kolli
