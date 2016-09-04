@@ -5,7 +5,7 @@ name: Manasulo Maatalu
 caption: Genuine Thoughts on South Indian Cinema
 
 # Logo
-logo: http://revanthkolli.github.io/manasulomaatalu/img/logo.png
+logo: https://revanthkolli.github.io/manasulomaatalu/img/logo.png
 
 # Social Links
 footer-links:
@@ -26,7 +26,7 @@ google_analytics:
 localhost: "127.0.0.1:4000/manasulomaatalu"
 
 # URL
-url: https://revanthkolli.github.io/manasulomaatalu/
+url: https://revanthkolli.github.io/manasulomaatalu
 
 # URL for Project
 baseurl: "/manasulomaatalu"
