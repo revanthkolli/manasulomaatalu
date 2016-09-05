@@ -10,8 +10,8 @@ title: Top 10 - Manasulo Maatalu
 <div class="posts">
   {% assign posts = (site.categories['Top 10'] | sort: 'title') %}
   {% for post in posts %}
-    <a href="{{ site.baseurl }}{{ post.url }}">
-      <div class="post-cover" style="background-image: url('{{ site.baseurl }}/img/{{ post.image }}')">
+    <a href="{{ site.url }}{{ post.url }}">
+      <div class="post-cover" style="background-image: url('{{ site.url }}/img/{{ post.image }}')">
         <article class="post">
 
           <h1>{{ post.title }}</h1>
