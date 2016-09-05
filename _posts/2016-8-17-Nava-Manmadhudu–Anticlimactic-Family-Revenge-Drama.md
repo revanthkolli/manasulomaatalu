@@ -37,4 +37,4 @@ rating: 3.25
 <p>If you watch the film acknowledging its slow pacing and anticlimactic ending, Nava Manmadhudu will still manage to entertain you with catchy music, family emotions, fun dialogues, and most importantly, relatable relationships between realistically flawed characters.</p>
 <h3>Parent&#8217;s Verdict</h3>
 <p>Kids will most likely not enjoy this film as it doesn&#8217;t have much eye-candy or action. It is geared towards a more mature audience who can relate to romantic relationships and the struggles of family life.</p>
-<p><strong>Rating:3.25/5</strong></p>
+<p><strong>Rating: 3.25/5</strong></p>
