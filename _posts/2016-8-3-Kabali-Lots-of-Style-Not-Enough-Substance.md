@@ -44,4 +44,4 @@ G. Murali has had some interesting films to his credit (Madras, Andala Rakshasi 
 Overall, Kabali does have a number of flaws that detract from its potential, but does have a solid base from which it could have built the thrilling, action-filled drama that it should have been.
 <h3>Parent's Verdict</h3>
 Expect a lot of violence and murder, both of which escalate as the film progresses.
-<strong>Rating: <span class="negative_review">2.75</span>/5</strong>
+<p><strong>Rating: <span class="negative_review">2.75</span>/5</strong></p>
