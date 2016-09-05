@@ -2,7 +2,7 @@
 layout: post
 title: What Does the Success of Soggade Chinni Nayana Say About Our Society? [Extended Film Review]
 description: An extended film analysis of Soggade Chinni Nayana
-categories: ['Movie Reviews', 'Telugu Cinema']
+categories: ['Movie Review', 'Telugu Cinema']
 tags: ['nagarjuna', 'lavanya tripathi', 'ramya krishna', 'soggade chinni nayana', 'telugu', 'film review', 'Kalyan Krishna', 'Anup Rubens']
 image: soggade_chinni_nayana_poster.jpg
 author: revanth_kolli
