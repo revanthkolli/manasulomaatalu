@@ -20,7 +20,7 @@ twitter-username: ManasuloMaatalu
 # disqus: revanthkolli-github-io-manasulomaatalu
 
 # Google Analytics
-google_analytics:
+google_analytics: UA-80112916-1
 
 # local Host
 localhost: "127.0.0.1:4000/manasulomaatalu"
