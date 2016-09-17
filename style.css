@@ -257,6 +257,18 @@ nav, .navbar {
   margin-right: 5px;
 }
 
+.row {
+	display: inline;
+}
+
+.row .prev {
+	float: left;
+}
+
+.row .next {
+	float: right;
+}
+
 .related-posts .review-header {
 	color: #25758F;
 }

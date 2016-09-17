@@ -25,6 +25,14 @@ layout: default
   {% include disqus.html %}
 </article>
 <hr>
+<div class="row">
+	{% if page.previous.url %}
+		<a class="prev" style="float:left;" href="{{page.previous.url}}"><i class="glyphicon glyphicon-chevron-left"></i> {{page.previous.title}}</a>
+	{% endif %}
+	{% if page.next.url %}
+		<a class="next" style="float:right;" href="{{page.next.url}}">{{page.next.title}}<i class="glyphicon glyphicon-chevron-right"></i></a>
+	{% endif %}
+</div>
 <div class="related-posts">
 	<h2 class="review-header">Related Posts</h2>
 	
