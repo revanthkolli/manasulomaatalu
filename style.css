@@ -257,6 +257,15 @@ nav, .navbar {
   margin-right: 5px;
 }
 
+.related-posts h2 {
+	color: #25758F;
+}
+
+.related-posts-links {
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
 /* Footer */
 footer {
   padding-top: 25px;
