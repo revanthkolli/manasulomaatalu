@@ -3,10 +3,10 @@ layout: post
 title: Pelli Choopulu – Simple and Sound
 description: A film review of Pelli Choopulu
 categories: ['Movie Review', 'Telugu Cinema']
-tags: ['tharun bhascker', 'vijay deverakonda', 'ritu varma', 'vivek sagar', 'nagesh banell', 'pelli choopulu', 'telugu movie review', 'dhanush', 'samantha', 'amy jackson', 'nithin']
+tags: ['tharun bhascker', 'vijay deverakonda', 'ritu varma', 'vivek sagar', 'nagesh banell', 'pelli choopulu', 'telugu movie review']
 image: pelli_choopulu_poster.jpg
 author: revanth_kolli
-rating: 4
+rating: 4.25
 ---
 
 <p>Pelli Choopulu was one the biggest surprise hits of the year; it recently celebrated 50 days in the U.S. market, which is a big deal for such a small film. When I first saw the teaser, it vaguely reminded me of Kalyana Vaibhogame, but once the concept of food trucks was introduced in the trailer, I was excited that the film focused on more than just another love story.</p>
@@ -39,4 +39,4 @@ rating: 4
 <p>Though it is somewhat slow paced at times, Pelli Choopulu is a film that is simply well put together and leaves a lasting satisfying impression throughout.</p>
 <h3>Parent&#8217;s Verdict</h3>
 <p>Compared to most South Indian films, this film is more suitable for kids and family entertainment.</p>
-<p><strong>Rating: <span class="positive_reivew">4.25</span>/5</strong></p>
+<strong>Rating: <span class="positive_review">4.25</span>/5</strong>
