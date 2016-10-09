@@ -3,10 +3,11 @@ layout: post
 title: Bangalore Days - A Beautiful Narration
 description: A film review of the Malayalam film Bangalore Days
 categories: ['Movie Review', 'Malayalam Cinema']
-tags: ['malayalam movie', 'review', 'bangalore days', 'parvathy', 'dulquer salmaan', 'nazriya nazim', 'fahadh faasil', 'nithya menon', 'gopi sunder', 'sameer thari', 'anjali menon']
+tags: ['malayalam movie', 'movie review', 'bangalore days', 'parvathy', 'dulquer salmaan', 'nazriya nazim', 'fahadh faasil', 'nithya menon', 'gopi sunder', 'sameer thari', 'anjali menon']
 image: bangalore_days_poster.png
 author: revanth_kolli
 rating: 4.5
+year: 2014
 ---
 
 Do you ever watch a movie and get so involved in the narration that the characters and emotions stick with you even after the movie ends? This is one of those movies.

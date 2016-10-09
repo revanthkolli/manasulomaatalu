@@ -7,6 +7,7 @@ tags: ['gopi sunder', 'kajal', 'mahesh babu', 'mickey j meyer', 'movie review', 
 image: brahmotsavam_poster.jpg
 author: revanth_kolli
 rating: 2.75
+year: 2016
 ---
 
 Brahmotsavam needs no introduction; it was the most awaited film of the year and had a plethora of expectations to meet after the tremendous box office success of Mahesh's previous film, <a href="https://en.wikipedia.org/wiki/Srimanthudu" target="_blank">Srimanthudu</a>. It opened to negative reviews and there have been numerous articles claiming that Brahmotsavam is officially the biggest disaster of the year.

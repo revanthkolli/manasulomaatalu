@@ -7,6 +7,7 @@ tags: ['dhansika', 'g. murali', 'hindi', 'kabali', 'movie review', 'pa. ranjith'
 image: kabali_poster.jpg
 author: revanth_kolli
 rating: 2.75
+year: 2016
 ---
 
 Kabali Ra! I finally got to witness what the hype was about with Kabali and its failure to please the audience and critics alike (though Rajinikanth's craze seemed to work wonders for the film's box office openings). I have to say, while it does have its flaws, the film does have some things going for it and isn't as bad as most of the talk has been.

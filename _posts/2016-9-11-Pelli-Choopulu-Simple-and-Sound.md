@@ -7,6 +7,7 @@ tags: ['tharun bhascker', 'vijay deverakonda', 'ritu varma', 'vivek sagar', 'nag
 image: pelli_choopulu_poster.jpg
 author: revanth_kolli
 rating: 4.25
+year: 2016
 ---
 
 <p>Pelli Choopulu was one the biggest surprise hits of the year; it recently celebrated 50 days in the U.S. market, which is a big deal for such a small film. When I first saw the teaser, it vaguely reminded me of Kalyana Vaibhogame, but once the concept of food trucks was introduced in the trailer, I was excited that the film focused on more than just another love story.</p>

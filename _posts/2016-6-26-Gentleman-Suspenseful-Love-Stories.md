@@ -3,10 +3,11 @@ layout: post
 title: Gentleman - Suspenseful Love Stories
 description: A film review of Gentleman
 categories: ['Movie Review', 'Telugu Cinema']
-tags: ['mani sharma', 'mohan krishna indraganti', 'move review', 'nani', 'nivetha thomas', 'p. g. vinda', 'rohini', 'sreemukhi', 'srinivas avasarala', 'surabhi', 'telugu movie', 'vennela kishore']
+tags: ['mani sharma', 'mohan krishna indraganti', 'movie review', 'nani', 'nivetha thomas', 'p. g. vinda', 'rohini', 'sreemukhi', 'srinivas avasarala', 'surabhi', 'telugu movie', 'vennela kishore']
 image: gentleman_poster.jpg
 author: revanth_kolli
 rating: 3.5
+year: 2016
 ---
 
 Nani has been on a roll lately, with his last three films garnering positive reviews and appreciation from the audience. For his latest release, he's teamed up with the director who introduced him, Mohan Krishna Indraganti, and his first co-star, Sreenivas Avasarala. The combination, along with the promotional content, garnered plenty of hype for the film, so let's see if it lives up to it.

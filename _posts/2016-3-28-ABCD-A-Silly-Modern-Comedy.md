@@ -7,6 +7,7 @@ tags: ['malayalam movie', 'review', 'american born confused desi', 'dulquer salm
 image: abcd_poster.jpg
 author: revanth_kolli
 rating: 3
+year: 2013
 ---
 
 <em>ABCD</em>, or <em>American Born Confused Desi</em>, is another entertaining film starring Dulquer Salmaan. The title refers to the idea that young Indian men and women who were born abroad are confused between the vast differences between Western and Indian cultures. Though the film isn't as well developed as <a href="http://manasulomaatalu.com/?s=dulquer+salmaan" target="_blank">some of Dulquer's other films that I've reviewed</a>, it still provides for a few laughs.
