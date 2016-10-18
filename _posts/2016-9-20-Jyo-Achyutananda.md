@@ -2,6 +2,7 @@
 layout: post
 title: Jyo Achyutananda
 description: Uninvited Love and a Broken Relationship
+excerpt: After Oohalu Gusagusalade, Srinivas Avasarala received many accolades for his simplicity and freshness in direction. He returned to the helm with high expectations for Jyo Achutananda. Though the teasers and trailers made the film seem like another romantic comedy, the interesting casting and offbeat nature of the content of the trailer hinted at something more.
 categories: ['Movie Review', 'Telugu Cinema']
 tags: ['nara rohit', 'naga shourya', 'regina', 'nani', 'tanikella bharani', 'srinivas avasarala', 'sai korrapati', 'kalyani koduri', 'venkat c. dilip', 'varahi chalana chitram', 'movie review', 'telugu movie']
 image: jyo_achyutananda_poster.jpg

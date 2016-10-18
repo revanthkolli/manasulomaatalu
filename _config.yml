@@ -13,7 +13,8 @@ footer-links:
   facebook: ManasuloMaatalu
   youtube: channel/UCSNmPseStqST0-M19lSE3mw
 
-# Twitter
+# Pagination
+paginate: 10
 
 # Disqus Comments
 disqus: revanthkolli-github-io-manasulomaatalu
@@ -49,6 +50,7 @@ kramdown:
 gems:
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
   - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
+  - jekyll-paginate # Pagination plugin
 
 # Exclude these files from your production _site
 exclude:
