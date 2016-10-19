@@ -45,8 +45,8 @@ layout: default
       {% for page in (1..paginator.total_pages) %}
         {% if page == paginator.page %}
           <span style="color: #3d3d3d;">{{ page }}</span>
-        <!--{% elsif page == 1 %}
-          <a href="{{ paginator.previous_page_path | prepend: site.url | replace: '//', '/' }}">{{ page }}</a>-->
+        {% elsif page == 1 %}
+          <a href="{{ site.url }}">{{ page }}</a>
         {% else %}
           <a href="{{ site.paginate_path | prepend: site.url | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
         {% endif %}
