@@ -39,9 +39,9 @@ layout: default
   {% if paginator.total_pages > 1 %}
     <div class="pagination">
       {% if paginator.previous_page %}
-        <a href="{{ paginator.previous_page_path | prepend: site.url | replace: '//', '/' }}"><i class="glyphicon glyphicon-chevron-left"></i> Prev</a>
+        <a href="{{ paginator.previous_page_path | prepend: site.url | replace: '//', '/' }}"><i class="glyphicon glyphicon-chevron-left"></i> Newer</a>
       {% else %}
-        <span style="color: #3d3d3d;"><i class="glyphicon glyphicon-chevron-left"></i> Prev</span>
+        <!--<span style="color: #3d3d3d;"><i class="glyphicon glyphicon-chevron-left"></i> Prev</span>-->
       {% endif %}
 
       {% for page in (1..paginator.total_pages) %}
@@ -55,9 +55,9 @@ layout: default
       {% endfor %}
 
       {% if paginator.next_page %}
-        <a href="{{ paginator.next_page_path | prepend: site.url | replace: '//', '/' }}">Next <i class="glyphicon glyphicon-chevron-right"></i></a>
+        <a href="{{ paginator.next_page_path | prepend: site.url | replace: '//', '/' }}">Older <i class="glyphicon glyphicon-chevron-right"></i></a>
       {% else %}
-        <span style="color: #3d3d3d;">Next <i class="glyphicon glyphicon-chevron-right"></i></span>
+        <!--<span style="color: #3d3d3d;">Next <i class="glyphicon glyphicon-chevron-right"></i></span>-->
       {% endif %}
     </div>
   {% endif %}
