@@ -6,14 +6,14 @@ body {
   text-align: center;
 }
 
-header {
-
-}
-
 header img {
   max-height: 100px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.highlight {
+  color: #25758F;
 }
 
 .bg {
@@ -295,3 +295,4 @@ footer a:hover, footer a:focus {
   color: #25758F;
   text-decoration: none;
 }
+
