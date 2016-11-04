@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Kabali - Lots of Style, Not Enough Substance
-description: A film review of Kabali
+title: Kabali (2016)
+description: Lots of Style, Not Enough Substance
 categories: ['Movie Review', 'Telugu Cinema', 'Tamil Cinema']
 tags: ['dhansika', 'g. murali', 'hindi', 'kabali', 'movie review', 'pa. ranjith', 'radhika apte', 'rajini', 'rajinikanth', 'santosh narayan', 'tamil', 'telugu']
 image: kabali_poster.jpg

@@ -1,7 +1,7 @@
 ---
 layout: post
-title: 100 Days of Love - Routine, Yet Entertaining Rom-Com
-description: A film review of the Malayalam film 100 Days of Love
+title: 100 Days of Love (2015)
+description: Routine, Yet Entertaining Rom-Com
 categories: ['Movie Review', 'Malayalam Cinema', 'Telugu Cinema']
 tags: ['100 days of love', 'dulquer salmaan', 'govind menon', 'jenus mohamed', 'malayalam movie review', 'nithya menon', 'sekhar menon']
 image: 100_days_of_love_poster.jpg

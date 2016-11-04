@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Bangalore Days - A Beautiful Narration
-description: A film review of the Malayalam film Bangalore Days
+title: Bangalore Days (2014)
+description: A Beautiful Narration
 categories: ['Movie Review', 'Malayalam Cinema']
 tags: ['malayalam movie', 'movie review', 'bangalore days', 'parvathy', 'dulquer salmaan', 'nazriya nazim', 'fahadh faasil', 'nithya menon', 'gopi sunder', 'sameer thari', 'anjali menon']
 image: bangalore_days_poster.png

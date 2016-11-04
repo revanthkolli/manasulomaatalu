@@ -1,7 +1,7 @@
 ---
 layout: post
-title: 24 - Time Travel, Evil Twin and an Absurd Romance
-description: A film review of the bilingual film 24
+title: 24 (2016)
+description: Time Travel, Evil Twin and an Absurd Romance
 categories: ['Movie Review', 'Telugu Cinema', 'Tamil Cinema']
 tags: ['24', '24 movie', 'a. r. rahman', 'movie review', 'nithya menon', 'samantha', 'suriya', 'tirru', 'vikram kumar']
 image: 24_poster.jpg

@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Krishnagadi Veera Prema Gadha - An Elongated Suspense Love Story
-description: A film review of Krishna Gadi Veera Prema Gadha
+title: Krishnagadi Veera Prema Gadha (2016)
+description: An Elongated Suspense Love Story
 categories: ['Movie Review', 'Telugu Cinema']
 tags: ['telugu movie', 'movie review', 'krishna gadi veera prema gadha', 'krishnagadi veera prema gadha', 'nani', 'mehreen', 'vishal chandrasekhar', 'hanu raghavapudi', 'yuvaraj']
 image: kgvpg_poster.jpg

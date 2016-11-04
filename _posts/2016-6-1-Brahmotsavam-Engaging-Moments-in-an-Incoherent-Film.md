@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Brahmotsavam - Engaging Moments in an Incoherent Film
-description: A film review of Brahmotsavam
+title: Brahmotsavam (2016)
+description: Engaging Moments in an Incoherent Film
 categories: ['Movie Review', 'Telugu Cinema']
 tags: ['gopi sunder', 'kajal', 'mahesh babu', 'mickey j meyer', 'movie review', 'pranitha', 'rao ramesh', 'rathnavelu', 'samantha', 'sathyaraj', 'srikanth addala', 'telugu']
 image: brahmotsavam_poster.jpg

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Jyo Achyutananda
+title: Jyo Achyutananda (2016)
 description: Uninvited Love and a Broken Relationship
 excerpt: After Oohalu Gusagusalade, Srinivas Avasarala received many accolades for his simplicity and freshness in direction. He returned to the helm with high expectations for Jyo Achutananda. Though the teasers and trailers made the film seem like another romantic comedy, the interesting casting and offbeat nature of the content of the trailer hinted at something more.
 categories: ['Movie Review', 'Telugu Cinema']
