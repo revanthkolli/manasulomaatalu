@@ -1,61 +1,56 @@
 ---
 layout: default
 ---
-<h1> Recent Posts </h1>
-
-<br>
 <div class="posts">
-  {% for post in paginator.posts %}
-    <a href="{{ site.url }}{{ post.url }}">
-      {% if paginator.previous_page %}
-        <div class="post-cover" style="background-image: url('../img/{{ post.image }}')">
-      {% else %}
-        <div class="post-cover" style="background-image: url('img/{{post.image}}')">
-      {% endif %}
-        <article class="post">
+  {% assign color = 0 %}
+  {% for post in site.posts limit:10 %}
+    {% if forloop.last %}
+      <a id="last-post" href="{{ site.url }}{{ post.url }}">
+    {% else %}
+      <a href="{{ site.url }}{{ post.url }}">
+    {% endif %}
+      <div class="post-cover" style="background-image: url('img/{{post.image}}')">
+        {% if color == 0 %}
+          <article class="post blue">
+        {% elsif color == 1 %}
+          <article class="post yellow">
+        {% elsif color == 2 %}
+          <article class="post purple">
+        {% elsif color == 3 %}
+          <article class="post orange">
+        {% else %}
+          <article class="post green">
+        {% endif %}
+        {% assign color = color | plus:1 %}
+        {% assign color = color | modulo:5 %}
+          <div class="shade">
+            <h1>{{ post.title }}</h1>
+          
+            <div class="entry">
+              <b>{{ post.description }}</b>
+              <br> <br>
+              {{ post.date | date: "%B %-d, %Y" }}
+            </div>
 
-          <h1>{{ post.title }}</h1>
-
-          <div class="entry">
-            <b>{{ post.description }}</b>
-            <br> <br>
-            {{ post.date | date: "%B %-d, %Y" }}
-          </div>
-
-          <div class="post-categories">
-            {% for category in post.categories %}
-              {% if forloop.last %}
-                {{ category }}
-              {% else %}
-                {{ category }},
-              {% endif %}
-            {% endfor  %}
+            <div class="post-categories">
+              {% for category in post.categories %}
+                {% if forloop.last %}
+                  {{ category }}
+                {% else %}
+                  {{ category }},
+                {% endif %}
+              {% endfor  %}
+            </div>
           </div>
         </article>
       </div>
     </a>
   {% endfor %}
-
-  {% if paginator.total_pages > 1 %}
-    <div class="pagination">
-      {% if paginator.previous_page %}
-        <a href="{{ paginator.previous_page_path | prepend: site.url | replace: '//', '/' }}"><i class="glyphicon glyphicon-chevron-left"></i>Newer</a>
-      {% endif %}
-
-      {% for page in (1..paginator.total_pages) %}
-        {% if page == paginator.page %}
-          <span style="color: #3d3d3d;">{{ page }}</span>
-        {% elsif page == 1 %}
-          <a href="{{ site.url }}">{{ page }}</a>
-        {% else %}
-          <a href="{{ site.paginate_path | prepend: site.url | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
-        {% endif %}
-      {% endfor %}
-
-      {% if paginator.next_page %}
-        <a href="{{ paginator.next_page_path | prepend: site.url | replace: '//', '/' }}">Older<i class="glyphicon glyphicon-chevron-right"></i></a>
-      {% endif %}
-    </div>
+  
+  {% assign num = site.posts | size %}
+  {% if num > count %}
+  <div class="load">
+    <a href="javascript:;" onclick="loadMore();"><i class="fa fa-angle-down" aria-hidden="true"></i> More Posts </a> 
+  </div>
   {% endif %}
 </div>
-<br>

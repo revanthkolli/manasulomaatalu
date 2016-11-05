@@ -33,9 +33,9 @@ layout: default
 		<a class="next" style="float:right;" href="{{page.next.url}}">{{page.next.title}}<i class="glyphicon glyphicon-chevron-right"></i></a>
 	{% endif %}
 </div>
+{% if site.related_posts %}
 <div class="related-posts">
 	<h2 class="review-header">Related Posts</h2>
-	
 	{% assign maxRelated = 5 %}
 	{% assign minCommonTags = 3 %}
 	{% assign maxRelatedCounter = 0 %}
@@ -84,3 +84,4 @@ layout: default
 		<p style="text-align: center;"> There are no related posts. </p>
 	{% endif %}
 </div>
+{% endif %}

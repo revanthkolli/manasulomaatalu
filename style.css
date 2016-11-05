@@ -6,6 +6,16 @@ body {
   text-align: center;
 }
 
+header {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  background-image: url('img/logo2.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  background-color: #000;
+}
+
 header img {
   max-height: 100px;
   margin-left: auto;
@@ -43,11 +53,15 @@ header img {
   background-attachment: fixed;
 }
 
+/*Logo and Navigation*/
 nav, .navbar {
-  padding-top: 15px;
   font-size: 21px;
   margin-bottom: 0px;
   background-color: #FFF;
+  border: none;
+  border-radius: 0px;
+  -moz-border-radius: 0px;
+  -webkit-border-radius: 0px;
 }
 
 #navbar {
@@ -57,6 +71,14 @@ nav, .navbar {
 
 .navbar a {
   color: #3d3d3d;
+}
+
+#navbar li {
+  border-left: 1px solid #ccc; 
+}
+
+#navbar .last {
+  border-right: 1px solid #ccc;
 }
 
 /* Mobile Menu Toggle */
@@ -103,11 +125,6 @@ nav, .navbar {
     }
 }
 
-.navbar-nav {
-  padding-top: 15px;
-  padding-bottom: 15px;
-}
-
 .nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
   background-color: #fff;
 }
@@ -145,8 +162,7 @@ nav, .navbar {
 
 #main {
   color: #3d3d3d;
-  padding-top: 25px;
-  padding-bottom: 25px;
+  text-align: center;
 }
 
 #main h1 {
@@ -188,14 +204,45 @@ nav, .navbar {
 
 #main .posts .post {
   /*height: 300px;*/
-  padding: 25px;
   background-color: rgba(0,0,0,.5);
   position: relative;
   text-align: center;
 }
 
-#main .posts .post:hover {
-  background-color: rgba(0,0,0,.7);
+/*
+Colors
+Blue: #25758F
+Yellow: #E5B135
+Pink: #6F256F
+Green: #609732
+Text: #3d3d3d
+*/
+#main .posts .blue {
+  background-color: rgba(6, 74, 96,.6);
+}
+
+#main .posts .orange {
+  background-color: rgba(154, 34, 3,.6);
+}
+
+#main .posts .purple {
+  background-color: rgba(56, 0, 56,.6);
+}
+
+#main .posts .yellow {
+  background-color: rgba(155, 110, 3,.6);
+}
+
+#main .posts .green {
+  background-color: rgba(64, 138, 3,.6);
+}
+
+#main .posts .post .shade {
+  padding: 25px;
+}
+
+#main .posts .post .shade:hover {
+  background-color: rgba(0,0,0,.3);  
 }
 
 #main .posts .post h1, .posts #main .post {
@@ -215,7 +262,7 @@ nav, .navbar {
   margin-left: auto;
   margin-right: auto;
   color: #E5B135;
-  font-weight: bold;
+  font-weight: 800;
 }
 
 #main .posts h3 {
@@ -286,20 +333,36 @@ nav, .navbar {
 }
 
 /* Footer */
-footer {
-  padding-top: 25px;
-  padding-bottom: 25px;
+.footer {
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-top: 1px solid #ccc;
 }
 
-footer a {
+.footer a {
   color: #3d3d3d;
   font-size: 21px;
   padding-left: 5px;
   padding-right: 5px;
 }
 
-footer a:hover, footer a:focus {
+.footer a:hover, footer a:focus {
   color: #25758F;
   text-decoration: none;
 }
 
+/*Pagination*/
+.pagination {
+  margin: 0px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size:18px;
+}
+
+.load {
+  margin: 0px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size:18px;
+}
