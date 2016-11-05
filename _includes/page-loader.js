@@ -1,4 +1,4 @@
- $.getJSON('{{ site.baseurl }}/all-posts.json', function(data) {
+ $.getJSON('{{ site.url }}/all-posts.json', function(data) {
         posts = data["posts"];
 });
 
