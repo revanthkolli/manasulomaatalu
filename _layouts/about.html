@@ -1,78 +1,42 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.caption }}</title>
-
-    {% include meta.html %}
-
-    <!--[if lt IE 9]>
-      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-    <link rel="shortcut icon" type="image/x-icon" href="{{ site.url }}/img/favicon.ico" />
-    <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.caption }}" href="{{ site.github.url }}/feed.xml" />
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="{{ site.url }}/style.css" />
-
-
-    <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
+    {% include head.html %}
   </head>
 
   <body>
-    <div class="wrapper-head">
-      <!-- Logo -->
-      <header>
-          <a href="{{ site.url }}/" class="site-avatar"><img class="img img-responsive" src="{{ site.logo }}" /></a>
-      </header>
-      <!-- Menu -->
-      <nav class="navbar">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-        </div>
-        <div id="navbar" class="collapse navbar-collapse">
-          <ul class="nav navbar-nav">
-            <li class="active"><a href="{{ site.url }}/about">About</a></li>
-            <li class="dropdown">
-              <a href="" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true">Film Reviews</a>
-              <ul class="dropdown-menu">
-                <li><a href="{{ site.url }}/Film Reviews/telugu-films">Telugu Cinema</a></li>
-                <li><a href="{{ site.url }}/tamil-films">Tamil Cinema</a></li>
-                <li><a href="{{ site.url }}/malayalam-films">Malayalam Cinema</a></li>
-                <li><a href="{{ site.url }}/recommended-films">Recommended Films</a></li>
-                <li><a href="{{ site.url }}/all-film-reviews">All Film Reviews</a></li>
-              </ul>
-            </li>
-            <li class="dropdown">
-              <a href="" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true">Articles</a>
-              <ul class="dropdown-menu">
-                <li><a href="{{ site.url }}/top-10">Top 10</a></li>
-                <li><a href="{{ site.url }}/5-things">5 Things</a></li>
-              </ul>
-            </li>
-            <li class="dropdown last">
-              <a href="" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true">Stories</a>
-              <ul class="dropdown-menu">
-                <li>Coming Soon</li>
-              </ul>
-            </li>
+    {% include header-start.html %}
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="{{ site.url }}/about">About</a></li>
+        <li class="dropdown">
+          <a href="" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true">Film Reviews</a>
+          <ul class="dropdown-menu">
+            <li><a href="{{ site.url }}/Film Reviews/telugu-films">Telugu Cinema</a></li>
+            <li><a href="{{ site.url }}/tamil-films">Tamil Cinema</a></li>
+            <li><a href="{{ site.url }}/malayalam-films">Malayalam Cinema</a></li>
+            <li><a href="{{ site.url }}/recommended-films">Recommended Films</a></li>
+            <li><a href="{{ site.url }}/all-film-reviews">All Film Reviews</a></li>
           </ul>
-        </div>
-      </nav>
-    </div>
-    <div id="main" role="main" class="container">
+        </li>
+        <li class="dropdown">
+          <a href="" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true">Articles</a>
+          <ul class="dropdown-menu">
+            <li><a href="{{ site.url }}/top-10">Top 10</a></li>
+            <li><a href="{{ site.url }}/5-things">5 Things</a></li>
+          </ul>
+        </li>
+        <li class="dropdown last">
+          <a href="" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true">Stories</a>
+          <ul class="dropdown-menu">
+            <li>Coming Soon</li>
+          </ul>
+        </li>
+      </ul>
+    {% include header-end.html %}
+    <div id="main" role="main">
       {{ content }}
     </div>
-    <div class="wrapper-footer">
-      <footer class="footer">
-        {% include svg-icons.html %}
-      </footer>
-    </div>
+    {% include footer.html %}
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <script src="https://use.fontawesome.com/d1466105fa.js"></script>

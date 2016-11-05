@@ -105,12 +105,14 @@ nav, .navbar {
   color: #25758F;
   text-decoration: none;
   background-color: #fff;
+  border-bottom: 1px solid #ccc;
 }
 
 .navbar-nav > li > a:focus, .navbar-nav > li > a:hover {
   color: #25758F;
   text-decoration: none;
   background-color: #fff;
+  border-bottom: 1px solid #ccc;
 }
 
 @media (min-width: 768px){
@@ -127,10 +129,12 @@ nav, .navbar {
 
 .nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
   background-color: #fff;
+  border-color: #ccc;
 }
 
 .dropdown-menu {
-  border: none;
+  border: 1px solid #ccc;
+  border-top: none;
   box-shadow: none;
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
@@ -138,12 +142,14 @@ nav, .navbar {
   -webkit-border-radius: 0px;
   -moz-border-radius: 0px;
   text-align: center;
+  padding: 0px;
 }
 
 .dropdown-menu li {
   padding-top: 3px;
   padding-bottom: 3px;
   font-size: 15px;
+  border-bottom: 1px solid #ccc;
 }
 
 .dropdown-menu li a {
@@ -200,6 +206,7 @@ nav, .navbar {
   background-size: 100%;
   background-position: center;
   background-color: #000;
+  background-attachment: fixed;
 }
 
 #main .posts .post {
@@ -218,11 +225,11 @@ Green: #609732
 Text: #3d3d3d
 */
 #main .posts .blue {
-  background-color: rgba(6, 74, 96,.6);
+  background-color: rgba(6, 74, 96,.7);
 }
 
 #main .posts .orange {
-  background-color: rgba(154, 34, 3,.6);
+  background-color: rgba(154, 34, 3,.5);
 }
 
 #main .posts .purple {
@@ -230,7 +237,7 @@ Text: #3d3d3d
 }
 
 #main .posts .yellow {
-  background-color: rgba(155, 110, 3,.6);
+  background-color: rgba(155, 110, 3,.5);
 }
 
 #main .posts .green {
@@ -302,7 +309,9 @@ Text: #3d3d3d
 }
 
 .share-page {
-  margin-bottom: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px; 
+  text-align: center;
 }
 
 .share-page a, .fa {
@@ -353,16 +362,29 @@ Text: #3d3d3d
 }
 
 /*Pagination*/
-.pagination {
+/*.pagination {
   margin: 0px;
   padding-top: 15px;
   padding-bottom: 15px;
   font-size:18px;
-}
+}*/
 
 .load {
   margin: 0px;
   padding-top: 15px;
   padding-bottom: 15px;
   font-size:18px;
+}
+
+/*History*/
+/*.history {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #ccc;*/
+/*}*/
+.category {
+  margin: 0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 21px;
 }
