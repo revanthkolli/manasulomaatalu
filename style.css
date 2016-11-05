@@ -26,14 +26,14 @@ header img {
   color: #25758F;
 }
 
-.bg {
+/*.bg {
   /*border: 1px inset #777;*/
-  -webkit-box-sizing: content-box;
+  /*-webkit-box-sizing: content-box;
   -moz-box-sizing: content-box;
-  box-sizing: content-box;
+  box-sizing: content-box;*/
   /*width: 320px;
   height: 320px;*/
-  border: none;
+  /*border: none;
   font: normal 100%/normal Arial, Helvetica, sans-serif;
   color: rgba(255,255,255,1);
   -o-text-overflow: clip;
@@ -51,7 +51,7 @@ header img {
   -webkit-transform: rotateY(180deg);
   transform: rotateY(180deg);
   background-attachment: fixed;
-}
+}*/
 
 /*Logo and Navigation*/
 nav, .navbar {
