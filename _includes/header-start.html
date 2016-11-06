@@ -1,7 +1,9 @@
 <div class="wrapper-head">
       <!-- Logo -->
-      <header>
-          <a href="{{ site.url }}/" class="site-avatar"><img class="img img-responsive" src="{{ site.logo }}" /></a>
+      <header id="header"{% if page.layout == "post" %}style="background-image: url('{{site.url}}/img/{{page.image}}');"{% endif %}>
+          <a href="{{ site.url }}/" class="site-avatar">
+            <img class="img img-responsive" src="{{ site.logo }}" />
+          </a>
       </header>
       <!-- Menu -->
       <nav class="navbar">

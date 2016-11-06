@@ -73,6 +73,10 @@ nav, .navbar {
   color: #3d3d3d;
 }
 
+.navbar-header  {
+  text-align: center;
+}
+
 #navbar li {
   border-left: 1px solid #ccc; 
 }
@@ -105,14 +109,14 @@ nav, .navbar {
   color: #25758F;
   text-decoration: none;
   background-color: #fff;
-  border-bottom: 1px solid #ccc;
+  /*border-bottom: 1px solid #ccc;*/
 }
 
 .navbar-nav > li > a:focus, .navbar-nav > li > a:hover {
   color: #25758F;
   text-decoration: none;
   background-color: #fff;
-  border-bottom: 1px solid #ccc;
+  /*border-bottom: 1px solid #ccc;*/
 }
 
 @media (min-width: 768px){
@@ -122,6 +126,12 @@ nav, .navbar {
         display: table;
         table-layout: fixed;
     }
+    /*#main .post-cover {
+      background-repeat: no-repeat;
+      background-size: 100%;
+      background-position: center;
+      background-color: #000;
+    }*/
     #main .posts .post {
       background-color: rgba(0,0,0,.7);
     }
@@ -204,9 +214,13 @@ nav, .navbar {
 #main .post-cover {
   background-repeat: no-repeat;
   background-size: 100%;
-  background-position: center;
+  background-position: center center;
   background-color: #000;
   background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 #main .posts .post {
