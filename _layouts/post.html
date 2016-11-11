@@ -24,18 +24,17 @@ layout: default
 
   {% include disqus.html %}
 </article>
-<hr>
-<div class="row">
+<div class="link">
 	{% if page.previous.url %}
-		<a class="prev" style="float:left;" href="{{page.previous.url}}"><i class="glyphicon glyphicon-chevron-left"></i> {{page.previous.title}}</a>
+		<a class="prev" href="{{page.previous.url}}"><i class="glyphicon glyphicon-chevron-left"></i> {{page.previous.title}}</a>
 	{% endif %}
 	{% if page.next.url %}
-		<a class="next" style="float:right;" href="{{page.next.url}}">{{page.next.title}}<i class="glyphicon glyphicon-chevron-right"></i></a>
+		<a class="next" href="{{page.next.url}}">{{page.next.title}}<i class="glyphicon glyphicon-chevron-right"></i></a>
 	{% endif %}
 </div>
 {% if site.related_posts %}
-<div class="related-posts">
-	<h2 class="review-header">Related Posts</h2>
+<h2 class="category">Related Posts</h2>
+<div class="posts">
 	{% assign maxRelated = 5 %}
 	{% assign minCommonTags = 3 %}
 	{% assign maxRelatedCounter = 0 %}
@@ -62,11 +61,35 @@ layout: default
 		{% endfor %}
 		
 		{% if sameTagCount >= minCommonTags %}
-		
-			<div class="related-posts-links">
-				<h4><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h4>
-				{{ commonTags }}
-			</div>
+			<a href="{{ site.url }}{{ post.url }}">
+				<div class="post-cover" style="background-image: url('{{ site.url }}/img/{{post.image}}')">
+					{% if maxRelatedCounter == 0 %}
+					<article class="post blue">
+					{% elsif maxRelatedCounter == 1 %}
+					<article class="post yellow">
+					{% elsif maxRelatedCounter == 2 %}
+					<article class="post purple">
+					{% elsif maxRelatedCounter == 3 %}
+					<article class="post orange">
+					{% else %}
+					<article class="post green">
+					{% endif %}
+				
+						<div class="shade">
+							<h1>{{ post.title }}</h1>
+						
+							<div class="entry">
+							<b>{{ post.description }}</b>
+							<br> <br>
+							{{ post.date | date: "%B %-d, %Y" }}
+							</div>
+							<div class="post-categories">
+								{{ commonTags }}
+							</div>
+						</div>
+					</article>
+				</div>
+			</a>
 			
 			{% assign maxRelatedCounter = maxRelatedCounter | plus: 1 %}
 			

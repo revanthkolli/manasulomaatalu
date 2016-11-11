@@ -182,7 +182,7 @@ nav, .navbar {
 }
 
 #main h1 {
-  font-family: 'Arvo', serif;
+  font-family: 'Asul', sans-serif;
 }
 
 #main h1, #main h2 {
@@ -333,26 +333,36 @@ Text: #3d3d3d
   margin-left: 5px;
   margin-right: 5px;
 }
-
-.row {
+.link {
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc; 
+  height: 45px;
+}
+.link a {
 	display: inline;
+  padding-top: 10px;
+  padding-bottom: 9px;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 18px;
 }
 
-.row .prev {
+.link .prev {
 	float: left;
+  border-right: 1px solid #ccc;
 }
 
-.row .next {
+.link .next {
 	float: right;
+  border-left: 1px solid #ccc;
 }
 
 .related-posts .review-header {
 	color: #25758F;
-}
-
-.related-posts-links {
-	padding-top: 15px;
-	padding-bottom: 15px;
+  margin: 0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ccc;
 }
 
 /* Footer */
@@ -401,4 +411,8 @@ Text: #3d3d3d
   padding-top: 10px;
   padding-bottom: 10px;
   font-size: 21px;
+}
+/*Other*/
+.comments {
+    padding: 25px;
 }
