@@ -2,37 +2,43 @@
 layout: post
 title: Premam (2016)
 description: Sometimes, Love Finds You When You Least Expect It
-excerpt: 
+excerpt: Premam was a major success in Malayalam, so it's exciting to see that the Telugu remake also fared well. The makers of the film roped in some of the original cast as well as the original music director, which was key in bringing some of the original magic into the remake. 
 categories: ['Movie Review', 'Telugu Cinema']
-tags: ['movie review', 'telugu movie']
+tags: ['movie review', 'telugu movie', 'chandoo mondeti', 'alphonse putharen', 'naga chaitanya', 'shruti hassan', 'madonna sebastian', 'anupama parameswaran', 'gopi sunder', 'rajesh murugesan', 'karthik ghattamaneni', 's. radha krishna', 'premam', 'naa autograph', 'venkatesh', 'nagarjuna']
 image: premam_poster.jpg
 author: revanth_kolli
 rating: 3.5
 ---
 
-<p>Since they announced the official Telugu remake of the hit Malayalam film Premam, the makers of the film faced mixed feedback that wasn't encouraging. Despite the negative pre-release buzz, Premam released to rave reviews and did well the box office, proving that a film just needs to resonate with the audience to do well, regardless of the pre-release talk.</p>
+<p>{{ page.excerpt }}</p>
 <iframe src="https://www.youtube.com/embed/bjisQYR0mbg" width="853" height="480" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
 <hr />
 <h2><span class="review_header">Katha, Screenplay, Darsakathvam</span></h2>
 <h3>Synopsis</h3>
-<p></p>
+<p>The film is a coming-of-age tale that follows Vikram as he experiences a series of love stories throughout his life. Each experience leaves a lasting impression as he grows and learns about attraction, love, passion and life. </p>
 <h3>Screenplay and Direction</h3>
-<p>  </p>
+<p>Chandoo Mondeti made a successful debut with Karthikeya, proving he is capable in delivering a stylistic thriller that appeals to the younger audiences. With Premam, he managed to take a Malayalam classic and alter the minimal components necessary to make it appealing to a Telugu audience. While the subject is very different from his first film, he still delivered an entertainer with stylistic narration and sound pacing. <br><br> It's important to note the similarities between the story of Premam and Naa Autograph (2004), which itself was a remake of the hit Tamil movie Autograph (2004). I haven't seen the Malayalam Premam, so I can't compare the two versions, though I've been told that the former had more soul and a stronger conclusion, but I can compare between the latter and Naa Autograph. Premam certainly does lack some of the emotionas that Naa Autograph evokes, but it presents the story with style and much more entertainment, so I really can't complain.</p>
 <h2><span class="review_header">Performances</span></h2>
-<h3></h3>
-<p> </p>
+<h3>Naga Chaitanya</h3>
+<p>Compare his performance here to his performance in Josh and you'll see a striking change in the way Naga Chaitanya emotes. Though he picked up tips from Nivin Pauly, who played his role in the original Premam, Naga Chaitanya still manages a fresh portrayal of Vikram and it's intriguing to see the changes in his character as he grows. </p>
+<h3>Shruti Hassan</h3>
+<p>Sithara is a well-written character than Shruti Hassan plays beautifully. She shares great chemistry with Naga Chaitanya on screen.</p>
+<h3>Madonna Sebastian</h3>
+<p>Madonna plays Sindhu and, once the audience gets past the initial unlikliness of her meeting with Vikram, Sindhu emerges as a bubly character who reenergizes the screen just when the film seems like it is losing its steam.</p>
+<h3>Anupama Parameswaran</h3>
+<p>Anupama made a fun debut in <a href="{{ site.url }}/A-Aa-Another-Feel-Good-Trivikram-Family-Entertainer/">A Aa</a> and plays Suma, Vikram's first love interest. She has the least scope for performance among the female leads, but I'm looking forward to seeing more of her (there's a movie in the making with her and Sharwanand!). </p>
 <h3>Others</h3>
-<p> </p>
+<p>Chaitanya Krishna, Praveen, and Srinivasa Reddy all do justice to their roles as Vikram's friends and sidekicks, though I especially enjoyed Srinivasa Reddy's entertaining portrayal of E. Kanaka Rao. Brahmaji and Kantha Rao make a nice comedic duo as well. Nagarjuna and Venkatesh also make exciting cameos that bring originality to the film and, once again, affirm Naga Chaitanya's place in the Telugu film industry as an heir to two of the biggest star families.</p>
 <h2><span class="review_header">Production Values</span></h2>
 <h3>Music</h3>
 <iframe src="https://www.youtube.com/embed/BA45757uxMo" width="853" height="480" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
-<p> </p>
+<p>Gopi Sunder dealt a fantastic album for Premam. Evare is easily the most memorable song; I've heard Malare, the Malayalam version, as well and would say that both are equally beautiful in terms of melody and lyrics. Bang Bang is uplifting and well placed within the film. Evadu Evadu is a mass beat that was also enjoyable.</p>
 <h3>Visuals</h3>
 <iframe src="https://www.youtube.com/embed/rpgr0A-j6EA" width="853" height="480" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
-<p> </p>
+<p>Premam has some fantastic frames thanks to Karthik Ghattamaneni, the cinematographer. I wasn't sure why everyone suddenly started wearing black, southern gangster style outfits during the fighting scenes, but it was definitely interesting to watch.</p>
 <hr />
 <h2><span class="review_header">Final Verdict</span></h2>
-<p> </p>
+<p>Premam isn't nostalgic or soulful, like Naa Autograph or the Malayalam version, but it still packs comedy, quality music, stylistic scenes, exciting cameos and Naga Chaitanya's best performance to date into one well-made cinema. It's one of those films that shows how falling in love can be magical, whimsical and, at times, entirely coincidental. </p>
 <h3>Parent&#8217;s Verdict</h3>
-<p></p>
+<p>Some fighting, some drinking. Try finding an Indian love story without both of those these days.</p>
 <strong>Rating: {% if page.rating >= 3.5 %}<span class="positive_review">{{ page.rating }}</span>{% elsif page.rating < 3 %}<span class="negative_review">{{ page.rating }}</span>{% else %}{{ page.rating }}{% endif %}/5</strong>
