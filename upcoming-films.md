@@ -3,7 +3,7 @@ layout: articles
 title: Upcoming Films - Manasulo Maatalu
 ---
 
-<h2 class="category"> Opinion </h2>
+<h2 class="category"> Upcoming Films </h2>
 <div class="posts">
   {% assign color = 0 %}
   {% assign posts = (site.categories['Upcoming Films'] | sort: 'title') %}
