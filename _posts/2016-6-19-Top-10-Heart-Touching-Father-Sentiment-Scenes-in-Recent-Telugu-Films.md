@@ -2,7 +2,7 @@
 layout: post
 title: Top 10 - Heart Touching Father Sentiment Scenes in Recent Telugu Films
 description: 10 of the most touching and realistic father sentiment scenes in recent Telugu cinema
-categories: ['Top 10', 'Telugu Cinema']
+categories: ['All Articles', 'Top 10', 'Telugu Cinema']
 tags: ['aadavari maatalaku ardhale verule', 'aakasamantha', 'amma nanna o tamil ammayi', 'bommarillu', 'darling', 'father’s day', 'kotha bangaru lokam', 'nannaku prematho', 'nenu sailaja', 'raghuvaran b. tech', 'surya s/o krishnan']
 image: nannaku_prematho_poster.jpg
 author: revanth_kolli

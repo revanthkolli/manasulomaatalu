@@ -2,7 +2,7 @@
 layout: post
 title: Top 10 - Inspiring/Relatable Female Characters in Recent Telugu Films
 description: 10 of the most inspiring and/or relatable female characters that I've seen in recent Telugu films
-categories: ['Top 10', 'Telugu Cinema']
+categories: ['All Articles', 'Top 10', 'Telugu Cinema']
 tags: ['100% love', 'ala modalaindi', 'anaamika', 'anand', 'anukokunda oka roju', 'arundhati', 'baahubali', 'godavari', 'happy days', 'inspiring female characters', 'Telugu female protagonists', 'international womens day', 'ok bangaram', 'sivagami']
 image: top10_telugu_inspiring_female_characters.jpg
 author: revanth_kolli

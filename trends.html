@@ -1,12 +1,12 @@
 ---
 layout: articles
-title: 5 Things - Manasulo Maatalu
+title: Trends - Manasulo Maatalu
 ---
 
-<h2 class="category"> 5 Things </h2>
+<h2 class="category"> Trends </h2>
 <div class="posts">
   {% assign color = 0 %}
-  {% assign posts = (site.categories['5 Things'] | sort: 'title') %}
+  {% assign posts = (site.categories['Trends'] | sort: 'title') %}
   {% for post in posts %}
     <a href="{{ site.url }}{{ post.url }}">
       <div class="post-cover" style="background-image: url('{{ site.url }}/img/{{ post.image }}')">

@@ -2,7 +2,7 @@
 layout: post
 title: Why we Need More Children’s Movies in Telugu (and India in General)
 description: Let's not forget an import sector of the audience
-categories: ['Telugu Cinema']
+categories: ['Telugu Cinema', 'All Articles', 'Trends']
 tags: ['telugu', 'cinema', 'kids', 'children', 'disney', 'licensing', 'marketing', 'anganaga o dheerudu', 'baahuballi', 'eega']
 image: disney.jpg
 author: revanth_kolli

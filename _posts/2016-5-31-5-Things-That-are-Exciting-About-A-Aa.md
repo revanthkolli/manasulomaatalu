@@ -2,7 +2,7 @@
 layout: post
 title: 5 Things That are Exciting About A Aa
 description: Five reasons why I am excited about the release of A Aa
-categories: ['Telugu Cinema', '5 Things']
+categories: ['Telugu Cinema', 'Upcoming Films', 'All Articles']
 tags: ['a aa', 'anupama parameshwaran', 'mickey j meyer', 'natarajan subramaniam', 'nithin', 'samantha', 'trivikram']
 image: a_aa_poster.jpg
 author: revanth_kolli

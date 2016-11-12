@@ -334,6 +334,7 @@ Text: #3d3d3d
   margin-right: 5px;
 }
 .link {
+  margin-top: 25px;
   border-top: 1px solid #ccc;
   border-bottom: 1px solid #ccc; 
   height: 45px;
