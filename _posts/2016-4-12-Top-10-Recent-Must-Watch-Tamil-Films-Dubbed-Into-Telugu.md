@@ -4,7 +4,7 @@ title: Top 10 - Recent Must Watch Tamil Films Dubbed Into Telugu
 description: A list of some of the best Tamil movies that have been dubbed into Telugu in the past decade
 categories: ['All Articles', 'Top 10', 'Telugu Cinema', 'Tamil Cinema']
 tags: ['24 movie', 'arya', 'dhanush', 'jiiva', 'journey', 'love failure', 'mariyan', 'ok bangaram', 'raghuvaran b. tech', 'raja rani', 'rajanikanth', 'rangam', 'robo', 'sharwanand', 'siddharth', 'sivaji', 'surya', 'surya s/o krishnan', 'tamil films', 'thuppakki', 'top 10 dubbed tamil films', 'vijay', 'vishwaroopam']
-image: top10_tamil_dubbed.png
+image: top10_tamil_dubbed.jpg
 author: revanth_kolli
 ---
 
