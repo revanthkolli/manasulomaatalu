@@ -24,6 +24,7 @@ layout: default
 
   {% include disqus.html %}
 </article>
+<div class="fb-comments" data-href="{{ site.url }}{{ page.url }}" data-numposts="5"></div>
 <div class="link">
 	{% if page.previous.url %}
 		<a class="prev" href="{{page.previous.url}}"><i class="glyphicon glyphicon-chevron-left"></i> {{page.previous.title}}</a>
