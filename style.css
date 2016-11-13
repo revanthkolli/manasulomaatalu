@@ -412,6 +412,7 @@ Text: #3d3d3d
   padding-top: 10px;
   padding-bottom: 10px;
   font-size: 21px;
+  border-bottom: 1px solid #ccc;
 }
 /*Other*/
 .fb-comments {

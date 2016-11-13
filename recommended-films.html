@@ -11,7 +11,7 @@ title: Recommended Films - Manasulo Maatalu
   {% for year in (2014..2016) %}
     <h3> {{ year }} </h3> 
     {% for post in posts %}
-      {% if post.rating > 3.25 %}
+      {% if post.rating >= 3.5 %}
         {% if post.year == year %}
           <a href="{{ site.url }}{{ post.url }}">
             <div class="post-cover" style="background-image: url('{{ site.url }}/img/{{ post.image }}')">
