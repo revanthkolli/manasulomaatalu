@@ -32,11 +32,11 @@ year: 2016
 <p>Viva Harsha, Satya and Sudharshan fit well as Arjun's friends and Vennelo Kishore brings some nice comedy to the package. Tanikella Bharani has a brief role as Amala's father. Chammak Chandra also has a brief comedic role as a steel utensils salesman.</p>
 <h2><span class="review_header">Production Values</span></h2>
 <h3>Music</h3>
-<a href="https://youtu.be/elPvlH3vGVM" target="_blank">>> Listen to the  music album of {{ page.title }}</a>
 <p>After Karthikeya and Cinema Choopistha Mama, Shekar Chandra has put together a splendid package of songs. Vandha Speedulo is upbeat and perfect as Nikhil's introduction song. Chirunama Thana Chiruanam and Neetho Unte Chalu are pleasant melodies that suite the romantic tracks in the film. Neetho Unte Chalu sounds very familiar and there's a chance it might have been based off another soundtrack, though I'm not sure which. Masthundhi Life is a situational bit that fits well in the middle of the film.</p>
+<a href="https://youtu.be/elPvlH3vGVM" target="_blank">>> Listen to the  music album of {{ page.title }}</a>
 <h3>Visuals</h3>
-<a href="https://youtu.be/iJgixb2nUIo" target="_blank">>> Watch the song trailers of {{ page.title }}</a>
 <p>Sai Sriram has some interesting tricks that keep the thrill of the film alive; some are more effective than others. The songs are shot in beautiful locales and the mystic temple portion in Kerala was done well. The animations are alright for a film of this budget; they could be better but don't distract to much from the film either. The promotional material is definitely up to the mark.</p>
+<a href="https://youtu.be/iJgixb2nUIo" target="_blank">>> Watch the song trailers of {{ page.title }}</a>
 <hr />
 <h2><span class="review_header">Final Verdict</span></h2>
 <p>Despite its weaknesses and somewhat weird ending, Ekkadiki Pothavu Chinnavada is an entertaining thriller that blends comedy, romance and suspense into a fun package.</p>
