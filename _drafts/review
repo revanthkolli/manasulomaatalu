@@ -1,18 +1,18 @@
 ---
 layout: post
-title: 
-description: 
-excerpt: 
+title:
+description:
+excerpt:
 categories: ['Movie Review', 'Telugu Cinema']
 tags: ['movie review', 'telugu movie']
-image: 
+image:
 author: revanth_kolli
-rating: 
-year: 
+rating:
+year:
 ---
 
 <p></p>
-<a href="https://www.youtube.com/" target="_blank">>> Watch the theatrical trailer of </a>
+<a href="https://youtu.be/" target="_blank">>> Watch the theatrical trailer of {{ page.title }}</a>
 <hr />
 <h2><span class="review_header">Katha, Screenplay, Darsakathvam</span></h2>
 <h3>Synopsis</h3>
@@ -26,10 +26,10 @@ year:
 <p> </p>
 <h2><span class="review_header">Production Values</span></h2>
 <h3>Music</h3>
-<a href="https://www.youtube.com/" target="_blank">>> Listen to the  music album</a>
+<a href="https://youtu.be/" target="_blank">>> Listen to the  music album of {{ page.title }}</a>
 <p> </p>
 <h3>Visuals</h3>
-<a href="https://www.youtube.com/" target="_blank">>> Watch the song trailers of </a>
+<a href="https://youtu.be/" target="_blank">>> Watch the song trailers of {{ page.title }}</a>
 <p> </p>
 <hr />
 <h2><span class="review_header">Final Verdict</span></h2>
