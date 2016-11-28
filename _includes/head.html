@@ -1,0 +1,17 @@
+<title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.caption }}</title>
+
+{% include meta.html %}
+{% feed_meta %}
+
+<!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<link rel="shortcut icon" type="image/x-icon" href="{{ site.url }}/favicon.ico" />
+<link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.caption }}" href="{{ site.github.url }}/feed.xml" />
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Asul" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="{{ site.url }}/style.css" />
+{% include analytics.html %}
+
+<!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
