@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Janatha Garage (2016)
-description: Society Could Use Some Repairs, But So Could This Movie
+description: You Can't Just Force Society to Repair Itself
 excerpt: 
 categories: ['Movie Review', 'Telugu Cinema']
 tags: ['movie review', 'telugu movie', 'janatha garage', 'koratala siva', 'mohanlal', 'n.t.r. jr.', 'samantha ruth prabhu', 'nithya menen', 'devi sri prasad', 'tirru']
