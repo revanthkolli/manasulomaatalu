@@ -23,3 +23,31 @@
 {% else %}
 <meta property="og:image" content="{{ site.url }}/img/logo2.jpg" og:image:width="619px" og:image:height="619px" />
 {% endif %}
+
+{% if 'Movie Review' in page.categories %}
+    <script type="application/ld+json">
+        {
+            "@context": "http://schema.org",
+            "@type": "WebPage",
+            "breadcrumb": "Movie Review",
+            "mainEntity":{
+                "@type": "Movie",
+                "image": {{ page.image }},
+                "name": {{ page.title }},
+                "review": [
+                    {
+                        "@type": "Review",
+                        "author": {{ page.author }},
+                        "datePublished": {{ page.date }},
+                        "name": {{ page.title }},
+                        "reviewBody": {{ page.excerpt }},
+                        "reviewRating": {
+                            "@type": "Rating",
+                            "ratingValue": {{ page.rating }}
+                        }
+                    }
+                ]
+            }
+        }
+    </script>
+{% endif %}
