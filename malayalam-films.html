@@ -31,15 +31,15 @@ title: Malayalam Film Reviews - Manasulo Maatalu
                 {% if post.rating %}
                   {% assign r = post.rating %}
                   {% for n in (1..r) %}
-                    <img class="star stars" src="{{ site.baseurl }}/img/star.gif"></img>
+                    <img class="star stars" src="{{ site.url }}/img/star.gif"></img>
                   {% endfor %}
                   {% assign mod = r | modulo:1 %}
                   {% if mod == 0.5 %}
-                    <img class="star-half stars" src="{{ site.baseurl }}/img/star-half.gif"></img>
+                    <img class="star-half stars" src="{{ site.url }}/img/star-half.gif"></img>
                   {% elsif mod == 0.25 %} 
-                    <img class="star-quarter stars" src="{{ site.baseurl }}/img/star-quarter.gif"></img>
+                    <img class="star-quarter stars" src="{{ site.url }}/img/star-quarter.gif"></img>
                   {% elsif mod == 0.75 %}
-                    <img class="star-three stars" src="{{ site.baseurl }}/img/star-3.gif"></img>
+                    <img class="star-three stars" src="{{ site.url }}/img/star-3.gif"></img>
                   {% endif %}
                 {% endif %}
                 <br><br>
