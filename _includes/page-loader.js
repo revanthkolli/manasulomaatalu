@@ -14,6 +14,7 @@ function loadMore() {
         var title = post["title"];
         var description = post["description"];
         var date = post["date"];
+        var rating = post["rating"];
         var categories = post["categories"];
         var post_html = "<a id=\"new-last\" href=\"" + url + "\"><div class=\"post-cover\" style=\"background-image: url('img/" + bg +"')\"><article class=\"post";
         switch(load - temp) {
@@ -35,7 +36,24 @@ function loadMore() {
             default:
                 post_html += "";
         }
-        post_html += "\"><div class=\"shade\"><h1>" + title + "</h1><div class=\"entry\"><b>" + description + "</b><br><br>" + date + "</div><div class=\"post-categories\">"
+         post_html += "\"><div class=\"shade\"><h1>" + title + "</h1><div class=\"entry\">"
+         if (rating != null) {
+             var r = parseInt(rating); 
+             for(var i = 0; i < r; i++) {
+                 post_html += "<img class=\"star stars\" src=\"http://localhost:4000/manasulomaatalu//img/star.gif\"></img>"
+             }
+             var mod = rating % 1; 
+             console.log(mod);
+             if (mod == .5) {
+                 post_html += "<img class=\"star-half stars\" src=\"http://localhost:4000/manasulomaatalu//img/star-half.gif\"></img>"
+             } else if (mod == .25) {
+                 post_html += "<img class=\"star-quarter stars\" src=\"http://localhost:4000/manasulomaatalu//img/star-quarter.gif\"></img>"
+             } else if (mod == .75) {
+                 post_html += "<img class=\"star-three stars\" src=\"http://localhost:4000/manasulomaatalu//img/star-3.gif\"></img>"
+             }
+             post_html += "<br><br>";
+        }
+        post_html +="<b>" + description + "</b><br><br>" + date + "</div><div class=\"post-categories\">"
         for (i = 0; i < categories.length-1; i++) {
             post_html += categories[i] + ", ";
         }

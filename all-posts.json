@@ -10,6 +10,9 @@ layout: null
         "title": "{{ post.title }}",
         "description": "{{ post.description }}",
         "date": "{{ post.date | date: "%B %-d, %Y" }}",
+        {% if post.rating %} 
+        "rating": "{{ post.rating }}",
+        {% endif %}
         "categories": [
             {% for category in post.categories %}
                 "{{ category }}"{% unless forloop.last %},{% endunless %}
