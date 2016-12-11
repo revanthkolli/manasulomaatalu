@@ -43,5 +43,3 @@ The visuals were, for the most part, a mix of cinematic and realistic, which wor
 With an average story and a screenplay that could have been more fast-paced, Krishnagadi Veera Prema Gadha has entertaining and heart-touching moments, but could have been developed even further with better editing and post-interval character development.
 
 If you liked the screenplay and comedy of Express Raja but wanted a more rural backdrop with slower narration and a touching love story, this is the movie for you.
-
-<strong>Rating: 3.25/5</strong>

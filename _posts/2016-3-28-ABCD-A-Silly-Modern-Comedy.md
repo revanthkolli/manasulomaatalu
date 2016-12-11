@@ -42,5 +42,3 @@ The film shifts from the fast-life of New York City to the rundown town life of 
 
 <h2><span class="review_header">Final Verdict</span></h2>
 Because it doesn't follow any of the routines of Indian cinema, <em>ABCD</em> stands out and is essentially a very modern comedy. However, because of its lack of logical flow and sluggish screenplay, the movie seems to lose its purpose amidst the chaos that occurs in Johns and Korah's lives. <em>ABCD</em> still has its moments, however, and is worth watching for a laid-back evening of absurd situational comedy.
-
-<strong>Rating: 3/5</strong>

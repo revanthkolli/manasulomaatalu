@@ -35,4 +35,3 @@ year: 2016
 <hr />
 <h2 id="verdict"><span class="review_header">Final Verdict</span></h2>
 <p>I have a lot of respect for Nagarjuna&#8217;s acting skills because he really made Bangarraju&#8217;s character seem heroic and relatable despite these obvious flaws. I also appreciate the director, Kalyan Krishna, for making the ending actually enjoyable, with strong family sentiment and exciting mystical snakes helping Nagarjuna. I wish the movie had more such moments and less of the subliminal sexist ideas. It is sad that this movie is being declared as Nagarjuna&#8217;s biggest commercial success because he has been a part of so many other amazing films that are simply incomparable to this one.</p>
-<p class="rating"><strong>Rating: <span class="negative_review">2.75</span>/5 </strong></p>

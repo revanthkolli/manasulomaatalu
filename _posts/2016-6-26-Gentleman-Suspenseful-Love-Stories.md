@@ -47,5 +47,3 @@ P. G. Vinda took care of the cinematography and the scenes are pretty appealing 
 Indraganti is a talented director, but he hasn't been doing well in recent years. While Gentleman does suffer from some unnecessary and elongated scenes, it is still packed with suspenseful drama, light comedy and hummable songs, and shows that he still has what it takes to score a hit.
 <h3>Parent's Verdict</h3>
 Kids will probably not understand the few scenes that are inappropriate for them, but there are some concepts touched and hinted at in this film that parents might not want them to see.
-
-<strong>Rating: <span class="positive_review">3.5</span>/5</strong>

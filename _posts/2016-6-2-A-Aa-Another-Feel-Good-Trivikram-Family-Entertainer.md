@@ -49,5 +49,3 @@ A Aa has some beautiful visuals to display, from the rich urban house to the bea
 While the film boasts nothing extraordinary, A Aa comes with a complete package of entertainment and emotion that helps it consistently score well in all of the aspects that make an enjoyable film. Some better editing might have helped, but regardless, this is one of the better Telugu film's to release in a while this year, so go to the theater folks!
 <h3>Parent's Verdict</h3>
 For the most part, clean entertainment that is suitable for children, if they can understand the dialogues.
-
-<strong>Rating: <span class="positive_review">3.75</span>/5</strong>

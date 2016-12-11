@@ -270,30 +270,6 @@ Text: #3d3d3d
   color: #fff;
 }
 
-#main .posts .post .entry .stars {
-  display: inline;
-}
-
-#main .posts .post .entry .star {
-  height: 20px;
-  width: 20px;
-}
-
-#main .posts .post .entry .star-half {
-  height: 20px;
-  width: 10px;
-}
-
-#main .posts .post .entry .star-quarter {
-  height: 20px;
-  width: 5px;
-}
-
-#main .posts .post .entry .star-three {
-  height: 20px;
-  width: 15px;
-}
-
 #main .posts .post .entry {
   padding: 25px;
   color: #fff;
@@ -442,4 +418,49 @@ Text: #3d3d3d
 .fb-comments {
     padding-top: 25px;
     padding-bottom: 25px;
+}
+
+/* Stars */
+.stars {
+  display: inline;
+}
+
+.star {
+  height: 20px;
+  width: 20px;
+}
+
+.star-half {
+  height: 20px;
+  width: 10px;
+}
+
+.star-quarter {
+  height: 20px;
+  width: 5px;
+}
+
+.star-three {
+  height: 20px;
+  width: 15px;
+}
+
+.rating-star {
+  height: 30px;
+  width: 30px;
+}
+
+.rating-star-half {
+  height: 30px;
+  width: 15px;
+}
+
+.rating-star-quarter {
+  height: 30px;
+  width: 7.5px;
+}
+
+.rating-star-three {
+  height: 30px;
+  width: 22.5px;
 }

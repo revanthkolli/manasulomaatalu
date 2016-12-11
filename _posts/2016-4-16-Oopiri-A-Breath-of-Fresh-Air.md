@@ -42,5 +42,3 @@ P. S. Vinod is back with Nagarjuna after working with him for Manam and Soggade 
 
 <h2><span class="review_header">Final Verdict</span></h2>
 I haven't seen the original French film, so I can't really comment on how much justice Oopiri does to the original content. However, looking at the film as it's own entity, I can definitely say that Oopiri is a film to watch. Beautiful visuals blended with a classy soundtrack that brings to life a touching friendship between two outcasts from opposite worlds, Oopiri is truly a breath of fresh air in Telugu cinema; we could definitely benefit from more films like it.
-
-<strong>Rating: <span class="positive_review">4.25</span>/5</strong>

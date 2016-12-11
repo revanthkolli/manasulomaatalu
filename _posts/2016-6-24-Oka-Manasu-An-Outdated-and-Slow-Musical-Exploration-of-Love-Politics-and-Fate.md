@@ -44,5 +44,3 @@ It was hard to find the cinematographer of this film, but whoever it was did a w
 Oka Manasu is one of those films that just tells a story. There are no forced opinions or righteous characters; they're all just dealing with life as it goes and trying to follow their hearts. In this sense, the heart of Oka Manasu is in the right direction. The problem is that, like the characters and the plot, the film itself is a messy. It's artistic, like a beautifully depicted romance poem, but it doesn't worry much about realism or logic. Therefore, like hopeless romance novels or thought-provoking poetry that drags, it might appeal to a select few but is certainly not for everyone.
 <h3>Parent's Verdict</h3>
 There are adults who will be bored from the pacing of this film, so there's not much that kids can find of value here. There are also some acts of physical violence and alcohol and smoking addictions.
-
-<strong>Rating: <span class="negative_review">2.5</span>/5</strong>
