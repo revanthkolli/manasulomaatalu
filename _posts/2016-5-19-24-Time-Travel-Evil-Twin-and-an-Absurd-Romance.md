@@ -47,4 +47,3 @@ While it seems slow and taxing at some points, 24 provides a suspenseful and act
 <h3>[<span class="review_header">NEW</span>] Parents' Verdict</h3>
 While children may enjoy the concept of this film, there are some plot points that they may not be able to follow and a few limited, yet violent scenes that can be bloody and gruesome to watch.
 
-<strong>Rating: <span class="positive_review">3.5</span>/5</strong>

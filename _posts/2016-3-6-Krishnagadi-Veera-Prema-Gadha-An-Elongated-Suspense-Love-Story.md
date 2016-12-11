@@ -44,4 +44,3 @@ With an average story and a screenplay that could have been more fast-paced, Kri
 
 If you liked the screenplay and comedy of Express Raja but wanted a more rural backdrop with slower narration and a touching love story, this is the movie for you.
 
-<strong>Rating: 3.25/5</strong>

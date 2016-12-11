@@ -7,6 +7,46 @@ layout: default
   <h3>{{page.description}}</h3>
   <div class="entry">
     {{ content }}
+	{% if page.rating >= 3.5 %}
+		{% assign r = page.rating %}
+ 		{% for n in (1..r) %}
+ 			<img class="rating-star stars" src="{{ site.baseurl }}/img/star-blue.gif"></img>
+ 		{% endfor %}
+ 		{% assign mod = r | modulo:1 %}
+ 		{% if mod == 0.5 %}
+ 			<img class="rating-star-half stars" src="{{ site.baseurl }}/img/star-half-blue.gif"></img>
+ 		{% elsif mod == 0.25 %} 
+ 			<img class="rating-star-quarter stars" src="{{ site.baseurl }}/img/star-quarter-blue.gif"></img>
+ 		{% elsif mod == 0.75 %}
+ 			<img class="rating-star-three stars" src="{{ site.baseurl }}/img/star-3-blue.gif"></img>
+ 		{% endif %}
+ 	{% elsif page.rating < 3 %}
+ 		{% assign r = page.rating %}
+ 		{% for n in (1..r) %}
+ 			<img class="rating-star stars" src="{{ site.baseurl }}/img/star-red.gif"></img>
+ 		{% endfor %}
+ 		{% assign mod = r | modulo:1 %}
+ 		{% if mod == 0.5 %}
+ 			<img class="rating-star-half stars" src="{{ site.baseurl }}/img/star-half-red.gif"></img>
+ 		{% elsif mod == 0.25 %} 
+ 			<img class="rating-star-quarter stars" src="{{ site.baseurl }}/img/star-quarter-red.gif"></img>
+ 		{% elsif mod == 0.75 %}
+ 			<img class="rating-star-three stars" src="{{ site.baseurl }}/img/star-3-red.gif"></img>
+ 		{% endif %}
+ 	{% else %}
+ 		{% assign r = page.rating %}
+ 		{% for n in (1..r) %}
+ 			<img class="rating-star stars" src="{{ site.baseurl }}/img/star-grey.gif"></img>
+ 		{% endfor %}
+ 		{% assign mod = r | modulo:1 %}
+ 		{% if mod == 0.5 %}
+ 			<img class="rating-star-half stars" src="{{ site.baseurl }}/img/star-half-grey.gif"></img>
+ 		{% elsif mod == 0.25 %} 
+ 			<img class="rating-star-quarter stars" src="{{ site.baseurl }}/img/star-quarter-grey.gif"></img>
+ 		{% elsif mod == 0.75 %}
+ 			<img class="rating-star-three stars" src="{{ site.baseurl }}/img/star-3-grey.gif"></img>
+ 		{% endif %}
+    {% endif %}
   </div>
 
   <div class="share-page">
@@ -80,9 +120,24 @@ layout: default
 							<h1>{{ post.title }}</h1>
 						
 							<div class="entry">
-							<b>{{ post.description }}</b>
-							<br> <br>
-							{{ post.date | date: "%B %-d, %Y" }}
+								{% if post.rating %}
+ 								{% assign r = post.rating %}
+ 								{% for n in (1..r) %}
+ 									<img class="star stars" src="{{ site.baseurl }}/img/star.gif"></img>
+ 								{% endfor %}
+ 								{% assign mod = r | modulo:1 %}
+ 								{% if mod == 0.5 %}
+ 									<img class="star-half stars" src="{{ site.baseurl }}/img/star-half.gif"></img>
+ 								{% elsif mod == 0.25 %} 
+ 									<img class="star-quarter stars" src="{{ site.baseurl }}/img/star-quarter.gif"></img>
+ 								{% elsif mod == 0.75 %}
+ 									<img class="star-three stars" src="{{ site.baseurl }}/img/star-3.gif"></img>
+ 								{% endif %}
+ 								{% endif %}
+ 								<br> <br>
+								<b>{{ post.description }}</b>
+								<br> <br>
+								{{ post.date | date: "%B %-d, %Y" }}
 							</div>
 							<div class="post-categories">
 								{{ commonTags }}
@@ -105,7 +160,9 @@ layout: default
 	{% endfor %}
 	
 	{% if maxRelatedCounter == 0 %} 
+		<br>
 		<p style="text-align: center;"> There are no related posts. </p>
+		<br>
 	{% endif %}
 </div>
 {% endif %}

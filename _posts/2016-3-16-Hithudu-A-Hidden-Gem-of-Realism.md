@@ -43,4 +43,3 @@ Bharani K. Dharan is the cinematographer for this film and he does a fine job, e
 <h2><span class="review_header">Final Verdict</span></h2>
 I don't like labeling films as "art films" as this implies that the film is not worth watching by regular people. Hithudu isn't a commercial film but it is honest and inspiring with realistic characters and some amazing performances. It highlights some of the most pressing problems and troubling dichotomies that people from developing nations like India face and reminds us to stay true to our own moral compass, all while developing a touching relationship between the two lead actors, and is definitely worth watching.
 
-<strong>Rating: <span class="positive_review">4.25</span>/5</strong>

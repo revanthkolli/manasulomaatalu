@@ -40,4 +40,3 @@ year: 2016
 <p>Though it is somewhat slow paced at times, Pelli Choopulu is a film that is simply well put together and leaves a lasting satisfying impression throughout.</p>
 <h3>Parent&#8217;s Verdict</h3>
 <p>Compared to most South Indian films, this film is more suitable for kids and family entertainment.</p>
-<strong>Rating: <span class="positive_review">4.25</span>/5</strong>

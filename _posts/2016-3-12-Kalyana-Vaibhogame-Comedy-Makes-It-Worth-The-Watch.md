@@ -48,4 +48,3 @@ G.V.S. Raju provides some good visuals, especially for the wedding scenes, which
 <h2><span class="review_header">Final Verdict</span></h2>
 I really like Nanidni Reddy's own style of film making, especially the way she slips in strong ideas, like dealing with a disabled family member or openly talking about menstrual cycles, into a light-hearted family-friendly romantic entertainer. While Kalyana Vaibhogame isn't near perfect, it still makes for a fun watch.
 
-<strong>Rating: 3.25/5 </strong>

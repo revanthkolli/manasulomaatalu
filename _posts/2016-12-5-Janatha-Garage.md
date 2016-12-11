@@ -41,4 +41,3 @@ rating: 3
 <p>Janatha Garage might have all of the right pieces, but the formulaic plot and lack of strong character development prevents the film from reaching the sum of its parts.</p>
 <h3>Parent&#8217;s Verdict</h3>
 <p>Excessive physical violence and sexual violence is hinted.</p>
-<strong>Rating: {% if page.rating >= 3.5 %}<span class="positive_review">{{ page.rating }}</span>{% elsif page.rating < 3 %}<span class="negative_review">{{ page.rating }}</span>{% else %}{{ page.rating }}{% endif %}/5</strong>

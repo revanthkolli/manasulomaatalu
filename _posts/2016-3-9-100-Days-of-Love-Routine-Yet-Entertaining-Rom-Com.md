@@ -43,4 +43,3 @@ The visuals by Pratheesh Varma really make the film seem fresh, with a mix of vi
 <h2><span class="review_header">Final Verdict</span></h2>
 The characterization of the protagonist as a loser and "villain" throughout the film reminded me a lot of Velayilla Pattathari, or Raghuvaran B. Tech in Telugu, and it is this different depiction of the same old love at first sight concept that helps the film make its own impact. Combine that with the beautiful visuals and the lovely performances by the trio star cast and you have yourself an enjoyable romantic comedy entertainer for a rainy weekend.
 
-<strong>Rating: <span class="positive_review">3.75</span>/5</strong>

@@ -45,4 +45,3 @@ Oka Manasu is one of those films that just tells a story. There are no forced op
 <h3>Parent's Verdict</h3>
 There are adults who will be bored from the pacing of this film, so there's not much that kids can find of value here. There are also some acts of physical violence and alcohol and smoking addictions.
 
-<strong>Rating: <span class="negative_review">2.5</span>/5</strong>

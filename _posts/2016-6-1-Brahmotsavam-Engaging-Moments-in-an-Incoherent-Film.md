@@ -56,4 +56,3 @@ Lots of hype, a wonderful cast, interesting characters and rich production value
 <h3>Parent's Verdict</h3>
 Mahesh romances multiple women in this film and this includes short kiss scenes and some jokes that kids won't understand. There is a portion of a song in which Mahesh and Samantha are seen partying and taking multiple shots until they get drunk and wake up with a hangover. There is also a scene involving the death of a child who is terminally ill and knows that she is going to die. Overall, I wouldn't recommend this movie for kids, because there's just not much entertainment in it for them; it's hard enough for adults to follow and understand.
 
-<strong>Rating: <span class="negative_review">2.75</span>/5</strong>

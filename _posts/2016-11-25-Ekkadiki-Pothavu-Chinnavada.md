@@ -42,4 +42,3 @@ year: 2016
 <p>Despite its weaknesses and somewhat weird ending, Ekkadiki Pothavu Chinnavada is an entertaining thriller that blends comedy, romance and suspense into a fun package.</p>
 <h3>Parent&#8217;s Verdict</h3>
 <p>Horror/Thriller elements are present, but are mostly focused around the love stories. There is also some fighting scenes, a road accident that kills a woman and a kissing scene..</p>
-<strong>Rating: {% if page.rating >= 3.5 %}<span class="positive_review">{{ page.rating }}</span>{% elsif page.rating < 3 %}<span class="negative_review">{{ page.rating }}</span>{% else %}{{ page.rating }}{% endif %}/5</strong>

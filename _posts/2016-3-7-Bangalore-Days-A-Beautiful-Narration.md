@@ -51,4 +51,3 @@ You can tell from the trailer and song embedded above that the visuals in this m
 <h2><span class="review_header">Final Verdict </span></h2>
 Even while watching Bangalore Days for the second time, I didn't feel bored at all and, while some of that is attributed to the fact that watching a film with subtitles for the first time can cause one to miss a lot of details, it is also due to the simple fact that this is one of the best Indian movies I've ever seen. Beautifully developed characters with an even more beautiful Kerala backdrop, music that keeps you humming for days after and emotions that leave you with a strange feeling of satisfaction; the rare satisfaction you get when you have just watched a truly good film.
 
-<strong>Rating: <span class="positive_review">4.5</span>/5</strong>

@@ -40,4 +40,3 @@ year: 2016
 <p>There's no doubt that Avasarala Sreenivas is a talented artist, writer and director. After watching Jyo Achutananda, though, it feels like there is something slightly off with the film despite its overall appeal. Maybe it's because he felt pressured to deliver another hit film, but Avasarala could have created a more engaging and meaningful movie with just a little bit more care. </p>
 <h3>Parent&#8217;s Verdict</h3>
 <p>While there is nothing outright inappropriate or vulgar, there are some scenes where a woman is being harassed.</p>
-<strong>Rating: 3.25/5</strong>
