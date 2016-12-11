@@ -28,6 +28,21 @@ title: Malayalam Film Reviews - Manasulo Maatalu
               <h1>{{ post.title }}</h1>
 
               <div class="entry">
+                {% if post.rating %}
+                  {% assign r = post.rating %}
+                  {% for n in (1..r) %}
+                    <img class="star stars" src="{{ site.baseurl }}/img/star.gif"></img>
+                  {% endfor %}
+                  {% assign mod = r | modulo:1 %}
+                  {% if mod == 0.5 %}
+                    <img class="star-half stars" src="{{ site.baseurl }}/img/star-half.gif"></img>
+                  {% elsif mod == 0.25 %} 
+                    <img class="star-quarter stars" src="{{ site.baseurl }}/img/star-quarter.gif"></img>
+                  {% elsif mod == 0.75 %}
+                    <img class="star-three stars" src="{{ site.baseurl }}/img/star-3.gif"></img>
+                  {% endif %}
+                {% endif %}
+                <br> <br>
                 <b>{{ post.description }}</b>
                 <br> <br>
                 {{ post.date | date: "%B %-d, %Y" }}
