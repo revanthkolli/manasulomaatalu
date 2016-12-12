@@ -20,7 +20,7 @@ author: revanth_kolli
 <h2>Jimpak Chipak</h2>
 <h3>MC Mike, MC Uneek, Sunny Austin & Om Sripathi</h3>
 <iframe width="853" height="480" src="https://www.youtube.com/embed/5ZEhYjTV8RQ?list=PLfWS72ryLGgbY0-prA0-FTJunMteTz53b" frameborder="0" allowfullscreen></iframe>
-<p>Hyderabadi mass rap. That basically sums up this really catchy collaboration by MC Mike, MC Uneek, Sunny Austin and Om Sripathi, four indepenent Telugu rappers. The song went viral and has more than 7 million views on YouTUbe til date. It might not be your cup of chai, but it's worth checking out!</p>
+<p>Hyderabadi mass rap. That basically sums up this really catchy collaboration by MC Mike, MC Uneek, Sunny Austin and Om Sripathi, four indepenent Telugu rappers. The song went viral and has more than 7 million views on YouTube til date. It might not be your cup of chai, but it's worth checking out!</p>
 <h2>Neeve</h2>
 <h3>Phani Kalyan, Yazin Nazir & Sameera Bharadwaj</h3>
 <iframe width="853" height="480" src="https://www.youtube.com/embed/0K8qu5H4oXk?list=PLfWS72ryLGgbY0-prA0-FTJunMteTz53b" frameborder="0" allowfullscreen></iframe>
