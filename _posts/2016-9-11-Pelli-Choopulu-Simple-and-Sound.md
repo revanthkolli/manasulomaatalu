@@ -6,7 +6,7 @@ categories: ['Movie Review', 'Telugu Cinema']
 tags: ['tharun bhascker', 'vijay deverakonda', 'ritu varma', 'vivek sagar', 'nagesh banell', 'pelli choopulu', 'telugu movie', 'movie review']
 image: pelli_choopulu_poster.jpg
 author: revanth_kolli
-rating: 4.25
+rating: 4
 year: 2016
 ---
 
