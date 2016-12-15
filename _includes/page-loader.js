@@ -1,4 +1,5 @@
- $.getJSON('{{ site.url }}/all-posts.json', function(data) {
+var posts; 
+$.getJSON('{{ site.url }}/all-posts.json', function(data) {
         posts = data["posts"];
 });
 console.log(posts);
