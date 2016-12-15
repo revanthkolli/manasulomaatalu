@@ -11,6 +11,9 @@ function loadMore() {
         var post = posts[load];
         var url = post["url"];
         var bg = post["bg"];
+        if (bg == "") {
+            alert(load);
+        }
         var title = post["title"];
         var description = post["description"];
         var date = post["date"];
