@@ -1,8 +1,9 @@
 var posts; 
 $.getJSON('{{ site.url }}/all-posts.json', function(data) {
         posts = data["posts"];
+        console.log(posts);
 });
-console.log(posts);
+
 var load = 10;
 var incr = 5;
 
