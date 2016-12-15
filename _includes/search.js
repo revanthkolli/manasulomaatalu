@@ -68,15 +68,15 @@ function results() {
                 if (rating != null) {
                     var r = parseInt(rating); 
                     for(var k = 0; k < r; k++) {
-                        post_html += "<img class=\"star stars\" src=\"http://localhost:4000/manasulomaatalu//img/star.gif\"></img>"
+                        post_html += "<img class=\"star stars\" src=\"{{ site.url }}/img/star.gif\"></img>"
                     }
                     var mod = rating % 1; 
                     if (mod == .5) {
-                        post_html += "<img class=\"star-half stars\" src=\"http://localhost:4000/manasulomaatalu//img/star-half.gif\"></img>"
+                        post_html += "<img class=\"star-half stars\" src=\"{{ site.url }}/img/star-half.gif\"></img>"
                     } else if (mod == .25) {
-                        post_html += "<img class=\"star-quarter stars\" src=\"http://localhost:4000/manasulomaatalu//img/star-quarter.gif\"></img>"
+                        post_html += "<img class=\"star-quarter stars\" src=\"{{ site.url }}/img/star-quarter.gif\"></img>"
                     } else if (mod == .75) {
-                        post_html += "<img class=\"star-three stars\" src=\"http://localhost:4000/manasulomaatalu//img/star-3.gif\"></img>"
+                        post_html += "<img class=\"star-three stars\" src=\"{{ site.url }}/img/star-3.gif\"></img>"
                     }
                     post_html += "<br><br>";
                 }
