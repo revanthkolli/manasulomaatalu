@@ -43,7 +43,6 @@ function loadMore() {
                  post_html += "<img class=\"star stars\" src=\"http://manasulomaatalu.com/img/star.gif\"></img>"
              }
              var mod = rating % 1; 
-             console.log(mod);
              if (mod == .5) {
                  post_html += "<img class=\"star-half stars\" src=\"http://manasulomaatalu.com/img/star-half.gif\"></img>"
              } else if (mod == .25) {
