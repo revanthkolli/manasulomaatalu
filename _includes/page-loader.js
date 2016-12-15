@@ -40,15 +40,15 @@ function loadMore() {
          if (rating != null) {
              var r = parseInt(rating); 
              for(var i = 0; i < r; i++) {
-                 post_html += "<img class=\"star stars\" src=\"http://manasulomaatalu.com/img/star.gif\"></img>"
+                 post_html += "<img class=\"star stars\" src=\"https://manasulomaatalu.com/img/star.gif\"></img>"
              }
              var mod = rating % 1; 
              if (mod == .5) {
-                 post_html += "<img class=\"star-half stars\" src=\"http://manasulomaatalu.com/img/star-half.gif\"></img>"
+                 post_html += "<img class=\"star-half stars\" src=\"https://manasulomaatalu.com/img/star-half.gif\"></img>"
              } else if (mod == .25) {
-                 post_html += "<img class=\"star-quarter stars\" src=\"http://manasulomaatalu.com/img/star-quarter.gif\"></img>"
+                 post_html += "<img class=\"star-quarter stars\" src=\"https://manasulomaatalu.com/img/star-quarter.gif\"></img>"
              } else if (mod == .75) {
-                 post_html += "<img class=\"star-three stars\" src=\"http://manasulomaatalu.com/img/star-3.gif\"></img>"
+                 post_html += "<img class=\"star-three stars\" src=\"https://manasulomaatalu.com/img/star-3.gif\"></img>"
              }
              post_html += "<br><br>";
         }
