@@ -14,7 +14,8 @@ function search(keywords) {
     for (i = 0; i < posts.length; i++) {
         var post = posts[i];
         var title = post["title"].toLowerCase();
-        var tags = post["tags"].toLowerCase();
+        var tags = post["tags"].join();
+        tags = tags.toLowerCase();
         var add = false;
         for (j = 0; j < arr.length; j++) {
             if (title.includes(arr[j].toLowerCase()) || tags.includes(arr[j].toLowerCase())) {
