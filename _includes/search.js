@@ -36,6 +36,7 @@ function results() {
         var query = window.location.href.slice(window.location.href.indexOf('?') + 1)
         query = query.split("&");
         var queryString = query[0].slice(query[0].indexOf('=') + 1);
+        queryString = queryString.replace("%20", " ");
         var results = query[1].slice(query[1].indexOf('=') + 1);
         results = results.split(",");
         if (results[0] == '') {
@@ -106,6 +107,7 @@ function results() {
 }
 
 window.onload = results
+
 
 $("#searchInput").keypress(function(event) {
     if (event.which == 13) {
