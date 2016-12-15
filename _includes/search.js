@@ -101,6 +101,7 @@ function results() {
 
 window.onload = results
 
+
 $("#searchInput").keypress(function(event) {
     if (event.which == 13) {
         search($("#searchInput").val())
