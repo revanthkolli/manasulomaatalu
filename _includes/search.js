@@ -15,10 +15,17 @@ function search(keywords) {
         var post = posts[i];
         var title = post["title"].toLowerCase();
         var tags = post["tags"].toLowerCase();
+        var add = false;
         for (j = 0; j < arr.length; j++) {
             if (title.includes(arr[j].toLowerCase()) || tags.includes(arr[j].toLowerCase())) {
-                match.push(i);
+                add = true;
+            } else {
+                add = false;
+                break;
             }
+        }
+        if (add) {
+            match.push(i);
         }
     }
     window.location.replace("{{ site.baseurl }}/results/?query=" + keywords + "&result=" + match.join());
@@ -29,6 +36,7 @@ function results() {
         var query = window.location.href.slice(window.location.href.indexOf('?') + 1)
         query = query.split("&");
         var queryString = query[0].slice(query[0].indexOf('=') + 1);
+        queryString = queryString.replace("%20", " ");
         var results = query[1].slice(query[1].indexOf('=') + 1);
         results = results.split(",");
         if (results[0] == '') {
