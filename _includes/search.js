@@ -26,7 +26,6 @@ function search(keywords) {
 
 function results() {
     if (window.location.pathname.includes("results")) {
-        alert("HI");
         var query = window.location.href.slice(window.location.href.indexOf('?') + 1)
         query = query.split("&");
         var queryString = query[0].slice(query[0].indexOf('=') + 1);
