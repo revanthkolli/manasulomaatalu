@@ -6,6 +6,7 @@ var load = 10;
 var incr = 5;
 
 function loadMore() {
+    alert(load);
     temp = load;
     while (load < temp + incr && load < posts.length) {
         var post = posts[load];
