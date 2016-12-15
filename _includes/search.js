@@ -18,6 +18,7 @@ function search(keywords) {
         for (j = 0; j < arr.length; j++) {
             if (title.includes(arr[j].toLowerCase()) || tags.includes(arr[j].toLowerCase())) {
                 match.push(i);
+                break;
             }
         }
     }
