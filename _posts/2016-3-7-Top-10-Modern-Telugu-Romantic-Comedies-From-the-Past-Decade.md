@@ -3,7 +3,7 @@ layout: post
 title: Top 10 - Modern Telugu Romantic Comedies From the Past Decade
 description: A list of the top ten Telugu romantic comedies from the past decade
 categories: ['All Articles', 'Top 10', 'Telugu Cinema']
-tags: ['100% love', 'ala modalaindi', 'best telugu movies', 'best telugu romantic comedies', 'bhale bhale magadivoy', 'bommarillu', 'darling', 'godavari', 'happy days', 'modern telugu movies', nenu sailaja', 'nuvvostanante nenodantana', 'ok bangaram', oohalu gusagusalade', 'ready', 'top 10 telugu movies', 'uyyala jampala']
+tags: ['100% love', 'tamanna', 'naga chaitanya', 'ala modalaindi', 'nani', 'nithya menen', 'best telugu movies', 'best telugu romantic comedies', 'bhale bhale magadivoy', 'lavanya tripathi', 'bommarillu', 'siddharth', 'genelia', 'darling', 'prabhas', 'kajal', 'godavari', 'sumanth', 'kamalinee mukherjee', 'happy days', 'varun sandesh', 'nikhil', 'raahul', 'sonia deepthi', 'krishnudu', 'modern telugu movies', nenu sailaja', 'ram', 'keerthi suresh', 'nuvvostanante nenodantana', 'trisha', 'ok bangaram', 'dulquer salmaan', 'oohalu gusagusalade', 'raashi khanna', 'naga shourya', 'srinivas avasarala', 'ready', 'top 10 telugu movies', 'uyyala jampala', 'avika gor', 'raj tarun']
 image: top10_rom_com.jpg
 author: revanth_kolli
 ---

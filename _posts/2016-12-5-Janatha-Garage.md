@@ -4,7 +4,7 @@ title: Janatha Garage (2016)
 description: You Can't Just Force Society to Repair Itself
 excerpt: 
 categories: ['Movie Review', 'Telugu Cinema']
-tags: ['movie review', 'telugu movie', 'janatha garage', 'koratala siva', 'mohanlal', 'n.t.r. jr.', 'samantha ruth prabhu', 'nithya menen', 'kajal aggarwal', 'devi sri prasad', 'tirru', 'mythri movie makers']
+tags: ['movie review', 'telugu movie', 'janatha garage', 'koratala siva', 'mohanlal', 'ntr. jr.', 'samantha ruth prabhu', 'nithya menen', 'kajal aggarwal', 'devi sri prasad', 'tirru', 'mythri movie makers']
 image: janatha_garage_poster.jpg
 author: revanth_kolli
 rating: 3

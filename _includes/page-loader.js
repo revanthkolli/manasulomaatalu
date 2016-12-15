@@ -1,4 +1,4 @@
- $.getJSON('{{ site.baseurl }}/all-posts.json', function(data) {
+$.getJSON('{{ site.baseurl }}/all-posts.json', function(data) {
         posts = data["posts"];
 });
 
@@ -43,7 +43,6 @@ function loadMore() {
                 post_html += "<img class=\"star stars\" src=\"http://localhost:4000/manasulomaatalu//img/star.gif\"></img>"
             }
             var mod = rating % 1; 
-            console.log(mod);
             if (mod == .5) {
                 post_html += "<img class=\"star-half stars\" src=\"http://localhost:4000/manasulomaatalu//img/star-half.gif\"></img>"
             } else if (mod == .25) {
