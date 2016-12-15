@@ -15,11 +15,17 @@ function search(keywords) {
         var post = posts[i];
         var title = post["title"].toLowerCase();
         var tags = post["tags"].toLowerCase();
+        var add = false;
         for (j = 0; j < arr.length; j++) {
             if (title.includes(arr[j].toLowerCase()) || tags.includes(arr[j].toLowerCase())) {
-                match.push(i);
+                add = true;
+            } else {
+                add = false;
                 break;
             }
+        }
+        if (add) {
+            match.push(i);
         }
     }
     window.location.replace("{{ site.url }}/results/?query=" + keywords + "&result=" + match.join());
