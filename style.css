@@ -306,6 +306,17 @@ Text: #3d3d3d
   width: 80vw !important;
 }
 
+#main .post-detail .entry .img {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+#main .post-detail .entry p .center {
+  text-align: center;
+}
+
 #main .post-detail .entry .rating {
   text-align: center;
 }
