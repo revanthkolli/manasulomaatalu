@@ -3,7 +3,7 @@ layout: post
 title: Gentleman (2016)
 description: Suspenseful Love Stories
 categories: ['Movie Review', 'Telugu Cinema']
-tags: ['mani sharma', 'mohan krishna indraganti', 'movie review', 'nani', 'nivetha thomas', 'p. g. vinda', 'rohini', 'sreemukhi', 'srinivas avasarala', 'surabhi', 'telugu movie', 'vennela kishore']
+tags: ['mani sharma', 'mohan krishna indraganti', 'movie review', 'nani', 'niveda thomas', 'p. g. vinda', 'rohini', 'sreemukhi', 'srinivas avasarala', 'surabhi', 'telugu movie', 'vennela kishore']
 image: gentleman_poster.jpg
 author: revanth_kolli
 rating: 3.5

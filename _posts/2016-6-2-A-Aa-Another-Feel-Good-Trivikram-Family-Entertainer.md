@@ -3,7 +3,7 @@ layout: post
 title: A Aa (2016)
 description: Another Feel-Good Trivikram Family Entertainer
 categories: ['Movie Review', 'Telugu Cinema']
-tags: ['anupama parameswaran', 'mickey j meyer', 'movie review', 'nadhiya', 'naresh', 'natarajan subramaniam', 'nithin', 'rao ramesh', 'samantha', 'telugu movie', 'trivikram']
+tags: ['anupama parameswaran', 'mickey j meyer', 'movie review', 'nadhiya', 'naresh', 'natarajan subramaniam', 'nithiin', 'rao ramesh', 'samantha', 'telugu movie', 'trivikram']
 image: a_aa_poster.jpg
 author: revanth_kolli
 rating: 3.75
