@@ -3,7 +3,7 @@ layout: post
 title: Minimalist Posters of Some of the Best Telugu Movies of 2016
 description: Minimalist posters of the highest rated Telugu films in 2016 by Manasulo Maatalu
 categories: ['All Articles', 'Trends']
-tags: ['telugu movie', 'telugu minimalist poster', '2016 telugu movies', 'minimalist poster', 'a aa', 'pellichoopulu', '24', 'gentleman', 'oopiri', 'premam', 'ekkadiki pothavu chinnavada', 'nenu sailaja', 'ram pothineni', 'keerthy suresh', 'kishore tirumala']
+tags: ['telugu movie', 'telugu minimalist poster', '2016 telugu movies', 'minimalist poster', 'a aa', 'nithiin', 'samantha', 'trivikram', 'pellichoopulu', 'ritu varma', 'tharun bhascker', 'vijay deverakonda', '24', 'suriya', 'samantha', 'nithya menen', 'vikram kumar', 'gentleman', 'nani', 'surabhi', 'niveda thomas', mohan krishna indraganti', 'oopiri', 'nagarjuna', 'tamannaah', 'karthi', 'vamsi paidipally', 'premam', 'naga chaitanya', 'anupama parameshwaran', 'shruti haasan', 'madonna sebastian', 'chandoo mondeti', 'ekkadiki pothavu chinnavada', 'vi anand', 'nikhil', 'hebah patel', 'nanditha swetha', 'avika gor', 'nenu sailaja', 'ram pothineni', 'keerthy suresh', 'kishore tirumala']
 image: 'minimalist/Ekkadiki Pothavu Chinnavada.png'
 author: revanth_kolli
 ---
