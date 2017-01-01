@@ -560,9 +560,9 @@ Text: #3d3d3d
       background-position: center;
       background-color: #000;
     }*/
-    #main .posts .post {
+    /*#main .posts .post {
       background-color: rgba(0,0,0,.7);
-    }
+    }*/
 }
 
 @media (max-width: 767px) {
