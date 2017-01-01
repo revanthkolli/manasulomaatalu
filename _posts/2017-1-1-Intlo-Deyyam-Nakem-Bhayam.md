@@ -11,27 +11,31 @@ rating: 2.5
 year: 2016
 ---
 
-<p><b>Directed By</b>: Nageswara Reddy
-<br><b>Produced By</b>: BVNS Prasad
-<br><b>Music by</b>: Sai Karthik
-<br><b>Cast</b>: Allari Naresh, Kruthika Jayakumar, Mouryani, Rajendra Prasad, Pragathi, Shakalaka Shankar, Chammak Chandra, etc.</p>
-<p><b>Critical Overview</b>: <i>{{ page.title }}</i> tries to repeat the success of previous hits of the horror-comedy genre, but lacks orginality and clarity, making it an average affair of slapstick comedy and clich&eacute;d romance.</p>
-<p>
+<div class="block">
+    <b>Directed By</b>: Nageswara Reddy
+    <br><b>Produced By</b>: BVNS Prasad
+    <br><b>Music by</b>: Sai Karthik
+    <br><b>Cast</b>: Allari Naresh, Kruthika Jayakumar, Mouryani, Rajendra Prasad, Pragathi, Shakalaka Shankar, Chammak Chandra, etc.
+</div>
+<div class="block">
+    <b>Critical Overview</b>: <i>{{ page.title }}</i> tries to repeat the success of previous hits of the horror-comedy genre, but lacks orginality and clarity, making it an average affair of slapstick comedy and clich&eacute;d romance.
+</div>
+<div class="block">
     <b>Synopsis</b>: The head of a band that plays at weddings, Naresh (Allari Naresh) falls in love with a pious woman (Kruthika Jayakumar) who looks after orphans. He receives a call from a business man (Rajendra Prasad) who mistakes him for a swamiji and offers him a large payment if he can rid the man's new mansion of a residing spirit that is preventing the man's daughter's marriage. Desperate for cash to save a little girl's life, Naresh agrees, but it doesn't take long for him to realize that the spirit is real and very much out of his control.
-</p>
-<p>
+</div>
+<div class="block">
     <b>What Worked?</b>
     <br><br>&nbsp; &ndash; The animated performances from the main cast help overcome the slow pace of the film. In particular, few comedic dialogues were cleverly penned and provide some much needed humor in the first half of the film.  
     <br><br>&nbsp; &ndash; Sai Karthik's music, though ill-timed, wasn't that bad; Shatamanam Bhavati was actually pleasant to listen to.
     <br><br>&nbsp; &ndash; The suspense of the spirit's backstory was aptly delayed, maintaing some level of suspesne in the first half of the film.  
-</p>
-<p>
+</div>
+<div class="block">
     <b>What Didn't?</b>
     <br><br>&nbsp; &ndash; At best, <i>{{ page.title }}</i> is a mixture of scenes found in other horror-comedy films. After the first half, the rest of the film is entirely predictable and the quality of the comedy tanks as the characters and events become absurd and unrealistic. 
     <br><br>&nbsp; &ndash; The film fails to maintain a set of rules pertaining to what the spirit can and cannot do. Without a clear idea of what the rules are, it is hard to become emotionally invested in the characters and understand what really is at stake. 
     <br><br>&nbsp; &ndash; The animation of the spirit seems rudimentary at times. There are films that have evoked horror with little to no visual effects, so the budget of the film isn't really a factor here; it's all about the style in which the spirit is portrayed. 
     <br><br>&nbsp; &ndash; The way the ending was handled was poor; the director should have either provided closure for the audience or put more effort in maintaing the suspense. 
-</p>
+</div>
 <div class="block">
     <b>Videos</b>:
     <div class="video-row">
