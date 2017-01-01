@@ -36,4 +36,3 @@ year: 2016
 <p> </p>
 <h3>Parent&#8217;s Verdict</h3>
 <p></p>
-<strong>Rating: {% if page.rating >= 3.5 %}<span class="positive_review">{{ page.rating }}</span>{% elsif page.rating < 3 %}<span class="negative_review">{{ page.rating }}</span>{% else %}{{ page.rating }}{% endif %}/5</strong>

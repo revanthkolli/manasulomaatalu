@@ -51,6 +51,9 @@
     <script type="text/javascript">
       {% include page-loader.js %}
       {% include search.js %}
+      {% if page.layout == "post" %}
+        {% include watch_video.js %}
+      {% endif %}
     </script>
   </body>
 </html>
