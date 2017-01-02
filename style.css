@@ -7,8 +7,6 @@ body {
 }
 
 header {
-  padding-top: 50px;
-  padding-bottom: 50px;
   background-image: url('img/cover.jpg');
   background-repeat: no-repeat;
   background-size: 100%;
