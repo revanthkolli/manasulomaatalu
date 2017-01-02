@@ -2,9 +2,11 @@
 <div class="wrapper-head">
       <!-- Logo -->
       <header id="header"{% if page.layout == "post" %}style="background-image: url('{{site.url}}/img/{{page.image}}');"{% endif %}>
+        <div class="header-cover">
           <a href="{{ site.url }}/" class="site-avatar">
             <img class="img img-responsive" src="{{ site.logo }}" />
           </a>
+        </div>
       </header>
       <!-- Menu -->
       <nav class="navbar">
