@@ -1,0 +1,41 @@
+---
+layout: post
+title: 
+description: 
+excerpt: 
+categories: ['Movie Review', 'Telugu Cinema']
+tags: ['movie review', 'telugu movie']
+image: 
+author: revanth_kolli
+rating: 
+year: 
+---
+
+<div class="block">
+    <b>Directed By</b>: 
+    <br><b>Produced By</b>: 
+    <br><b>Music by</b>: 
+    <br><b>Cast</b>: 
+</div>
+<div class="block">
+    <b>Critical Overview</b>: 
+</div>
+<div class="block">
+    <b>Synopsis</b>: 
+</div>
+<div class="block">
+    <b>What Worked?</b>
+    <br><br>&nbsp; &ndash; 
+</div>
+<div class="block">
+    <b>What Didn't?</b>
+    <br><br>&nbsp; &ndash; 
+</div>
+<div class="block">
+    <b>Videos</b>:
+    <div class="video-row">
+        <a href="javascript:void(0);" onclick="watch('')"><img src="" alt="{{ page.title }} Trailer"/></a>
+        <a href="javascript:void(0);" onclick="watch('')"><img src="" alt="{{ page.title }} Jukebox"/></a>
+        <a href="javascript:void(0);" onclick="watch('')"><img src="" alt="{{ page.title }} Song Teaser"/></a>
+    </div>
+</div>
