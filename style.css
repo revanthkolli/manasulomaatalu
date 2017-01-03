@@ -531,6 +531,10 @@ Text: #3d3d3d
     /*background-color:#3b5998;*/
 }
 
+.fb-comments span, .fb-comments iframe {
+  width: 80vw;
+}
+
 /* Stars */
 .stars {
   display: inline;
