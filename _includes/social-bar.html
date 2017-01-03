@@ -1,0 +1,11 @@
+<ul class="nav navbar-nav navbar-right">
+    {% if site.footer-links.email %}<li><a href="mailto:{{ site.footer-links.email }}"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>{% endif %}
+    {% if site.footer-links.facebook %}<li><a href="https://www.facebook.com/{{ site.footer-links.facebook }}"><i class="fa fa-facebook-official" aria-hidden="true"></i></a></li>{% endif %}
+    {% if site.twitter-username %}<li><a href="https://twitter.com/{{ site.twitter-username }}"><i class="fa fa-twitter-square" aria-hidden="true"></i></a></li>{% endif %}
+    {% if site.footer-links.github %}<li><a href="https://github.com/{{ site.footer-links.github }}"><i class="fa fa-github-square" aria-hidden="true"></i></a></li>{% endif %}
+    {% if site.footer-links.instagram %}<li><a href="https://instagram.com/{{ site.footer-links.instagram }}"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>{% endif %}
+    {% if site.footer-links.linkedin %}<li><a href="https://www.linkedin.com/in/{{ site.footer-links.linkedin }}"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>{% endif %}
+    {% if site.footer-links.youtube %}<li><a href="https://youtube.com/{{ site.footer-links.youtube }}"><i class="fa fa-youtube-square" aria-hidden="true"></i></a></li>{% endif %}
+    <li><a href="http://manasulomaatalu.com/feed.xml"><i class="fa fa-rss" aria-hidden="true"></i></a></li></li>
+    <li><a href="#" onclick="toggleSearch()"><i class="fa fa-search"></i></a></li>
+</ul>

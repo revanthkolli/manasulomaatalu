@@ -7,36 +7,34 @@
   <body>
     {% include header-start.html %}
       <ul class="nav navbar-nav">
-        <li>
-          <a href="#" onclick="toggleSearch()"><i class="fa fa-search"></i></a>
-        </li>
-        <li><a href="{{ site.url }}/about">About</a></li>
+        <li><a href="{{ site.url }}/about">ABOUT</a></li>
         <li class="dropdown">
-          <a href="" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true">Film Reviews</a>
+          <a href="" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true">FILM REVIEWS</a>
           <ul class="dropdown-menu">
-            <li><a href="{{ site.url }}/telugu-films">Telugu Cinema</a></li>
-            <li><a href="{{ site.url }}/tamil-films">Tamil Cinema</a></li>
-            <li><a href="{{ site.url }}/malayalam-films">Malayalam Cinema</a></li>
-            <li><a href="{{ site.url }}/recommended-films">Recommended Films</a></li>
-            <li><a href="{{ site.url }}/all-film-reviews">All Film Reviews</a></li>
+            <li><a href="{{ site.url }}/telugu-films">TELUGU</a></li>
+            <li><a href="{{ site.url }}/tamil-films">TAMIL</a></li>
+            <li><a href="{{ site.url }}/malayalam-films">MALAYALAM</a></li>
+            <li><a href="{{ site.url }}/recommended-films">RECOMMENDED</a></li>
+            <li><a href="{{ site.url }}/all-film-reviews">ALL</a></li>
           </ul>
         </li>
         <li class="dropdown">
-          <a href="" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true">Articles</a>
+          <a href="" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true">ARTICLES</a>
           <ul class="dropdown-menu">
-            <li><a href="{{ site.url }}/top-10">Top 10</a></li>
-            <li><a href="{{ site.url }}/upcoming-films">Upcoming Films</a></li>
-            <li><a href="{{ site.url }}/trends">Trends</a></li>
-            <li><a href="{{ site.url }}/all-articles">All Articles</a></li>
+            <li><a href="{{ site.url }}/top-10">TOP 10</a></li>
+            <li><a href="{{ site.url }}/upcoming-films">UPCOMING FILMS</a></li>
+            <li><a href="{{ site.url }}/trends">TRENDS</a></li>
+            <li><a href="{{ site.url }}/all-articles">ALL ARTICLES</a></li>
           </ul>
         </li>
         <li class="dropdown last">
-          <a href="" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true" autofocus>Stories</a>
+          <a href="" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true" autofocus>STORIES</a>
           <ul class="dropdown-menu">
-            <li>Coming Soon</li>
+            <li><a href="javascript:void(0);">Coming Soon</a></li>
           </ul>
         </li>
       </ul>
+      {% include social-bar.html %}
     {% include header-end.html %}
     <div id="search" class="search" hidden>
       <input id="searchInput" type="text" placeholder="Search"/>
@@ -47,7 +45,6 @@
     {% include footer.html %}
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    <script src="https://use.fontawesome.com/d1466105fa.js"></script>
     <script type="text/javascript">
       {% include page-loader.js %}
       {% include search.js %}

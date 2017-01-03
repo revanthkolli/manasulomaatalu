@@ -1,13 +1,6 @@
 {% include fb-comments.html %}
 <div class="wrapper-head">
-      <!-- Logo -->
-      <header id="header"{% if page.layout == "post" %}style="background-image: url('{{site.baseurl}}/img/{{page.image}}');"{% endif %}>
-        <div class="header-cover"> 
-            <a href="{{ site.baseurl }}/" class="site-avatar">
-              <img class="img img-responsive" src="{{ site.logo }}" />
-            </a>
-        </div>
-      </header>
+    
       <!-- Menu -->
       <nav class="navbar">
         <div class="navbar-header">
@@ -17,5 +10,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
+          <a class="navbar-brand navbar-brand-logo" href="{{ site.baseurl }}/"><img src="{{ site.baseurl }}/img/logo.jpg"></img></a>
+          <a class="navbar-brand navbar-brand-name" href="{{ site.baseurl }}/">Manasulo Maatalu</a>
         </div>
         <div id="navbar" class="collapse navbar-collapse">

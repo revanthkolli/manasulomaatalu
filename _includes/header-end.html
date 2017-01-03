@@ -1,3 +1,59 @@
         </div>
     </nav>
 </div>
+ <!-- Logo -->
+<header id="header" {% if page.layout == 'post' %}class="header-post"{% endif %} {% if page.layout == "post" %}style="background-image: url('{{site.baseurl}}/img/{{page.image}}');"{% endif %}>
+    {% if page.layout != "post" %}
+        <div class="header-cover"> 
+            <a href="{{ site.baseurl }}/" class="site-avatar">
+                <img class="img img-responsive" src="{{ site.logo }}" />
+            </a>
+        </div>
+    {% else %}
+        <div class="header-post"> 
+            <h1>{{ page.title }}</h1>
+            <h3>{{page.description}}</h3>
+            {% if page.rating >= 3.5 %}
+                {% assign r = page.rating %}
+                {% for n in (1..r) %}
+                    <img class="rating-star stars" src="{{ site.baseurl }}/img/star-blue.gif"></img>
+                {% endfor %}
+                {% assign mod = r | modulo:1 %}
+                {% if mod == 0.5 %}
+                    <img class="rating-star-half stars" src="{{ site.baseurl }}/img/star-half-blue.gif"></img>
+                {% elsif mod == 0.25 %} 
+                    <img class="rating-star-quarter stars" src="{{ site.baseurl }}/img/star-quarter-blue.gif"></img>
+                {% elsif mod == 0.75 %}
+                    <img class="rating-star-three stars" src="{{ site.baseurl }}/img/star-3-blue.gif"></img>
+                {% endif %}
+            {% elsif page.rating < 3 %}
+                {% assign r = page.rating %}
+                {% for n in (1..r) %}
+                    <img class="rating-star stars" src="{{ site.baseurl }}/img/star-red.gif"></img>
+                {% endfor %}
+                {% assign mod = r | modulo:1 %}
+                {% if mod == 0.5 %}
+                    <img class="rating-star-half stars" src="{{ site.baseurl }}/img/star-half-red.gif"></img>
+                {% elsif mod == 0.25 %} 
+                    <img class="rating-star-quarter stars" src="{{ site.baseurl }}/img/star-quarter-red.gif"></img>
+                {% elsif mod == 0.75 %}
+                    <img class="rating-star-three stars" src="{{ site.baseurl }}/img/star-3-red.gif"></img>
+                {% endif %}
+            {% else %}
+                {% assign r = page.rating %}
+                {% for n in (1..r) %}
+                    <img class="rating-star stars" src="{{ site.baseurl }}/img/star-grey.gif"></img>
+                {% endfor %}
+                {% assign mod = r | modulo:1 %}
+                {% if mod == 0.5 %}
+                    <img class="rating-star-half stars" src="{{ site.baseurl }}/img/star-half-grey.gif"></img>
+                {% elsif mod == 0.25 %} 
+                    <img class="rating-star-quarter stars" src="{{ site.baseurl }}/img/star-quarter-grey.gif"></img>
+                {% elsif mod == 0.75 %}
+                    <img class="rating-star-three stars" src="{{ site.baseurl }}/img/star-3-grey.gif"></img>
+                {% endif %}
+            {% endif %}
+        </div>
+    {% endif %}
+    </div>
+</header>
