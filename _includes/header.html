@@ -49,6 +49,7 @@
                     <img class="rating-star-three stars" src="{{ site.url }}/img/star-3-grey.gif"></img>
                 {% endif %}
             {% endif %}
+            <h4> by {{ site.data.authors[page.author].name }} &nbsp;/&nbsp; {{ page.date | date: "%b %d, %Y" }} </h4>
         </div>
     {% endif %}
     </div>

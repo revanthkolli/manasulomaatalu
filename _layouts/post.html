@@ -3,48 +3,6 @@ layout: default
 ---
 
 <article class="post post-detail">
-  <!--<h1>{{ page.title }}</h1>
-  <h3>{{page.description}}</h3>
-	{% if page.rating >= 3.5 %}
-		{% assign r = page.rating %}
- 		{% for n in (1..r) %}
- 			<img class="rating-star stars" src="{{ site.url }}/img/star-blue.gif"></img>
- 		{% endfor %}
- 		{% assign mod = r | modulo:1 %}
- 		{% if mod == 0.5 %}
- 			<img class="rating-star-half stars" src="{{ site.url }}/img/star-half-blue.gif"></img>
- 		{% elsif mod == 0.25 %} 
- 			<img class="rating-star-quarter stars" src="{{ site.url }}/img/star-quarter-blue.gif"></img>
- 		{% elsif mod == 0.75 %}
- 			<img class="rating-star-three stars" src="{{ site.url }}/img/star-3-blue.gif"></img>
- 		{% endif %}
- 	{% elsif page.rating < 3 %}
- 		{% assign r = page.rating %}
- 		{% for n in (1..r) %}
- 			<img class="rating-star stars" src="{{ site.url }}/img/star-red.gif"></img>
- 		{% endfor %}
- 		{% assign mod = r | modulo:1 %}
- 		{% if mod == 0.5 %}
- 			<img class="rating-star-half stars" src="{{ site.url }}/img/star-half-red.gif"></img>
- 		{% elsif mod == 0.25 %} 
- 			<img class="rating-star-quarter stars" src="{{ site.url }}/img/star-quarter-red.gif"></img>
- 		{% elsif mod == 0.75 %}
- 			<img class="rating-star-three stars" src="{{ site.url }}/img/star-3-red.gif"></img>
- 		{% endif %}
- 	{% else %}
- 		{% assign r = page.rating %}
- 		{% for n in (1..r) %}
- 			<img class="rating-star stars" src="{{ site.url }}/img/star-grey.gif"></img>
- 		{% endfor %}
- 		{% assign mod = r | modulo:1 %}
- 		{% if mod == 0.5 %}
- 			<img class="rating-star-half stars" src="{{ site.url }}/img/star-half-grey.gif"></img>
- 		{% elsif mod == 0.25 %} 
- 			<img class="rating-star-quarter stars" src="{{ site.url }}/img/star-quarter-grey.gif"></img>
- 		{% elsif mod == 0.75 %}
- 			<img class="rating-star-three stars" src="{{ site.url }}/img/star-3-grey.gif"></img>
- 		{% endif %}
-    {% endif %}-->
   <div class="entry">
     {{ content }}
   </div>
@@ -55,7 +13,7 @@ layout: default
 	  </div>
   </div>
 
-  <div class="share-page">
+  <!--<div class="share-page">
     {% include share.html %}
   </div>
 
@@ -66,62 +24,62 @@ layout: default
     {% if author %}
     &nbsp; by <a href="{{ author.web }}" target="_blank">{{ author.name }}</a>
     {% endif %}
-  </div>
+  </div>-->
 
   {% include disqus.html %}
 </article>
-<div class="fb-comments" data-href="{{ site.url }}{{ page.url }}" data-numposts="5"></div>
-<div class="link">
-	{% if page.previous.url %}
-		<a class="prev" href="{{page.previous.url}}"><i class="glyphicon glyphicon-chevron-left"></i> {{page.previous.title}}</a>
-	{% endif %}
-	{% if page.next.url %}
-		<a class="next" href="{{page.next.url}}">{{page.next.title}}<i class="glyphicon glyphicon-chevron-right"></i></a>
-	{% endif %}
-</div>
-{% if site.related_posts %}
-<h2 class="category">Recommended</h2>
-<div class="posts">
-	{% assign maxRelated = 5 %}
-	{% assign minCommonTags = 3 %}
-	{% assign maxRelatedCounter = 0 %}
-	
-	{% for post in site.posts %} 
-	
+<div class="fb-comments" data-href="{{ site.url }}{{ page.url }}" data-width="80vw" data-numposts="5"></div>
+{% assign maxRelated = 5 %}
+{% assign minCommonTags = 3 %}
+{% assign maxRelatedCounter = 0 %}
+{% assign maxAuthorCounter = 0 %}
+{% assign related_posts = "" | split:"," %}
+{% assign author_posts = "" | split:"," %}
+{% for temp_post in site.posts %} 
+	{% if temp_post.url != page.url %}
+		{% assign temp_author = site.data.authors[temp_post.author] %}
+		{% if temp_author.email ==  author.email and maxAuthorCounter < 5 %}
+			{% assign author_posts = author_posts | push: temp_post %}
+			{% assign maxAuthorCounter = maxAuthorCounter | plus: 1 %}
+		{% endif %}
 		{% assign sameTagCount = 0 %}
 		{% assign commonTags = '' %}
-		
-		{% for tag in post.tags %} 
-		
-			{% if post.url != page.url %}
-			
-				{% if page.tags contains tag %}
-				
-					{% assign sameTagCount = sameTagCount | plus: 1 %}
-					{% capture tagmarkup %} <span class="label label-default">{{ tag }}</span> {% endcapture %}
-					{% assign commonTags = commonTags | append: tagmarkup %}
-				
-				{% endif %}
-			
+		{% for tag in temp_post.tags %} 
+			{% if page.tags contains tag %}
+				{% assign sameTagCount = sameTagCount | plus: 1 %}
+				{% capture tagmarkup %} <span class="label label-default">{{ tag }}</span> {% endcapture %}
+				{% assign commonTags = commonTags | append: tagmarkup %}
 			{% endif %}
-		
 		{% endfor %}
-		
 		{% if sameTagCount >= minCommonTags %}
+			{% assign related_posts = related_posts | push: temp_post %}
+			{% assign maxRelatedCounter = maxRelatedCounter | plus: 1 %}
+			{% if maxRelatedCounter >= maxRelated %}
+				{% break %}
+			{% endif %}
+		{% endif %}
+	{% endif %}
+{% endfor %}
+{% assign size = related_posts | size %}
+{% if size > 0 %}
+	<h2 class="category">Recommended</h2>
+	<div class="posts">
+		{% assign post_counter = 0 %}
+		{% for post in related_posts %} 
 			<a href="{{ site.url }}{{ post.url }}">
-				<div class="post-cover" style="background-image: url('{{ site.url }}/img/{{post.image}}')">
-					{% if maxRelatedCounter == 0 %}
-					<article class="post blue">
-					{% elsif maxRelatedCounter == 1 %}
-					<article class="post yellow">
-					{% elsif maxRelatedCounter == 2 %}
-					<article class="post purple">
-					{% elsif maxRelatedCounter == 3 %}
-					<article class="post orange">
-					{% else %}
-					<article class="post green">
-					{% endif %}
-				
+					<div class="post-cover" style="background-image: url('{{ site.url }}/img/{{post.image}}')">
+						{% if post_counter == 0 %}
+						<article class="post blue">
+						{% elsif post_counter == 1 %}
+						<article class="post yellow">
+						{% elsif post_counter == 2 %}
+						<article class="post purple">
+						{% elsif post_counter == 3 %}
+						<article class="post orange">
+						{% else %}
+						<article class="post green">
+						{% endif %}
+						{% assign post_counter = post_counter | plus: 1 %}
 						<div class="shade">
 							<h1>{{ post.title }}</h1>
 						
@@ -140,7 +98,7 @@ layout: default
 										<img class="star-three stars" src="{{ site.url }}/img/star-3.gif"></img>
 									{% endif %}
 									<br><br>
- 								{% endif %}
+								{% endif %}
 								<b>{{ post.description }}</b>
 								<br> <br>
 								{{ post.date | date: "%B %-d, %Y" }}
@@ -152,26 +110,59 @@ layout: default
 					</article>
 				</div>
 			</a>
-			
-			{% assign maxRelatedCounter = maxRelatedCounter | plus: 1 %}
-			
-			{% if maxRelatedCounter >= maxRelated %}
-			
-				{% break %}
-				
-			{% endif %}
-			
-		{% endif %}
-		
-	{% endfor %}
-	
-	{% if maxRelatedCounter == 0 %} 
-		<br>
-		<p style="text-align: center;"> There are no recommended posts. </p>
-		<br>
-	{% endif %}
-</div>
+		{% endfor %}
+	</div>
 {% endif %}
-<!--<script type="text/javascript">
-	document.getElementById("header").style.backgroundImage = "{{site.url}}/img/{{page.image}}";
-</script>-->
+{% assign size = author_posts | size %}
+{% if size > 0 %}
+	<h2 class="category">More From {{ author.name }}</h2>
+	<div class="posts">
+		{% assign post_counter = 0 %}
+		{% for post in author_posts %} 
+			<a href="{{ site.url }}{{ post.url }}">
+					<div class="post-cover" style="background-image: url('{{ site.url }}/img/{{post.image}}')">
+						{% if post_counter == 0 %}
+						<article class="post blue">
+						{% elsif post_counter == 1 %}
+						<article class="post yellow">
+						{% elsif post_counter == 2 %}
+						<article class="post purple">
+						{% elsif post_counter == 3 %}
+						<article class="post orange">
+						{% else %}
+						<article class="post green">
+						{% endif %}
+						{% assign post_counter = post_counter | plus: 1 %}
+						<div class="shade">
+							<h1>{{ post.title }}</h1>
+						
+							<div class="entry">
+								{% if post.rating %}
+									{% assign r = post.rating %}
+									{% for n in (1..r) %}
+										<img class="star stars" src="{{ site.url }}/img/star.gif"></img>
+									{% endfor %}
+									{% assign mod = r | modulo:1 %}
+									{% if mod == 0.5 %}
+										<img class="star-half stars" src="{{ site.url }}/img/star-half.gif"></img>
+									{% elsif mod == 0.25 %} 
+										<img class="star-quarter stars" src="{{ site.url }}/img/star-quarter.gif"></img>
+									{% elsif mod == 0.75 %}
+										<img class="star-three stars" src="{{ site.url }}/img/star-3.gif"></img>
+									{% endif %}
+									<br><br>
+								{% endif %}
+								<b>{{ post.description }}</b>
+								<br> <br>
+								{{ post.date | date: "%B %-d, %Y" }}
+							</div>
+							<div class="post-categories">
+								{{ commonTags }}
+							</div>
+						</div>
+					</article>
+				</div>
+			</a>
+		{% endfor %}
+	</div>
+{% endif %}

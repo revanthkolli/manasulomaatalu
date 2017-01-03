@@ -39,6 +39,10 @@ header .header-post {
   margin-bottom: 30px;
 }
 
+.header-post h4 {
+  margin-top: 30px;
+}
+
 header img {
   max-height: 100px;
   margin-left: auto;
@@ -419,13 +423,25 @@ Text: #3d3d3d
   padding-top: 10px;
   padding-bottom: 10px; 
   text-align: center;
+  background-color: #E5B135;
+  position: fixed;
+  bottom: 0px;
+  left: 0px; 
+  width: 100%;
+  z-index: 10000;
 }
 
-.share-page a, .fa {
-  font-size: 18px;
-  margin-left: 5px;
-  margin-right: 5px;
+.share-page a .fa{
+  font-size: 30px;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  color: #fff;
+} 
+
+.share-page a:hover .fa {
+  color:#25758F;
 }
+
 .link {
   margin-top: 25px;
   border-top: 1px solid #ccc;
@@ -505,12 +521,14 @@ Text: #3d3d3d
   padding-top: 10px;
   padding-bottom: 10px;
   font-size: 21px;
-  border-bottom: 1px solid #ccc;
+  border-top: 1px solid #ccc;
 }
 /*Other*/
 .fb-comments {
-    padding-top: 25px;
-    padding-bottom: 25px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 100%;
+    /*background-color:#3b5998;*/
 }
 
 /* Stars */
