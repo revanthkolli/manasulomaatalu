@@ -11,29 +11,38 @@ rating:
 year:
 ---
 
-<p></p>
-<a href="https://youtu.be/" target="_blank">>> Watch the theatrical trailer of {{ page.title }}</a>
-<hr />
-<h2><span class="review_header">Katha, Screenplay, Darsakathvam</span></h2>
-<h3>Synopsis</h3>
-<p>   </p>
-<h3>Screenplay and Direction</h3>
-<p>  </p>
-<h2><span class="review_header">Performances</span></h2>
-<h3></h3>
-<p> </p>
-<h3>Others</h3>
-<p> </p>
-<h2><span class="review_header">Production Values</span></h2>
-<h3>Music</h3>
-<p> </p>
-<a href="https://youtu.be/" target="_blank">>> Listen to the  music album of {{ page.title }}</a>
-<h3>Visuals</h3>
-<p> </p>
-<a href="https://youtu.be/" target="_blank">>> Watch the song trailers of {{ page.title }}</a>
-<hr />
-<h2><span class="review_header">Final Verdict</span></h2>
-<p> </p>
-<h3>Parent&#8217;s Verdict</h3>
-<p></p>
-<strong>Rating: {% if page.rating >= 3.5 %}<span class="positive_review">{{ page.rating }}</span>{% elsif page.rating < 3 %}<span class="negative_review">{{ page.rating }}</span>{% else %}{{ page.rating }}{% endif %}/5</strong>
+<div class="block block-dark block-lg block-first">
+    <div class="block-title">MOVIE INFO</div>
+    <br>
+    <b>Directed By</b>: 
+    <br><b>Produced By</b>: 
+    <br><b>Music by</b>: 
+    <br><b>Cast</b>: 
+</div>
+<div class="block">
+    <div class="block-title">CRITICAL OVERVIEW</div>
+    <br>
+     <i>{{ page.title }}</i> 
+</div>
+<div class="block">
+    <div class="block-title">SYNOPSIS</div>
+    <br>
+    
+</div>
+<div class="block">
+    <div class="block-title">WHAT WORKED</div>
+    <br>&nbsp; &ndash; 
+    <br><br>&nbsp; &ndash; 
+</div>
+<div class="block">
+    <div class="block-title">WHAT DIDN'T</div>
+    <br>&nbsp; &ndash; 
+    <br><br>&nbsp; &ndash; 
+</div>
+<div class="block">
+    <div class="block-title">VIDEOS</div>
+    <div class="video-row">
+        <a href="javascript:void(0);" onclick="watch('')"><div class="video-img"><img src="" alt="{{ page.title }} Trailer"/></div></a>
+        <a href="javascript:void(0);" onclick="watch('')"><div class="video-img"><img src="" alt="{{ page.title }} Jukebox"/></div></a>
+        <a href="javascript:void(0);" onclick="watch('')"><div class="video-img"><img src="" alt="{{ page.title }} Song Teaser"/></div></a>
+    </div>

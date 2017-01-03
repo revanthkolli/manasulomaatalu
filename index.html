@@ -5,9 +5,9 @@ layout: default
   {% assign color = 0 %}
   {% for post in site.posts limit:10 %}
     {% if forloop.last %}
-      <a id="last-post" href="{{ site.url }}{{ post.url }}">
+      <a id="last-post" href="{{ site.baseurl }}{{ post.url }}">
     {% else %}
-      <a href="{{ site.url }}{{ post.url }}">
+      <a href="{{ site.baseurl }}{{ post.url }}">
     {% endif %}
       <div class="post-cover" style="background-image: url('img/{{post.image}}')">
         {% if color == 0 %}

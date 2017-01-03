@@ -70,7 +70,7 @@ layout: default
 
   {% include disqus.html %}
 </article>
-<div class="fb-comments" data-href="{{ site.url }}{{ page.url }}" data-numposts="5"></div>
+<div class="fb-comments" data-href="{{ site.baseurl }}{{ page.url }}" data-numposts="5"></div>
 <div class="link">
 	{% if page.previous.url %}
 		<a class="prev" href="{{page.previous.url}}"><i class="glyphicon glyphicon-chevron-left"></i> {{page.previous.title}}</a>
@@ -108,8 +108,8 @@ layout: default
 		{% endfor %}
 		
 		{% if sameTagCount >= minCommonTags %}
-			<a href="{{ site.url }}{{ post.url }}">
-				<div class="post-cover" style="background-image: url('{{ site.url }}/img/{{post.image}}')">
+			<a href="{{ site.baseurl }}{{ post.url }}">
+				<div class="post-cover" style="background-image: url('{{ site.baseurl }}/img/{{post.image}}')">
 					{% if maxRelatedCounter == 0 %}
 					<article class="post blue">
 					{% elsif maxRelatedCounter == 1 %}
@@ -173,5 +173,5 @@ layout: default
 </div>
 {% endif %}
 <!--<script type="text/javascript">
-	document.getElementById("header").style.backgroundImage = "{{site.url}}/img/{{page.image}}";
+	document.getElementById("header").style.backgroundImage = "{{site.baseurl}}/img/{{page.image}}";
 </script>-->

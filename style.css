@@ -126,24 +126,22 @@ nav, .navbar {
   height: 20px;
 }
 
-/* Mobile Menu Toggle */
-.navbar .navbar-toggle {
-  border-color: #25758F;
-  float: none;
-  margin-right: 0px;
+ul.nav.navbar-nav.navbar-right li {
+  display: inline-block;
 }
 
-.navbar .navbar-toggle:hover, .navbar .navbar-toggle:focus {
-  background-color: #25758F;
+/* Mobile Menu Toggle */
+.navbar .navbar-toggle {
+  border: none;
 }
 
 /* Mobile Menu Toggle Icon Bar */
 .navbar .navbar-toggle .icon-bar {
-  background-color: #25758F;
+  background-color: #ccc;
 }
 
 .navbar .navbar-toggle:hover .icon-bar, .navbar .navbar-toggle:focus .icon-bar {
-  background-color: #fff;
+  background-color: #25758F;
 }
 
 .navbar-nav > .active > a, .navbar-nav > .active > a:focus, .navbar-nav > .active > a:hover {
@@ -153,11 +151,15 @@ nav, .navbar {
   /*border-bottom: 1px solid #ccc;*/
 }
 
-.navbar-nav > li > a:focus, .navbar-nav > li > a:hover {
+.navbar-nav > li > a:hover {
   color: #25758F;
   text-decoration: none;
   background-color: #fff;
   /*border-bottom: 1px solid #ccc;*/
+}
+
+.navbar-nav > li > a:focus {
+  background-color: #fff;
 }
 
 .nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
@@ -266,7 +268,7 @@ nav, .navbar {
 }
 
 #main .block .block-title {
-  background-color: #337ab7;
+  background-color: #25758F;
   color: #fff;
   display: inline-block;
   padding-top: 10px;
@@ -560,7 +562,7 @@ Text: #3d3d3d
 /* Search */
 .search {
   height: 50px;
-  border-bottom: 1px solid #ccc
+  border-top: 1px solid #ccc
 }
 
 .search input {
@@ -579,20 +581,27 @@ Text: #3d3d3d
 
 /* Video Row */
 .video-row {
-  margin-top: 15px;
-  background-color: #eee;
-  height: 200px;
+  /*margin-top: 15px;
+  padding-right: 15px;*/
+  /*background-color: #eee;
+  height: 200px;*/
   overflow-x: auto;
   overflow-y: hidden;
   white-space: nowrap;
 }
 
-.video-row img {
+.video-row .video-img {
   display: inline-block;
+  /*margin-top: 15px;
+  margin-bottom: 15px;*/
+  margin-right: 15px;
+  width: 250px;
+  overflow: hidden;
+}
+
+.video-row img {
+  
   /*float: left;*/
-  margin-top: 15px;
-  margin-bottom: 15px;
-  margin-left: 15px;
   height: 170px;
   transition: all .2s ease-in-out;
 }
@@ -609,6 +618,7 @@ Text: #3d3d3d
   height: 100vh;
   background-color: rgba(0,0,0,.7);
   display: none;
+  z-index: 100;
 }
 
 #video {
