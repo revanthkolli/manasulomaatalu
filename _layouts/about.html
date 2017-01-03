@@ -5,7 +5,7 @@
   </head>
 
   <body>
-    {% include header-start.html %}
+    {% include navbar-start.html %}
       <ul class="nav navbar-nav">
         <li>
           <a href="javascript:void(0);" onclick="toggleSearch()"><i class="fa fa-search"></i></a>
@@ -33,14 +33,15 @@
         <li class="dropdown last">
           <a href="" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true">Stories</a>
           <ul class="dropdown-menu">
-            <li>Coming Soon</li>
+            <li><a href="javascript:void(0);">Coming Soon</a></li>
           </ul>
         </li>
       </ul>
-    {% include header-end.html %}
+    {% include navbar-end.html %}
     <div id="search" class="search" hidden>
       <input id="searchInput" type="text" placeholder="Search"/>
     </div> 
+    {% include header.html %}
     <div id="main" role="main">
       {{ content }}
     </div>
