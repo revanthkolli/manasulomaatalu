@@ -1,41 +1,49 @@
 ---
 layout: post
-title: 
-description: 
-excerpt: 
+title:
+description:
+excerpt:
 categories: ['Movie Review', 'Telugu Cinema']
 tags: ['movie review', 'telugu movie']
-image: 
+image:
 author: revanth_kolli
-rating: 
-year: 
+rating:
+year:
 ---
 
-<div class="block">
+<div class="block block-dark block-lg block-first">
+    <div class="block-title">MOVIE INFO</div>
+    <br>
     <b>Directed By</b>: 
     <br><b>Produced By</b>: 
     <br><b>Music by</b>: 
     <br><b>Cast</b>: 
 </div>
 <div class="block">
-    <b>Critical Overview</b>: 
+    <div class="block-title">CRITICAL OVERVIEW</div>
+    <br>
+     <i>{{ page.title }}</i> 
 </div>
 <div class="block">
-    <b>Synopsis</b>: 
+    <div class="block-title">SYNOPSIS</div>
+    <br>
+    
 </div>
 <div class="block">
-    <b>What Worked?</b>
+    <div class="block-title">WHAT WORKED</div>
+    <br>&nbsp; &ndash; 
     <br><br>&nbsp; &ndash; 
 </div>
 <div class="block">
-    <b>What Didn't?</b>
+    <div class="block-title">WHAT DIDN'T</div>
+    <br>&nbsp; &ndash; 
     <br><br>&nbsp; &ndash; 
 </div>
 <div class="block">
-    <b>Videos</b>:
+    <div class="block-title">VIDEOS</div>
     <div class="video-row">
-        <a href="javascript:void(0);" onclick="watch('')"><img src="" alt="{{ page.title }} Trailer"/></a>
-        <a href="javascript:void(0);" onclick="watch('')"><img src="" alt="{{ page.title }} Jukebox"/></a>
-        <a href="javascript:void(0);" onclick="watch('')"><img src="" alt="{{ page.title }} Song Teaser"/></a>
+        <a href="javascript:void(0);" onclick="watch('')"><div class="video-img"><img src="" alt="{{ page.title }} Trailer"/></div></a>
+        <a href="javascript:void(0);" onclick="watch('')"><div class="video-img"><img src="" alt="{{ page.title }} Jukebox"/></div></a>
+        <a href="javascript:void(0);" onclick="watch('')"><div class="video-img"><img src="" alt="{{ page.title }} Song Teaser"/></div></a>
     </div>
 </div>

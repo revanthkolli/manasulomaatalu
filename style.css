@@ -7,7 +7,7 @@ body {
 }
 
 header {
-  background-image: url('img/cover.jpg');
+  background-image: url('img/cover2.jpg');
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: center;
@@ -103,11 +103,9 @@ nav, .navbar {
 /*#navbar li {
   border-left: 1px solid #ccc; 
 }
-
 #navbar .last {
   border-right: 1px solid #ccc;
 }*/
-
 
 .navbar-brand {
   font-family: 'Asul', sans-serif;
@@ -127,27 +125,22 @@ nav, .navbar {
   height: 20px;
 }
 
+ul.nav.navbar-nav.navbar-right li {
+  display: inline-block;
+}
 
 /* Mobile Menu Toggle */
 .navbar .navbar-toggle {
-  border-color: #25758F;
-  float: none;
-  margin-right: 0px;
-}
-
-.navbar .navbar-toggle:hover, .navbar .navbar-toggle:focus {
-  background-color: #25758F;
+  border: none;
 }
 
 /* Mobile Menu Toggle Icon Bar */
 .navbar .navbar-toggle .icon-bar {
-  background-color: #25758F;
-  width: 25px;
-  height: 4px;
+  background-color: #ccc;
 }
 
 .navbar .navbar-toggle:hover .icon-bar, .navbar .navbar-toggle:focus .icon-bar {
-  background-color: #fff;
+  background-color: #25758F;
 }
 
 .navbar-nav > .active > a, .navbar-nav > .active > a:focus, .navbar-nav > .active > a:hover {
@@ -157,11 +150,15 @@ nav, .navbar {
   /*border-bottom: 1px solid #ccc;*/
 }
 
-.navbar-nav > li > a:focus, .navbar-nav > li > a:hover {
+.navbar-nav > li > a:hover {
   color: #25758F;
   text-decoration: none;
   background-color: #fff;
   /*border-bottom: 1px solid #ccc;*/
+}
+
+.navbar-nav > li > a:focus {
+  background-color: #fff;
 }
 
 .nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
@@ -172,6 +169,11 @@ nav, .navbar {
 .nav>li>a {
   padding-left: 7px;
   padding-right: 7px;
+}
+
+.navbar-toggle .icon-bar {
+  width: 25px;
+  height: 4px;
 }
 
 .dropdown-menu {
@@ -265,7 +267,7 @@ nav, .navbar {
 }
 
 #main .block .block-title {
-  background-color: #337ab7;
+  background-color: #25758F;
   color: #fff;
   display: inline-block;
   padding-top: 10px;
@@ -512,54 +514,54 @@ Text: #3d3d3d
 }
 
 /* Stars */
- .stars {
-   display: inline;
- }
- 
- .star {
-   height: 20px;
-   width: 20px;
- }
- 
- .star-half {
-   height: 20px;
-   width: 10px;
- }
- 
- .star-quarter {
-   height: 20px;
-   width: 5px;
- }
- 
- .star-three {
-   height: 20px;
-   width: 15px;
- }
- 
- .rating-star {
-   height: 30px;
-   width: 30px;
- }
- 
- .rating-star-half {
-   height: 30px;
-   width: 15px;
- }
- 
- .rating-star-quarter {
-   height: 30px;
-   width: 7.5px;
- }
- 
- .rating-star-three {
-   height: 30px;
-   width: 22.5px;
- } 
+.stars {
+  display: inline;
+}
 
- /* Search */
+.star {
+  height: 20px;
+  width: 20px;
+}
+
+.star-half {
+  height: 20px;
+  width: 10px;
+}
+
+.star-quarter {
+  height: 20px;
+  width: 5px;
+}
+
+.star-three {
+  height: 20px;
+  width: 15px;
+}
+
+.rating-star {
+  height: 30px;
+  width: 30px;
+}
+
+.rating-star-half {
+  height: 30px;
+  width: 15px;
+}
+
+.rating-star-quarter {
+  height: 30px;
+  width: 7.5px;
+}
+
+.rating-star-three {
+  height: 30px;
+  width: 22.5px;
+}
+
+/* Search */
 .search {
   height: 50px;
-  border-bottom: 1px solid #ccc
+  border-top: 1px solid #ccc
 }
 
 .search input {
@@ -578,20 +580,27 @@ Text: #3d3d3d
 
 /* Video Row */
 .video-row {
-  margin-top: 15px;
-  background-color: #eee;
-  height: 200px;
+  /*margin-top: 15px;
+  padding-right: 15px;*/
+  /*background-color: #eee;
+  height: 200px;*/
   overflow-x: auto;
   overflow-y: hidden;
   white-space: nowrap;
 }
 
-.video-row img {
+.video-row .video-img {
   display: inline-block;
+  /*margin-top: 15px;
+  margin-bottom: 15px;*/
+  margin-right: 15px;
+  width: 250px;
+  overflow: hidden;
+}
+
+.video-row img {
+  
   /*float: left;*/
-  margin-top: 15px;
-  margin-bottom: 15px;
-  margin-left: 15px;
   height: 170px;
   transition: all .2s ease-in-out;
 }
@@ -608,6 +617,7 @@ Text: #3d3d3d
   height: 100vh;
   background-color: rgba(0,0,0,.7);
   display: none;
+  z-index: 100;
 }
 
 #video {
@@ -627,7 +637,7 @@ Text: #3d3d3d
 }
 
 /* Mobile */
-@media (min-width: 768px){
+@media (min-width: 802px){
     .navbar-nav{
         /*float:none;*/
         margin: 0 auto;

@@ -7,7 +7,7 @@ categories: ['Movie Review', 'Telugu Cinema']
 tags: ['movie review', 'telugu movie', 'janatha garage', 'koratala siva', 'mohanlal', 'ntr. jr.', 'samantha ruth prabhu', 'nithya menen', 'kajal aggarwal', 'devi sri prasad', 'tirru', 'mythri movie makers']
 image: janatha_garage_poster.jpg
 author: revanth_kolli
-rating: 3
+rating: 3.25
 ---
 
 <p>With a star-studded cast and a director with a hit-streak, Janatha Garage was poised to take the box office by storm when it released. Despite its financial success, however, I found the film to be somewhat disappointing.</p>
