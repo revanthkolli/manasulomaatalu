@@ -20,6 +20,11 @@ header .header-cover {
   background-color: rgba(255,255,255,.8);
 }
 
+header .header-cover a {
+  padding-top: 75px;
+  padding-bottom: 75px;
+}
+
 header .header-post {
   margin-bottom: 15px;
   padding-top: 75px;
