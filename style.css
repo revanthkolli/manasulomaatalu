@@ -538,7 +538,7 @@ Text: #3d3d3d
 }
 
 .fb-comments span, .fb-comments iframe {
-  width: 80vw;
+  width: 80vw !important;
 }
 
 /* Stars */
