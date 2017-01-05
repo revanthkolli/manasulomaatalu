@@ -43,7 +43,7 @@ permalink: /about/
     <br>
     <br><b id="submissions"> Can I contribute to Manasulo Maatalu? </b>
     <br><br> 
-    Of course! You can always contribute an idea or an article to Manasulo Maatalu by contacting us via <a href="mailto:contact@manasulomaatalu.com">email</a> or <a href="http://facebook.com/ManasuloMaatalu/" target="_blank">Facebook</a>. Any ideas or content that are unique and impressive will be published and properly credited. We also keep track of such submissions and offer submitters a chance to become an official writer for Manasulo Maatalu if their writing proves to be consistent and within the scope of our mission.
+    Of course! You can always contribute an idea or an article to Manasulo Maatalu by contacting us via <a href="mailto:contact@manasulomaatalu.com">email</a> or <a href="http://facebook.com/ManasuloMaatalu/" target="_blank">Facebook</a>. If we find your idea or article unique and interesting, we will publish your content and properly credit it to you, so make sure you submit your name, contact information (optional) and bio (optional) with your email. Notify us within the email if you would like your contact information to remain confidential. <b>Note</b>: We do not gaurantee that every submission will be published and clearly state that, in exchange for the content, we are offering a potential access to our readers and no other form of compensation. We also keep track of such submissions and offer submitters a chance to become an official writer for Manasulo Maatalu if their writing proves to be consistent and within the scope of our mission.
     <br>
     <br><b> How do I keep up with new content from Manasulo Maatalu? </b>
     <br><br> 
