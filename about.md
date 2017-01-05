@@ -41,7 +41,7 @@ permalink: /about/
     <br><br> 
     Each article on Manasulo Maatalu is credited to one of our writers. You can click on the link or go to 'Our Writers' from the main menu for their profile page and contact information. If no contact information is available for the writer, then try commenting on the article. We cannot gaurantee that you will receive a response, but its worth a shot. 
     <br>
-    <br><b> Can I contribute to Manasulo Maatalu? </b>
+    <br><b id="submissions"> Can I contribute to Manasulo Maatalu? </b>
     <br><br> 
     Of course! You can always contribute an idea or an article to Manasulo Maatalu by contacting us via <a href="mailto:contact@manasulomaatalu.com">email</a> or <a href="http://facebook.com/ManasuloMaatalu/" target="_blank">Facebook</a>. Any ideas or content that are unique and impressive will be published and properly credited. We also keep track of such submissions and offer submitters a chance to become an official writer for Manasulo Maatalu if their writing proves to be consistent and within the scope of our mission.
     <br>

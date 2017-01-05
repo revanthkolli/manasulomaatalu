@@ -44,6 +44,7 @@ function results() {
         query = query.split("&");
         var queryString = query[0].slice(query[0].indexOf('=') + 1);
         queryString = queryString.replace(/%20/g, " ");
+        queryString = queryString.replace(/%27/g, "'");
         var results = query[1].slice(query[1].indexOf('=') + 1);
         results = results.split(",");
         if (results[0] == '') {

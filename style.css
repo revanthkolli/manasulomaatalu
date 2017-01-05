@@ -451,6 +451,10 @@ Text: #3d3d3d
   color: red;
 }
 
+#main .tags a {
+  font-size: 15px;
+}
+
 .positive_review {
   color: #25758F;
 }

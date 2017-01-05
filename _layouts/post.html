@@ -3,50 +3,9 @@ layout: default
 ---
 
 <article class="post post-detail">
-  <!--<h1>{{ page.title }}</h1>
-  <h3>{{page.description}}</h3>
-	{% if page.rating >= 3.5 %}
-		{% assign r = page.rating %}
-		{% for n in (1..r) %}
-			<img class="rating-star stars" src="{{ site.baseurl }}/img/star-blue.gif"></img>
-		{% endfor %}
-		{% assign mod = r | modulo:1 %}
-		{% if mod == 0.5 %}
-			<img class="rating-star-half stars" src="{{ site.baseurl }}/img/star-half-blue.gif"></img>
-		{% elsif mod == 0.25 %} 
-			<img class="rating-star-quarter stars" src="{{ site.baseurl }}/img/star-quarter-blue.gif"></img>
-		{% elsif mod == 0.75 %}
-			<img class="rating-star-three stars" src="{{ site.baseurl }}/img/star-3-blue.gif"></img>
-		{% endif %}
-	{% elsif page.rating < 3 %}
-		{% assign r = page.rating %}
-		{% for n in (1..r) %}
-			<img class="rating-star stars" src="{{ site.baseurl }}/img/star-red.gif"></img>
-		{% endfor %}
-		{% assign mod = r | modulo:1 %}
-		{% if mod == 0.5 %}
-			<img class="rating-star-half stars" src="{{ site.baseurl }}/img/star-half-red.gif"></img>
-		{% elsif mod == 0.25 %} 
-			<img class="rating-star-quarter stars" src="{{ site.baseurl }}/img/star-quarter-red.gif"></img>
-		{% elsif mod == 0.75 %}
-			<img class="rating-star-three stars" src="{{ site.baseurl }}/img/star-3-red.gif"></img>
-		{% endif %}
-	{% else %}
-		{% assign r = page.rating %}
-		{% for n in (1..r) %}
-			<img class="rating-star stars" src="{{ site.baseurl }}/img/star-grey.gif"></img>
-		{% endfor %}
-		{% assign mod = r | modulo:1 %}
-		{% if mod == 0.5 %}
-			<img class="rating-star-half stars" src="{{ site.baseurl }}/img/star-half-grey.gif"></img>
-		{% elsif mod == 0.25 %} 
-			<img class="rating-star-quarter stars" src="{{ site.baseurl }}/img/star-quarter-grey.gif"></img>
-		{% elsif mod == 0.75 %}
-			<img class="rating-star-three stars" src="{{ site.baseurl }}/img/star-3-grey.gif"></img>
-		{% endif %}
-    {% endif %}-->
   <div class="entry">
     {{ content }}
+	<p>Want to contribute to Manasulo Maatalu? Share your ideas or writing with us at <a href="mailto:contact@manasulomaatalu.com">contact@manasulomaatalu.com</a>! <a href="{{ site.baseurl }}/about/#submissions"> Learn more </a></p>
   </div>
 
   <div id="video-wrapper" onclick="closeVideo()">
@@ -65,7 +24,7 @@ layout: default
 	<div class="block-title">Tags</div>
 	<br> 
 	{% for tag in page.tags %}
-		<a id="{{ tag }}" class="tag" href="javascript:void(0);">{{ tag }}</a>,
+		<a id="{{ tag }}" class="tag" href="javascript:void(0);">{{ tag }}</a>{% if forloop.last == false %},{% endif %}
 	{% endfor %}
 </div>
 {% for entry in site.data.authors %}
