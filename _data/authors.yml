@@ -1,4 +1,7 @@
-revanth_kolli:
-  name: Revanth Kolli
+- name: "Revanth Kolli"
   email: revanthkolli@gmail.com
   web: http://revanthkolli.me
+  title: "Founder & Editor-In-Chief"
+  bio: Revanth founded Manasulo Maatalu on March 5, 2016 in an effort to explore and document his interests in films, music, sketching, acting and writing. He currently manages the website and is the primary contributer and editor for the content that is published. 
+  profile: /revanth-kolli
+  id: revanth_kolli

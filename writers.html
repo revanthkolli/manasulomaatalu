@@ -1,0 +1,48 @@
+---
+layout: about
+title: Writers
+permalink: /writers
+---
+
+{% assign reviews = (site.categories['Movie Review']) | size %}
+{% assign articles = (site.categories['All Articles']) | size %}
+{% assign authors = site.data.authors %}
+
+<!--<div class="block block-dark block-lg block-first">
+    <div class="block-title">Writers</div>
+    <br>
+    <b>Means</b>: "Words from the heart"
+    <br><b>Launched</b>: March 5, 2016
+    <br><b>Film Reviews</b>: {{ reviews }}
+    <br><b>Articles</b>: {{ articles }}
+    <br><b>Writers</b>: {{ authors | size }}
+</div>-->
+<br>
+{% assign title = "" %}
+{% for entry in authors %}
+    <div class="block">
+        {% if entry.title != title %}
+            {% assign title = entry.title %}
+            <div class="block-title">{{ entry.title }}</div>
+        {% endif %}
+        <br><b>{{ entry.name }}</b>{% if entry.email %} &nbsp;/&nbsp; <a href="mailto:{{ entry.email }}">Email</a>{% endif %} &nbsp;/&nbsp; {% if entry.web %}<a href="{{ entry.web }}" target="_blank">Website</a> {% endif %}
+        <br><br> {{ entry.bio }}
+        <br><br><a href="{{ site.baseurl }}{{ entry.profile }}">View Profile</a>
+    </div>
+{% endfor %}
+<!--<h1> About</h1>
+<h3>Manasulo Maatalu ("Words from the heart")</h3>
+<h4> {{ reviews }} Reviews {{ articles }} Articles </h4>-->
+<!--<p>
+  You might be reading this blog and find yourself with a strong urge to identify the genius behind these posts.  
+  <br><br>
+  Or, you might be wondering who this silly guy is who thinks he can write and is obsessed with South Indian cinema.
+  <br><br>
+  You're probably in the second category, but either way, my name is Revanth and I’m a bilingual Computer Science student at the University of Virginia. I specify bilingual, because even though I grew up in the U.S., I was born in Andhra Pradesh, India and strongly identify with Telugu culture, especially when it comes to movies and music. While I'm not rich, successful, or an expert on any given topic, I'm passionate about stories and storytelling and dabble at sketching, writing, singing, songwriting and music production when I'm not staring at monitors for hours while debugging code. 
+  <br><br>
+  That's really why I started this blog. It’s more of an avenue for me to organize my thoughts than anything else, but if you read through and find something you enjoy, feel free to share it and like the <a href="http://www.facebook.com/ManasuloMaatalu" target="_blank">Facebook page</a> for future updates!
+  <br><br>
+  Thanks for reading!
+  <br><br>
+  For more about me, visit my <a href="http://revanthkolli.github.io" target="_blank">professional website</a>.
+</p>-->
