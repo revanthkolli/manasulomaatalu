@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Kalyana Vaibhogame (2016)
+title: Kalyana Vaibhogame
 description: Comedy Makes It Worth The Watch
 categories: ['Movie Review', 'Telugu Cinema']
 tags: ['kalyana vaibhogame', 'kalyani koduri', 'malavika nair', 'movie review', 'naga shourya', 'nandini reddy', 'telugu movie']

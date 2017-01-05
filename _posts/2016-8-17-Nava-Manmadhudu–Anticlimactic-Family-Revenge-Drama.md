@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Nava Manmadhudu (2015)
+title: Nava Manmadhudu
 description: Anticlimactic Family Revenge Drama
 categories: ['Movie Review', 'Telugu Cinema', 'Tamil Cinema']
 tags: ['a. kumaran', 'amy jackson', 'anirudh', 'dhanush', 'telugu film review', 'tamil film review', 'nava manmadhudu', 'samantha', 'thanga magan', 'velraj']

@@ -1,12 +1,12 @@
 ---
 layout: post
-title: Hithudu (2015)
+title: Hithudu
 description: A Hidden Gem of Realism
 categories: ['Movie Review', 'Telugu Cinema']
 tags: ['hithudu', 'hitudu', 'jagapathi babu', 'koti', 'meera nandan', 'narasimha rao', 'realistic movies', 'telugu movie review', 'viplove']
 image: hithudu_poster.jpg
 author: revanth_kolli
-rating: 4.25
+rating: 4
 year: 2015
 ---
 

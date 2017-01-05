@@ -17,18 +17,24 @@ layout: default
     {% include share.html %}
   </div>
 
-  <!--<div class="date">
-    Written on {{ page.date | date: "%B %e, %Y" }}
-    <br>
-    {% assign author = site.data.authors[page.author] %}
-    {% if author %}
-    &nbsp; by <a href="{{ author.web }}" target="_blank">{{ author.name }}</a>
-    {% endif %}
-  </div>-->
-
   {% include disqus.html %}
 </article>
 <div class="fb-comments" data-href="{{ site.url }}{{ page.url }}" data-width="80vw" data-numposts="5"></div>
+
+<div class="tags block block-dark block-lg block-last">
+	<div class="block-title">Tags</div>
+	<br> 
+	{% for tag in page.tags %}
+		<a id="{{ tag }}" class="tag" href="javascript:void(0);">{{ tag }}</a>,
+	{% endfor %}
+</div>
+
+{% for entry in site.data.authors %}
+	{% if entry.id == page.author %}
+		{% assign author = entry %}
+	{% endif %}
+{% endfor %}
+
 {% assign maxRelated = 5 %}
 {% assign minCommonTags = 3 %}
 {% assign maxRelatedCounter = 0 %}
@@ -37,8 +43,7 @@ layout: default
 {% assign author_posts = "" | split:"," %}
 {% for temp_post in site.posts %} 
 	{% if temp_post.url != page.url %}
-		{% assign temp_author = site.data.authors[temp_post.author] %}
-		{% if temp_author.email ==  author.email and maxAuthorCounter < 5 %}
+		{% if temp_post.author ==  author.id and maxAuthorCounter < 5 %}
 			{% assign author_posts = author_posts | push: temp_post %}
 			{% assign maxAuthorCounter = maxAuthorCounter | plus: 1 %}
 		{% endif %}
@@ -155,9 +160,6 @@ layout: default
 								<b>{{ post.description }}</b>
 								<br> <br>
 								{{ post.date | date: "%B %-d, %Y" }}
-							</div>
-							<div class="post-categories">
-								{{ commonTags }}
 							</div>
 						</div>
 					</article>

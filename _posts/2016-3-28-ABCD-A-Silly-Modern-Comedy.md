@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ABCD (2013)
+title: ABCD
 description: A Silly Modern Comedy 
 categories: ['Movie Review', 'Malayalam Cinema']
 tags: ['malayalam movie', 'review', 'american born confused desi', 'dulquer salmaan', 'gopi sunder', 'aparna gopinath', 'abcd', 'jacob gregory', 'jomon t john', 'martin prakkat']

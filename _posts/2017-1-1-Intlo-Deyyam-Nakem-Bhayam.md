@@ -14,6 +14,7 @@ year: 2016
 <div class="block block-dark block-lg block-first">
     <div class="block-title">MOVIE INFO</div>
     <br>
+    <b>Release</b>: {{ page.year }}
     <b>Directed By</b>: Nageswara Reddy
     <br><b>Produced By</b>: BVNS Prasad
     <br><b>Music by</b>: Sai Karthik

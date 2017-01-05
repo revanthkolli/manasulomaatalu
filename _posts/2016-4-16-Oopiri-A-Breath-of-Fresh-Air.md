@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Oopiri / Thozha (2016)
+title: Oopiri (Thozha)
 description: A Breath of Fresh Air
 categories: ['Movie Review', 'Telugu Cinema', 'Tamil Cinema']
 tags: ['gopi sundar', 'intouchables', 'karthi', 'movie review', 'nagarjuna', 'oopiri', 'p. s. vinod', 'remake', 'tamannaah', 'tamil movie', 'telugu movie', 'thozha', 'vamsi paidipally']

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 24 (2016)
+title: "24"
 description: Time Travel, Evil Twin and an Absurd Romance
 categories: ['Movie Review', 'Telugu Cinema', 'Tamil Cinema']
 tags: ['24', '24 movie', 'a. r. rahman', 'movie review', 'nithya menen', 'samantha', 'suriya', 'tirru', 'vikram kumar']
