@@ -1,0 +1,93 @@
+---
+layout: about
+title: Revanth Kolli
+permalink: /revanth-kolli
+---
+
+{% assign articles = site.posts | where: "author", "revanth_kolli" %}
+{% assign writer = site.data.authors | where: "id", "revanth_kolli" %}
+{% for entry in site.data.authors %}
+    {% if entry.id == "revanth_kolli" %}
+        {% assign writer = entry %}
+    {% endif %}
+{% endfor %}
+
+<div class="block block-dark block-lg block-first">
+    <div class="block-title">{{ writer.name }}</div>
+    <br>
+    <b>Title</b>: Founder & Editor-In-Chief
+    <br><b>Since</b>: March 5, 2016
+    <br><b>Contributions</b>: {{ articles | size}}
+</div>
+<div class="block">
+    <div class="block-title">ABOUT</div>
+    <br> {{ writer.bio }}
+</div>
+{% if writer.email or writer.website %}
+<div class="block">
+    <div class="block-title">CONTACT</div>
+    <br>{% if writer.email %}<b>Email</b>: <a href="mailto:{{ writer.email }}">{{ writer.email }}</a>{% endif %}
+    <br>{% if writer.web %}<b>Website</b>: <a href="{{ writer.web }}" target="_blank">{{ writer.web }}</a>{% endif %}
+</div>
+{% endif %}
+<h2 class="category">Latest Contributions</h2>
+<div class="posts">
+{% for post in articles limit:5 %}
+    {% if forloop.last %}
+      <a id="last-post" href="{{ site.url }}{{ post.url }}">
+    {% else %}
+      <a href="{{ site.url }}{{ post.url }}">
+    {% endif %}
+      <div class="post-cover" style="background-image: url('img/{{post.image}}')">
+        {% if color == 0 %}
+          <article class="post blue">
+        {% elsif color == 1 %}
+          <article class="post yellow">
+        {% elsif color == 2 %}
+          <article class="post purple">
+        {% elsif color == 3 %}
+          <article class="post orange">
+        {% else %}
+          <article class="post green">
+        {% endif %}
+        {% assign color = color | plus:1 %}
+        {% assign color = color | modulo:5 %}
+          <div class="shade">
+            <h1>{{ post.title }}</h1>
+          
+            <div class="entry">
+              {% if post.rating %}
+                {% assign r = post.rating %}
+                {% for n in (1..r) %}
+                  <img class="star stars" src="{{ site.url }}/img/star.gif"></img>
+                {% endfor %}
+                {% assign mod = r | modulo:1 %}
+                {% if mod == 0.5 %}
+                  <img class="star-half stars" src="{{ site.url }}/img/star-half.gif"></img>
+                {% elsif mod == 0.25 %} 
+                  <img class="star-quarter stars" src="{{ site.url }}/img/star-quarter.gif"></img>
+                {% elsif mod == 0.75 %}
+                  <img class="star-three stars" src="{{ site.url }}/img/star-3.gif"></img>
+                {% endif %}
+                <br> <br>
+              {% endif %}
+              <b>{{ post.description }}</b>
+              <br> <br>
+              {{ post.date | date: "%B %-d, %Y" }}
+            </div>
+
+            <div class="post-categories">
+              {% for category in post.categories %}
+                {% if forloop.last %}
+                  {{ category }}
+                {% else %}
+                  {{ category }},
+                {% endif %}
+              {% endfor  %}
+            </div>
+          </div>
+        </article>
+      </div>
+    </a>
+{% endfor %}
+</div>

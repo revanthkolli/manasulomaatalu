@@ -1,10 +1,10 @@
 <header id="header" {% if page.layout == 'post' %}class="header-post"{% endif %} {% if page.layout == "post" %}style="background-image: url('{{site.url}}/img/{{page.image}}');"{% endif %}>
     {% if page.layout != "post" %}
-        <div class="header-cover"> 
-            <a href="{{ site.url }}/" class="site-avatar">
+        <a href="{{ site.url }}/" class="site-avatar">
+            <div class="header-cover"> 
                 <img class="img img-responsive" src="{{ site.logo }}" />
-            </a>
-        </div>
+            </div>
+        </a>
     {% else %}
         <div class="header-post"> 
             <h1>{{ page.title }}</h1>
@@ -49,7 +49,12 @@
                     <img class="rating-star-three stars" src="{{ site.url }}/img/star-3-grey.gif"></img>
                 {% endif %}
             {% endif %}
-            <h4> by {{ site.data.authors[page.author].name }} &nbsp;/&nbsp; {{ page.date | date: "%b %d, %Y" }} </h4>
+            {% for entry in site.data.authors %}
+                {% if entry.id == "revanth_kolli" %}
+                    {% assign writer = entry %}
+                {% endif %}
+            {% endfor %}
+            <h4> by {{ writer.name }} &nbsp;/&nbsp; {{ page.date | date: "%b %d, %Y" }} </h4>
         </div>
     {% endif %}
     </div>

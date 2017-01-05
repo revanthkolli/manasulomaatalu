@@ -20,11 +20,6 @@ header .header-cover {
   background-color: rgba(255,255,255,.8);
 }
 
-header .header-cover a {
-  padding-top: 75px;
-  padding-bottom: 75px;
-}
-
 header .header-post {
   margin-bottom: 15px;
   padding-top: 75px;
@@ -271,12 +266,12 @@ ul.nav.navbar-nav.navbar-right li {
 }
 
 #main .block-dark {
-  background-color: #3d3d3d;
+  background-color: #064A60;
   color: #fff;
 }
 
 #main .block .block-title {
-  background-color: #25758F;
+  background-color: #064A60;
   color: #fff;
   display: inline-block;
   padding-top: 10px;
@@ -288,7 +283,7 @@ ul.nav.navbar-nav.navbar-right li {
 
 #main .block-dark .block-title {
   background-color: #fff;
-  color: #3d3d3d;
+  color: #064A60;
 }
 
 .text-indent {

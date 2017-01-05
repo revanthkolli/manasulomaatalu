@@ -1,0 +1,23 @@
+---
+layout: about
+title: Writers
+permalink: /writers
+---
+
+{% assign reviews = (site.categories['Movie Review']) | size %}
+{% assign articles = (site.categories['All Articles']) | size %}
+{% assign authors = site.data.authors %}
+
+<br>
+{% assign title = "" %}
+{% for entry in authors %}
+    <div class="block">
+        {% if entry.title != title %}
+            {% assign title = entry.title %}
+            <div class="block-title">{{ entry.title }}</div>
+        {% endif %}
+        <br><b>{{ entry.name }}</b>{% if entry.email %} &nbsp;/&nbsp; <a href="mailto:{{ entry.email }}">Email</a>{% endif %} &nbsp;/&nbsp; {% if entry.web %}<a href="{{ entry.web }}" target="_blank">Website</a> {% endif %}
+        <br><br> {{ entry.bio }}
+        <br><br><a href="{{ site.url }}{{ entry.profile }}">View Profile</a>
+    </div>
+{% endfor %}

@@ -6,9 +6,14 @@
 
   <body>
     {% include navbar-start.html %}
-      <ul class="nav navbar-nav">;" onclick="toggleSearch()"><i class="fa fa-search"></i></a>
+      <ul class="nav navbar-nav">
+        <li class="dropdown">
+          <a href="" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true">About</a>
+          <ul class="dropdown-menu">
+            <li><a href="{{ site.url }}/about">Manasulo Maatalu</a></li>
+            <li><a href="{{ site.url }}/writers">Our Writers</a></li>
+          </ul>
         </li>
-        <li><a href="{{ site.url }}/about">About</a></li>
         <li class="dropdown active">
           <a href="" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true">Film Reviews</a>
           <ul class="dropdown-menu">
