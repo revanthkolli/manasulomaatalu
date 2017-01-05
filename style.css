@@ -43,6 +43,14 @@ header .header-post {
   margin-top: 30px;
 }
 
+.header-post a {
+  color: #E5B135;
+}
+
+.header-post a:hover {
+  color: #337ab7;
+}
+
 header img {
   max-height: 100px;
   margin-left: auto;
@@ -231,7 +239,7 @@ ul.nav.navbar-nav.navbar-right li {
   color: #E5B135;
 }
 
-#main a:hover, #main a:focus {
+#main a:hover {
   text-decoration: none;
   color: #25758F;
 }
