@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Oka Manasu (2016)
+title: Oka Manasu
 description: An Outdated and Slow Musical Exploration of Love, Politics and Fate
 categories: ['Movie Review', 'Telugu Cinema']
 tags: ['krishna bhagavan', 'movie review', 'naga shourya', 'niharika konidela', 'oka manasu', 'pragathi', 'rama raju', 'rao ramesh', 'srinivas avasarala', 'sunil kashyap', 'telugu']

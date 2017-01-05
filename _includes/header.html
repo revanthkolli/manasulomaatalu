@@ -51,11 +51,11 @@
                 {% endif %}
             {% endif %}
             {% for entry in site.data.authors %}
-                {% if entry.id == "revanth_kolli" %}
+                {% if entry.id == page.author %}
                     {% assign writer = entry %}
                 {% endif %}
             {% endfor %}
-            <h4> by {{ writer.name }} &nbsp;/&nbsp; {{ page.date | date: "%b %d, %Y" }} </h4>
+            <h4> by <a href="{{ site.baseurl }}{{ writer.profile }}">{{ writer.name }}</a> &nbsp;/&nbsp; {{ page.date | date: "%b %d, %Y" }} </h4>
         </div>
     {% endif %}
     </div>

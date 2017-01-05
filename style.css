@@ -2,6 +2,10 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
+a, a:hover, a:focus, a:visited {
+  text-decoration: none;
+}
+
 .container {
   text-align: center;
 }
@@ -9,7 +13,7 @@ body {
 header {
   background-image: url('img/cover2.jpg');
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
   background-position: center;
   background-color: #000;
 }
@@ -22,6 +26,8 @@ header .header-cover {
 
 header .header-post {
   margin-bottom: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
   padding-top: 75px;
   padding-bottom: 75px;
   background-color: rgba(0,0,0,.7);
@@ -41,6 +47,14 @@ header .header-post {
 
 .header-post h4 {
   margin-top: 30px;
+}
+
+.header-post a {
+  color: #E5B135;
+}
+
+.header-post a:hover {
+  color: #25758F;
 }
 
 header img {
@@ -232,7 +246,7 @@ ul.nav.navbar-nav.navbar-right li {
   color: #E5B135;
 }
 
-#main a:hover, #main a:focus {
+#main a:hover {
   text-decoration: none;
   color: #25758F;
 }
@@ -259,6 +273,10 @@ ul.nav.navbar-nav.navbar-right li {
 
 #main .block-first {
   margin-top: -15px;
+}
+
+#main .block-last {
+  margin-bottom: 0px;
 }
 
 #main .block-lg {
@@ -293,7 +311,7 @@ ul.nav.navbar-nav.navbar-right li {
 
 #main .post-cover {
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
   background-position: center center;
   background-color: #000;
   background-attachment: fixed;
@@ -371,12 +389,6 @@ Text: #3d3d3d
   padding-right: 5vw;
 }
 
-#main .post-detail  h3 {
-  padding-bottom: 10px;
-  padding-left: 5vw; 
-  padding-right: 5vw;
-}
-
 #main .post-detail .entry {
   /*padding: 25px;*/
   text-align: center;
@@ -398,6 +410,33 @@ Text: #3d3d3d
   margin-right: auto;
   margin-top: 15px;
   margin-bottom: 15px;
+}
+
+#main .post-detail .entry  h4 {
+  font-size: 21px !important;
+  margin-bottom: 30px;
+}
+
+#main .post-detail .entry .img-cover {
+  width: 100%;
+  height: 350px;
+  margin-bottom: 30px;
+  overflow: hidden;
+}
+
+#main .post-detail .entry .img-preview {
+  width: 100%;
+  height: 350px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: #eee;
+  transition: all .5s;
+  -webkit-transition: all .5s;
+}
+
+#main .post-detail .entry .img-cover:hover .img-preview, #main .post-detail .entry a:hover + .img-cover>.img-preview {
+  transform: scale(1.2);
 }
 
 #main .post-detail .entry p .center {
@@ -670,7 +709,7 @@ Text: #3d3d3d
     }
     /*#main .post-cover {
       background-repeat: no-repeat;
-      background-size: 100%;
+      background-size: cover;
       background-position: center;
       background-color: #000;
     }*/

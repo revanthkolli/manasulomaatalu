@@ -8,6 +8,12 @@ function toggleSearch() {
     }
 }
 
+$(document).ready(function() {
+    $('.tag').click(function (event) {
+        search(event.target.id);
+    });
+});
+
 function search(keywords) {
     var arr = keywords.split(" ");
     var match = []
@@ -29,7 +35,7 @@ function search(keywords) {
             match.push(i);
         }
     }
-    window.location.replace("{{ site.baseurl }}/results/?query=" + keywords + "&result=" + match.join());
+    window.location.href = "{{ site.baseurl }}/results/?query=" + keywords + "&result=" + match.join();
 }
 
 function results() {
@@ -37,7 +43,7 @@ function results() {
         var query = window.location.href.slice(window.location.href.indexOf('?') + 1)
         query = query.split("&");
         var queryString = query[0].slice(query[0].indexOf('=') + 1);
-        queryString = queryString.replace("%20", " ");
+        queryString = queryString.replace(/%20/g, " ");
         var results = query[1].slice(query[1].indexOf('=') + 1);
         results = results.split(",");
         if (results[0] == '') {

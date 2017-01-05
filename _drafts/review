@@ -46,3 +46,4 @@ year:
         <a href="javascript:void(0);" onclick="watch('')"><div class="video-img"><img src="" alt="{{ page.title }} Jukebox"/></div></a>
         <a href="javascript:void(0);" onclick="watch('')"><div class="video-img"><img src="" alt="{{ page.title }} Song Teaser"/></div></a>
     </div>
+</div>

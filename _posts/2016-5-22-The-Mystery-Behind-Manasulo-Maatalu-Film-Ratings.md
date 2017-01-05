@@ -4,7 +4,7 @@ title: The Mystery Behind Manasulo Maatalu Film Ratings
 description: An explanation of the Manasulo Maatalu film rating system
 categories: ['Movie Reviews']
 tags: ['film rating', 'film review', 'five point rating system', 'movie review']
-image: logo2.jpg
+image: cover2.jpg
 author: revanth_kolli
 ---
 

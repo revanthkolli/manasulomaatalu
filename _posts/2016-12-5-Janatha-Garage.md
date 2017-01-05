@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Janatha Garage (2016)
+title: Janatha Garage
 description: You Can't Just Force Society to Repair Itself
 excerpt: 
 categories: ['Movie Review', 'Telugu Cinema']
@@ -8,6 +8,7 @@ tags: ['movie review', 'telugu movie', 'janatha garage', 'koratala siva', 'mohan
 image: janatha_garage_poster.jpg
 author: revanth_kolli
 rating: 3
+year: 2016
 ---
 
 <p>With a star-studded cast and a director with a hit-streak, Janatha Garage was poised to take the box office by storm when it released. Despite its financial success, however, I found the film to be somewhat disappointing.</p>
