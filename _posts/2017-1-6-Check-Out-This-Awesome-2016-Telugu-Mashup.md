@@ -44,7 +44,7 @@ author: revanth_kolli
         <li>E Babu Gariki (<a href="{{ site.url }}/Pelli-Choopulu-Simple-and-Sound/" target="_blank">Pelli Choopulu</a>)</li>
         <li>Taanu Nenu (Sahasam Swasaga Sagipo)</li>
     </ol>
-    <br> I really enjoyed the rendering of Pakka Local and Telusa Telusa. What about you? </li>
+    <br> I really enjoyed the rendering of Pakka Local and Telusa Telusa. What about you?
 </div>
 
 <div class="block">
