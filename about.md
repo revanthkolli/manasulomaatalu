@@ -39,7 +39,7 @@ permalink: /about/
     <br>
     <br><b> How do I contact a writer? </b>
     <br><br> 
-    Each article on Manasulo Maatalu is credited to one of our writers. You can click on the link or go to 'Our Writers' from the main menu for their profile page and contact information. If no contact information is available for the writer, then try commenting on the article. We cannot guarantee that you will receive a response, but its worth a shot. 
+    Each article on Manasulo Maatalu is credited to one of our writers. You can click on the link or go to 'Our Writers' from the main menu for their profile page and contact information. If no contact information is available for the writer, then try commenting on the article.
     <br>
     <br><b id="submissions"> Can I contribute to Manasulo Maatalu? </b>
     <br><br> 
