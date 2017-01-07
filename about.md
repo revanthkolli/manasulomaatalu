@@ -35,7 +35,7 @@ permalink: /about/
     <br>
     <br><b> Who designed Manasulo Maatalu? </b>
     <br><br> 
-    Manasulo Maatalu was founded and designed and is currently managed by Revanth Kolli.
+    Manasulo Maatalu was founded, designed and is currently managed by Revanth Kolli.
     <br>
     <br><b> How do I contact a writer? </b>
     <br><br> 
