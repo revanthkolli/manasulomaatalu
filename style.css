@@ -107,8 +107,8 @@ nav, .navbar {
 }
 
 /*#navbar {
-  border-top: 1px solid #ccc;
-  border-bottom: 1px solid #ccc;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
 }*/
 
 .navbar a {
@@ -120,10 +120,10 @@ nav, .navbar {
 }
 
 /*#navbar li {
-  border-left: 1px solid #ccc; 
+  border-left: 1px solid #eee; 
 }
 #navbar .last {
-  border-right: 1px solid #ccc;
+  border-right: 1px solid #eee;
 }*/
 
 .navbar-brand {
@@ -155,7 +155,7 @@ ul.nav.navbar-nav.navbar-right li {
 
 /* Mobile Menu Toggle Icon Bar */
 .navbar .navbar-toggle .icon-bar {
-  background-color: #ccc;
+  background-color: #eee;
 }
 
 .navbar .navbar-toggle:hover .icon-bar, .navbar .navbar-toggle:focus .icon-bar {
@@ -166,14 +166,14 @@ ul.nav.navbar-nav.navbar-right li {
   color: #25758F;
   text-decoration: none;
   background-color: #fff;
-  /*border-bottom: 1px solid #ccc;*/
+  /*border-bottom: 1px solid #eee;*/
 }
 
 .navbar-nav > li > a:hover {
   color: #25758F;
   text-decoration: none;
   background-color: #fff;
-  /*border-bottom: 1px solid #ccc;*/
+  /*border-bottom: 1px solid #eee;*/
 }
 
 .navbar-nav > li > a:focus {
@@ -182,7 +182,7 @@ ul.nav.navbar-nav.navbar-right li {
 
 .nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
   background-color: #fff;
-  border-color: #ccc;
+  border-color: #eee;
 }
 
 .nav>li>a {
@@ -212,7 +212,7 @@ ul.nav.navbar-nav.navbar-right li {
   padding-top: 3px;
   padding-bottom: 3px;
   font-size: 15px;
-  /*border-bottom: 1px solid #ccc;*/
+  /*border-bottom: 1px solid #eee;*/
 }
 
 .dropdown-menu li a {
@@ -496,8 +496,8 @@ Text: #3d3d3d
 
 .link {
   margin-top: 25px;
-  border-top: 1px solid #ccc;
-  border-bottom: 1px solid #ccc; 
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee; 
   height: 45px;
 }
 .link a {
@@ -511,12 +511,12 @@ Text: #3d3d3d
 
 .link .prev {
 	float: left;
-  border-right: 1px solid #ccc;
+  border-right: 1px solid #eee;
 }
 
 .link .next {
 	float: right;
-  border-left: 1px solid #ccc;
+  border-left: 1px solid #eee;
 }
 
 .related-posts .review-header {
@@ -524,7 +524,7 @@ Text: #3d3d3d
   margin: 0px;
   padding-top: 10px;
   padding-bottom: 10px;
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid #eee;
 }
 
 /* Footer */
@@ -532,7 +532,7 @@ Text: #3d3d3d
   text-align: center;
   padding-top: 15px;
   padding-bottom: 15px;
-  border-top: 1px solid #ccc;
+  border-top: 1px solid #eee;
 }
 
 .footer a {
@@ -566,15 +566,15 @@ Text: #3d3d3d
 /*.history {
   padding-top: 5px;
   padding-bottom: 5px;
-  border-bottom: 1px solid #ccc;*/
+  border-bottom: 1px solid #eee;*/
 /*}*/
 .category {
   margin: 0px;
   padding-top: 10px;
   padding-bottom: 10px;
   font-size: 21px;
-  border-top: 1px solid #ccc;
-  border-bottom: 1px solid #ccc;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
 }
 /*Other*/
 .fb-comments {
@@ -636,7 +636,7 @@ Text: #3d3d3d
 /* Search */
 .search {
   height: 50px;
-  border-top: 1px solid #ccc
+  border-top: 1px solid #eee
 }
 
 .search input {
@@ -732,7 +732,7 @@ Text: #3d3d3d
 
 @media (max-width: 767px) {
   .navbar {
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid #eee;
   }
 
   #navbar li {
