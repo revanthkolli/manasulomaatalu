@@ -1,6 +1,8 @@
 ---
 layout: about
-title: Writers
+title: Manasulo Maatalu - Writers
+type: Writers
+section: About
 permalink: /writers
 ---
 
@@ -25,9 +27,8 @@ permalink: /writers
             {% assign title = entry.title %}
             <div class="block-title">{{ entry.title }}</div>
         {% endif %}
-        <br><b>{{ entry.name }}</b>{% if entry.email %} &nbsp;/&nbsp; <a href="mailto:{{ entry.email }}">Email</a>{% endif %} &nbsp;/&nbsp; {% if entry.web %}<a href="{{ entry.web }}" target="_blank">Website</a> {% endif %}
+        <br><b>{{ entry.name }}</b> &nbsp;/&nbsp; <a href="{{ site.baseurl }}{{ entry.profile }}">Profile</a> {% if entry.email %} &nbsp;/&nbsp; <a href="mailto:{{ entry.email }}">Email</a>{% endif %} &nbsp;/&nbsp; {% if entry.web %}<a href="{{ entry.web }}" target="_blank">Website</a> {% endif %}
         <br><br> {{ entry.bio }}
-        <br><br><a href="{{ site.baseurl }}{{ entry.profile }}">View Profile</a>
     </div>
 {% endfor %}
 <!--<h1> About</h1>

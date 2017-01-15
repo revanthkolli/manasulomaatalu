@@ -1,6 +1,8 @@
 ---
 layout: about
-title: About
+title: Manasulo Maatalu - About
+type: About
+section: Manasulo Maatalu
 permalink: /about/
 ---
 

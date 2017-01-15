@@ -14,7 +14,8 @@ year:
 <div class="block block-dark block-lg block-first">
     <div class="block-title">MOVIE INFO</div>
     <br>
-    <b>Directed By</b>: 
+    <b>Release</b>: {{ page.year }}
+    <br><b>Directed By</b>: 
     <br><b>Produced By</b>: 
     <br><b>Music by</b>: 
     <br><b>Cast</b>: 

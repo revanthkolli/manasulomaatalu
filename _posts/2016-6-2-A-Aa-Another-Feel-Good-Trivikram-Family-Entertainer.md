@@ -8,6 +8,7 @@ image: a_aa_poster.jpg
 author: revanth_kolli
 rating: 3.75
 year: 2016
+genre: ['Family', 'Romance', 'Comedy']
 ---
 
 If you haven't heard of A Aa yet, then you need to <a href="http://manasulomaatalu.com/2016/05/31/5-things-that-are-exciting-about-a-aa/" target="_blank">read why people were excited about this movie's release</a>. If you want to know why people are still excited about this movie, then keep reading this review!

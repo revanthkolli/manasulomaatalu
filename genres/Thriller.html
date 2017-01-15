@@ -1,14 +1,15 @@
 ---
 layout: film-reviews
-title: Manasulo Maatalu - Film Reviews - Telugu
-type: Telugu
+title: Manasulo Maatalu - Film Reviews - Thriller
+type: Thriller
 section: Film Reviews
+genre: Thriller
 ---
+
 <div class="posts block-first">
   {% assign color = 0 %}
-  {% assign posts = (site.categories['Movie Review'] | sort: 'title') %}
-  {% for post in posts %}
-    {% if post.categories contains "Telugu Cinema" %}
+  {% for post in site.posts %}
+    {% if post.genre contains "Thriller" %}
       <a href="{{ site.url }}{{ post.url }}">
         <div class="post-cover" style="background-image: url('{{ site.url }}/img/{{ post.image }}')">
           {% if color == 0 %}

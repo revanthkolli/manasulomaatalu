@@ -9,6 +9,7 @@ image: selfie_raja_poster.jpg
 author: revanth_kolli
 rating: 2.25
 year: 2016
+genre: ['Comedy']
 ---
 
 <div class="block block-dark block-lg block-first">

@@ -1,10 +1,11 @@
 ---
 layout: film-reviews
-title: Malayalam Film Reviews - Manasulo Maatalu
+title: Manasulo Maatalu - Film Reviews - Malayalam
+type: Malayalam
+section: Film Reviews
 ---
 
-<h2 class="category"> Malayalam Film Reviews </h2>
-<div class="posts">
+<div class="posts block-first">
   {% assign color = 0 %}
   {% assign posts = (site.categories['Movie Review'] | sort: 'title') %}
   {% for post in posts %}

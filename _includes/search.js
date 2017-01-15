@@ -10,9 +10,31 @@ function toggleSearch() {
 
 $(document).ready(function() {
     $('.tag').click(function (event) {
-        search(event.target.id);
+        searchTag(event.target.id);
     });
 });
+
+function searchTag(tag) {
+    var tag = tag.split("-")[1]
+    var match = []
+    for (i = 0; i < posts.length; i++) {
+        var post = posts[i];
+        var title = post["title"].toLowerCase();
+        var tags = post["tags"].join();
+        tags = tags.toLowerCase();
+        var add = false;
+        if (title.includes(tag.toLowerCase()) || tags.includes(tag.toLowerCase())) {
+            add = true;
+        } else {
+            add = false;
+        }
+        if (add) {
+            match.push(i);
+        }
+    }
+    window.location.href = "{{ site.baseurl }}/results/?query=" + tag + "&result=" + match.join();
+}
+
 
 function search(keywords) {
     var arr = keywords.split(" ");

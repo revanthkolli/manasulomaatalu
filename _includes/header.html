@@ -1,12 +1,6 @@
 <!-- Logo -->
 <header id="header" {% if page.layout == 'post' %}class="header-post"{% endif %} {% if page.layout == "post" %}style="background-image: url('{{site.baseurl}}/img/{{page.image}}');"{% endif %}>
-    {% if page.layout != "post" %}
-        <a href="{{ site.baseurl }}/" class="site-avatar">
-            <div class="header-cover"> 
-                <img class="img img-responsive" src="{{ site.logo }}" />
-            </div>
-        </a>
-    {% else %}
+    {% if page.layout == "post" %}
         <div class="header-post"> 
             <h1>{{ page.title }}</h1>
             <h3>{{page.description}}</h3>
@@ -56,7 +50,19 @@
                 {% endif %}
             {% endfor %}
             <h4> by <a href="{{ site.baseurl }}{{ writer.profile }}">{{ writer.name }}</a> &nbsp;/&nbsp; {{ page.date | date: "%b %d, %Y" }} </h4>
+            {% if page.genre %}<h4 class='genres'>{% for genre in page.genre %} <a href="{{ site.baseurl }}/genres/{{ genre }}">{{ genre }}</a> {% if forloop.last == false %}&nbsp;/&nbsp; {% endif %}{% endfor %}</h4>{% endif %}
         </div>
+    {% elsif page.layout != "default" %}
+        <div class="header-post"> 
+            <h1>{{ page.type }}</h1>
+            <h4>{{ page.section }} </h4>
+        </div>
+    {% else %}
+        <a href="{{ site.baseurl }}/" class="site-avatar">
+            <div class="header-cover"> 
+                <img class="img img-responsive" src="{{ site.logo }}" />
+            </div>
+        </a>
     {% endif %}
     </div>
 </header>

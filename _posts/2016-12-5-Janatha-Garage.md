@@ -9,6 +9,7 @@ image: janatha_garage_poster.jpg
 author: revanth_kolli
 rating: 3
 year: 2016
+genre: ['Action']
 ---
 
 <p>With a star-studded cast and a director with a hit-streak, Janatha Garage was poised to take the box office by storm when it released. Despite its financial success, however, I found the film to be somewhat disappointing.</p>

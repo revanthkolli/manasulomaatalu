@@ -1,0 +1,34 @@
+---
+layout: film-reviews
+title: Manasulo Maatalu - Genres - List
+type: Genres
+section: Film Reviews
+---
+
+<div class="posts block-first">
+  {% assign color = 0 %}
+  {% assign genres = "Action,Adventure,Children,Comedy,Drama,Family,Fantasy,Horror,Romance,Science Fiction,Thriller" | split:"," %}
+    {% for genre in genres %}
+        <a href="{{ site.baseurl }}/genres/{{ genre }}">
+            <div class="post-cover" style="background-image: url('{{ site.baseurl }}/img/cover2.jpg')">
+                {% if color == 0 %}
+                <article class="post blue">
+                {% elsif color == 1 %}
+                <article class="post yellow">
+                {% elsif color == 2 %}
+                <article class="post purple">
+                {% elsif color == 3 %}
+                <article class="post orange">
+                {% else %}
+                <article class="post green">
+                {% endif %}
+                {% assign color = color | plus:1 %}
+                {% assign color = color | modulo:5 %}
+                    <div class="shade">
+                        <h1>{{ genre }}</h1>
+                    </div>
+                </article>
+            </div>
+        </a>
+  {% endfor %}
+</div>

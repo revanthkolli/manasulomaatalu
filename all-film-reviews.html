@@ -1,10 +1,11 @@
 ---
 layout: film-reviews
-title: All Film Reviews - Manasulo Maatalu
+title: Manasulo Maatalu - Film Reviews 
+type: Film Reviews
+section: Manasulo Maatalu
 ---
 
-<h2 class="category"> Alphabetized List of Film Reviews </h2>
-<div class="posts">
+<div class="posts block-first">
   {% assign posts = (site.categories['Movie Review'] | sort: 'title') %}
   {% for year in (2014..2016) %}
     <h3> {{ year }} </h3> 
