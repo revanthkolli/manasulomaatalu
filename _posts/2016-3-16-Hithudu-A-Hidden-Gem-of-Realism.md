@@ -8,6 +8,7 @@ image: hithudu_poster.jpg
 author: revanth_kolli
 rating: 4
 year: 2015
+genre: ['Drama']
 ---
 
 I was surprised when I initially found out about this movie, partly because I had never heard of it beforehand, but also because Jagapathi Babu has been a part of some large blockbusters in recent years and it was intriguing to see him playing a major role in a small film for a change. This movie released near the end of 2015 and I'm disappointed that it hasn't gained much attention because it has some of the best, most realistically developed characters and performances I've seen in recent Telugu cinema.

@@ -8,6 +8,7 @@ image: oka_manasu_poster.jpg
 author: revanth_kolli
 rating: 2.5
 year: 2016
+genre: ['Romance', 'Drama']
 ---
 
 Oka Manasu marks the widely acknowledged debut of Niharika Konidela and is Naga Shourya's latest release after the success of Kalyana Vaibhogame. Other than its lead pair, however, Oka Manasu hasn't really offered much to hype. That's alright though, because the film isn't very commercial and it doesn't pretend to be either.

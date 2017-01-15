@@ -1,17 +1,18 @@
 ---
 layout: film-reviews
-title: Manasulo Maatalu - Film Reviews - Telugu
-type: Telugu
+title: Manasulo Maatalu - Film Reviews - Drama
+type: Drama
 section: Film Reviews
+genre: Drama
 ---
 
-<div class="posts block-first">
+<div class="posts">
   {% assign color = 0 %}
-  {% assign posts = (site.categories['Movie Review'] | sort: 'title') %}
-  {% for post in posts %}
-    {% if post.categories contains "Telugu Cinema" %}
+  {% assign first = true %}
+  {% for post in site.posts %}
+    {% if post.genre contains "Drama" %}
       <a href="{{ site.url }}{{ post.url }}">
-        <div class="post-cover" style="background-image: url('{{ site.url }}/img/{{ post.image }}')">
+        <div class="post-cover{% if first == true %} block-first {% assign first = false %}{% endif %}" style="background-image: url('{{ site.url }}/img/{{ post.image }}')">
           {% if color == 0 %}
             <article class="post blue">
           {% elsif color == 1 %}
@@ -42,7 +43,7 @@ section: Film Reviews
                   {% elsif mod == 0.75 %}
                     <img class="star-three stars" src="{{ site.url }}/img/star-3.gif"></img>
                   {% endif %}
-                  <br><br>
+                  <br> <br>
                 {% endif %}
                 <b>{{ post.description }}</b>
                 <br> <br>

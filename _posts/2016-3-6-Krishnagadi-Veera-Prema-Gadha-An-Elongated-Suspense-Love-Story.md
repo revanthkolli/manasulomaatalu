@@ -8,6 +8,7 @@ image: kgvpg_poster.jpg
 author: revanth_kolli
 rating: 3.25
 year: 2016
+genre: ['Romance', 'Comedy', 'Children']
 ---
 
 <p style="text-align: left;">Nani is an underrated actor in Telugu cinema who has done a number of versatile roles over the years. His last film, <a href="https://en.wikipedia.org/wiki/Bhale_Bhale_Magadivoy" target="_blank">Bhale Bhale Magadivoy</a>, did wonders at the box office and gave him the recognition he truly deserved as an actor with both great comic timing and emotional depth in his expressions. I'm a fan of a number of his movies, including <a href="https://en.wikipedia.org/wiki/Ala_Modalaindi" target="_blank">Ala Modalaindi</a> and <a href="https://en.wikipedia.org/wiki/Pilla_Zamindar">Pilla Zamindar</a>, so I was thrilled to learn that his latest movie was still playing in theaters when I came home for spring break.</p>

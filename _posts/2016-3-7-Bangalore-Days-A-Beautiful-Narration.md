@@ -8,6 +8,7 @@ image: bangalore_days_poster.jpg
 author: revanth_kolli
 rating: 4.5
 year: 2014
+genre: ['Romance', 'Comedy']
 ---
 
 Do you ever watch a movie and get so involved in the narration that the characters and emotions stick with you even after the movie ends? This is one of those movies.

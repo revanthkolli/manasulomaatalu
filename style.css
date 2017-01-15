@@ -41,9 +41,10 @@ header .header-post {
   font-family: 'Asul', sans-serif;
 }
 
-.header-post h3 {
-  margin-bottom: 30px;
-}
+.header-post h3, .header-post h4.genres {
+  margin-top: 45px;
+  margin-bottom: 45px;
+ }
 
 .header-post h4 {
   margin-top: 30px;
@@ -231,6 +232,7 @@ ul.nav.navbar-nav.navbar-right li {
 #main {
   color: #3d3d3d;
   text-align: center;
+  min-height: calc(100vh - 411px);
 }
 
 #main h1 {
@@ -357,6 +359,7 @@ Text: #3d3d3d
 
 #main .posts .post .shade {
   padding: 25px;
+  background-color: rgba(0,0,0,.1);
 }
 
 #main .posts .post .shade:hover {
@@ -571,6 +574,7 @@ Text: #3d3d3d
   padding-bottom: 10px;
   font-size: 21px;
   border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
 }
 /*Other*/
 .fb-comments {

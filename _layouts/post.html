@@ -28,7 +28,7 @@ layout: default
 	<div class="block-title">Tags</div>
 	<br> 
 	{% for tag in page.tags %}
-		<a id="{{ tag }}" class="tag" href="javascript:void(0);">{{ tag }}</a>{% if forloop.last == false %},{% endif %}
+		<a id="tag-{{ tag }}" class="tag" href="javascript:void(0);">{{ tag }}</a>{% if forloop.last == false %},{% endif %}
 	{% endfor %}
 </div>
 

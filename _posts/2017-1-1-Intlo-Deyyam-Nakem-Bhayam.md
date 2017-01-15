@@ -4,18 +4,19 @@ title: Intlo Deyyam Nakem Bhayam
 description: Doesn't Bring Anything New to a Rapidly Saturating Genre
 excerpt: Intlo Deyyam Nakem Bhayam tries to repeat the success of previous hits of the horror-comedy genre, but lacks orginality and clarity, making it an average affair of slapstick comedy and clich&eacute;d romance.
 categories: ['Movie Review', 'Telugu Cinema']
-tags: ['movie review', 'telugu movie', 'allari naresh', 'kruthika jayakumar', 'mouryani', 'rajendra prasad', 'shakalaka shankar', 'pragathi','chammak chandra', 'brahmanandam', 'jayaprakash reddy', 'nageswara reddy', 'bvns prasad', 'sai karthik', 'dasaradhi sivendra']
+tags: ['movie review', 'telugu movie', 'allari naresh', 'kruthika jayakumar', 'mouryani', 'rajendra prasad', 'shakalaka shankar', 'pragathi','chammak chandra', 'brahmanandam', 'jaya prakash reddy', 'nageswara reddy', 'bvns prasad', 'sai karthik', 'dasaradhi sivendra']
 image: intlo_deyyam_nakem_bhayam_poster.jpg
 author: revanth_kolli
 rating: 2
 year: 2016
+genre: ['Horror', 'Comedy', 'Fantasy']
 ---
 
 <div class="block block-dark block-lg block-first">
     <div class="block-title">MOVIE INFO</div>
     <br>
     <b>Release</b>: {{ page.year }}
-    <b>Directed By</b>: Nageswara Reddy
+    <br><b>Directed By</b>: Nageswara Reddy
     <br><b>Produced By</b>: BVNS Prasad
     <br><b>Music by</b>: Sai Karthik
     <br><b>Cast</b>: Allari Naresh, Kruthika Jayakumar, Mouryani, Rajendra Prasad, Pragathi, Shakalaka Shankar, Chammak Chandra, Brahmanandam, Jayaprakash Reddy, etc.

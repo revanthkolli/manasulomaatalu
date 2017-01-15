@@ -8,6 +8,7 @@ image: kv_poster.jpg
 author: revanth_kolli
 rating: 3.25
 year: 2016
+genre: ['Romance', 'Comedy']
 ---
 
 Nandini Reddy is back with an original script this time and, though the output isn't as  well done as <a href="http://manasulomaatalu.com/2016/03/07/top-10-modern-telugu-romantic-comedies-from-the-past-decade/">Ala Modalaindi</a>, it still provides some fun entertainment with deeper moments sprinkled throughout.

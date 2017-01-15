@@ -1,10 +1,11 @@
 ---
 layout: articles
-title: Upcoming Films - Manasulo Maatalu
+title: Manasulo Maatalu - Upcoming Films
+type: Upcoming Films
+section: Articles
 ---
 
-<h2 class="category"> Upcoming Films </h2>
-<div class="posts">
+<div class="posts block-first">
   {% assign color = 0 %}
   {% assign posts = (site.categories['Upcoming Films'] | sort: 'title') %}
   {% for post in posts %}
