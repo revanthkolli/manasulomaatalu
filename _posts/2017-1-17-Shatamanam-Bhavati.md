@@ -23,7 +23,7 @@ year: 2016
 <div class="block">
     <div class="block-title">CRITICAL OVERVIEW</div>
     <br>
-     Though <i>{{ page.title }}</i> is slow and has a thin plot, it's beautiful visuals and touching family values make it a relatable journey, especially for those who have emigrated abroad, and may even leave you with a sense of nostalgia for the homeland. 
+     Though <i>{{ page.title }}</i> is slow and has a thin plot, it's beautiful visuals and touching family values make it a relatable journey, especially for those who have emigrated abroad, and may even leave you with a sense of nostalgia. 
 </div>
 <div class="block">
     <div class="block-title">SYNOPSIS</div>
