@@ -735,3 +735,30 @@ Text: #3d3d3d
     border-left: none;
   }
 }
+
+/* Stories */
+.story {
+  line-height: 2;
+  font-size: 21px;
+}
+
+.story .intro {
+  font-size: 60px;
+  font-family: 'Asul', sans-serif;
+  float: left;
+  padding-right: 50px;
+  padding-left: 50px;
+  padding-top: 15px;
+}
+
+#main .story p {
+  text-indent: 50px;
+  font-size: 18px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+#main .story .first-paragraph {
+  text-indent: 0px;
+  padding-top: 15px;
+}
