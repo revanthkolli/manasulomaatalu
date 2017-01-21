@@ -1,0 +1,36 @@
+{% for entry in site.data.authors %}
+    {% if entry.id == page.author %}
+        {% assign writer = entry %}
+    {% endif %}
+{% endfor %}
+<script type="application/ld+json">
+	{
+        "@context": "http://schema.org",
+        "@type": "Review",
+        "author": {
+            "@type": "Person",
+            "name": "{{ writer.name }}",
+            "sameAs": "{{ site.url }}{{ writer.profile }}"
+        },
+        "datePublished": "{{ page.date }}",
+        "description": "{{ page.description }}",
+        "itemReviewed": {
+            "@type": "Movie",
+            "name": "{{ page.title }}",
+            "sameAs": "{{ page.url }}",
+            "datePublished": "{{ page.date }}"
+        },
+        "publisher": {
+            "@type": "Organization",
+            "name": "Manasulo Maatalu",
+            "sameAs": "http://www.manasulomaatalu.com"
+        },
+        "url": "{{ site.url }}{{ page.url }}",
+        "reviewRating": {
+            "@type":"Rating",
+            "worstRating":0,
+            "bestRating":5,
+            "ratingValue":{{ page.rating }}
+        }
+    }
+</script>

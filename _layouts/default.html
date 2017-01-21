@@ -1,5 +1,9 @@
 <!DOCTYPE html>
+{% if page.categories contains 'Movie Review' %} 
+<html ⚡>
+{% else %}
 <html>
+{% endif %}
   <head>
     {% include head.html %}
   </head>
