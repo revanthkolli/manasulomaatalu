@@ -10,6 +10,7 @@ author: revanth_kolli
 rating: 3.25
 year: 2016
 genre: ['Action']
+link: https://en.wikipedia.org/wiki/Janatha_Garage
 ---
 
 <p>With a star-studded cast and a director with a hit-streak, Janatha Garage was poised to take the box office by storm when it released. Despite its financial success, however, I found the film to be somewhat disappointing.</p>

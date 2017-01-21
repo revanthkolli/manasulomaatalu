@@ -9,6 +9,7 @@ image: shatamanam_bhavati_poster.jpg
 author: revanth_kolli
 rating: 3.5
 year: 2016
+genre: ['Family']
 link: https://en.wikipedia.org/wiki/Sathamanam_Bhavati
 ---
 

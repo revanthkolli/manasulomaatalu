@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Nava Manmadhudu
+title: Nava Manmadhudu (Thanga Magan)
 description: Anticlimactic Family Revenge Drama
 categories: ['Movie Review', 'Telugu Cinema', 'Tamil Cinema']
 tags: ['a. kumaran', 'amy jackson', 'anirudh', 'dhanush', 'telugu film review', 'tamil film review', 'nava manmadhudu', 'samantha', 'thanga magan', 'velraj']
@@ -9,6 +9,7 @@ author: revanth_kolli
 rating: 3.25
 year: 2015
 genre: ['Familly', 'Thriller', 'Romance']
+link: https://en.wikipedia.org/wiki/Thanga_Magan_(2015_film)
 ---
 
 <p>Raghuvaran B. Tech was an astounding success in Telugu and lead to the the dubbing of many of Dhanush&#8217;s older films. Nava Manmadhudu was touted as another romantic entertainer from the makers of Raghuvaran B. Tech and, though it doesn&#8217;t compare in terms of wholesome entertainment, it still makes a mark.</p>

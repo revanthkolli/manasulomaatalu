@@ -9,6 +9,7 @@ author: revanth_kolli
 rating: 3.5
 year: 2016
 genre: ['Science Fiction']
+linik: https://en.wikipedia.org/wiki/24_(2016_film)
 ---
 
 Time travel is a relatively less explored concept in Telugu cinema. While there are a plethora of films about romance, the number of South Indian films that are about time travel, and science fiction in general, is still very low (<a href="https://en.wikipedia.org/wiki/Aditya_369">Aditya 360</a> comes to mind). This explains why there was so much buzz around Suriya's latest bilingual release, 24, a film that promised a thrilling adventure with a time travelling watch, a genius scientist and his evil twin brother, and a frivolous romance between the lead pair.

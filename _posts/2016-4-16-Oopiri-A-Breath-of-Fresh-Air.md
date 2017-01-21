@@ -9,6 +9,7 @@ author: revanth_kolli
 rating: 4.25
 year: 2016
 genre: ['Drama']
+link: https://en.wikipedia.org/wiki/Oopiri
 ---
 
 Manam was the start of a new chapter in cinema for Nagarjuna and, while <a href="http://manasulomaatalu.com/2016/03/05/what-does-the-success-of-soggade-chinni-nayana-say-about-our-society/" target="_blank">Soggade Chinni Nayana</a> had mixed success, his latest film Oopiri is doing extremely well at the box office. An official remake of the second highest grossing French film, <a href="https://en.wikipedia.org/wiki/The_Intouchables" target="_blank">Intouchables</a>, Oopiri had grabbed our interest since the first look of the film was released.  I never thought I would see Karthi and Nagarjuna share the same screen space but, after watching this film, I have to say their paring was just charming.

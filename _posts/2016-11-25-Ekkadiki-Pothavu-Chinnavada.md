@@ -10,6 +10,7 @@ author: revanth_kolli
 rating: 3.5
 year: 2016
 genre: ['Comedy', 'Horror', 'Fantasy']
+link: https://en.wikipedia.org/wiki/Ekkadiki_Pothavu_Chinnavada
 ---
 
 <p>The teaser of Ekkadiki Pothavu Chinnavada caught my interest because of its similarity to one of Nikhil's previous hit movies, Karthikeya. Nikhil has been on point with his story selections recently and he's favoring scripts that mix science and fantasy to attract a modern audience. Seeing the success of this film, it seems like he's onto something.</p>

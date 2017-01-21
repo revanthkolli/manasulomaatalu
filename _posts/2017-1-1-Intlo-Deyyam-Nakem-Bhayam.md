@@ -10,6 +10,7 @@ author: revanth_kolli
 rating: 2
 year: 2016
 genre: ['Horror', 'Comedy', 'Fantasy']
+link: https://en.wikipedia.org/wiki/Intlo_Deyyam_Nakem_Bhayam
 ---
 
 <div class="block block-dark block-lg block-first">

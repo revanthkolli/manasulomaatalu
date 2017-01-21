@@ -9,6 +9,7 @@ author: revanth_kolli
 rating: 4.5
 year: 2014
 genre: ['Romance', 'Comedy']
+link: https://en.wikipedia.org/wiki/Bangalore_Days
 ---
 
 Do you ever watch a movie and get so involved in the narration that the characters and emotions stick with you even after the movie ends? This is one of those movies.

@@ -9,6 +9,7 @@ author: revanth_kolli
 rating: 2.75
 year: 2016
 genre: ['Family', 'Fantasy']
+link: https://en.wikipedia.org/wiki/Soggade_Chinni_Nayana
 ---
 
 <p>Born in the 90&#8217;s, I grew up watching many of Nagarjuna&#8217;s movies while he was still in his prime. Some of my favorites of his include Manmadhudu, Santhosam, and, more recently, Manam. Needless to say, I was excited about being able to watch Soggade Chinni Nayana while I was still in India earlier this year.<br /></p>

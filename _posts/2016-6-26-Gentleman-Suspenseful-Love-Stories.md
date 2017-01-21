@@ -9,6 +9,7 @@ author: revanth_kolli
 rating: 3.5
 year: 2016
 genre: ['Thriller', 'Romance']
+link: https://en.wikipedia.org/wiki/Gentleman_(2016_film)
 ---
 
 Nani has been on a roll lately, with his last three films garnering positive reviews and appreciation from the audience. For his latest release, he's teamed up with the director who introduced him, Mohan Krishna Indraganti, and his first co-star, Sreenivas Avasarala. The combination, along with the promotional content, garnered plenty of hype for the film, so let's see if it lives up to it.

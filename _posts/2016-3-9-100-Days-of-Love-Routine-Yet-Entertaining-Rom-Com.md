@@ -9,6 +9,7 @@ author: revanth_kolli
 rating: 3.75
 year: 2015
 genre: ['Romance', 'Comedy']
+link: https://en.wikipedia.org/wiki/100_Days_of_Love
 ---
 
 This is the fourth movie I've seen starring Dulquer Salman and my opinion of him has remained the same since the first one: that he is a very talented actor with good taste. The fact that it stars Nithya Menon only elevated this film higher on my must-watch list.
