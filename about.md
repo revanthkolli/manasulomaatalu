@@ -8,26 +8,27 @@ permalink: /about/
 
 {% assign reviews = (site.categories['Movie Review']) | size %}
 {% assign articles = (site.categories['All Articles']) | size %}
-{% assign authors = site.data.authors | size %}
+{% assign stories = (site.categories['All Stories']) | size %}
 
 <div class="block block-dark block-lg block-first">
     <div class="block-title">ABOUT</div>
     <br>
     <b>Means</b>: "Words from the heart"
-    <br><b>Launched</b>: March 5, 2016
+    <br><b>Created</b>: March 5, 2016
     <br><b>Film Reviews</b>: {{ reviews }}
     <br><b>Articles</b>: {{ articles }}
-    <br><b>Writers</b>: {{ authors }}
+    <br><b>Stories</b>: {{ stories }}
 </div>
 <div class="block">
-    <div class="block-title">OUR MISSION</div>
+    <div class="block-title">ABOUT MANASULO MAATALU</div>
     <br>
-    Manasulo Maatalu is a growing website dedicated to providing quality film reviews and thoughtfully entertaining content for a primarily South Indian audience. We believe that beautiful design and superior quality trump quantity, so, unlike other entertainment websites, we strive to make sure that what we write is actually worth reading. As an independent website that started off with one writer, Manasulo Maatalu ensures that our content is unique and not sponsored; we do not pen articles only for the sake of publicity.
+    Manasulo Maatalu is a blog about my thoughts on South Indian cinema, though I'm mostly familiar with Telugu movies. You can find unbiased film reivews and articles (unbiased in the sense that they aren't sponsored) and original stories here. 
 </div>
 <div class="block">
-    <div class="block-title">FAQ</div>
+    <div class="block-title">ABOUT ME</div>
     <br>
-    <b> What is Manasulo Maatalu? </b>
+    My name is Revanth Kolli and you can find out what I'm currently up to at <a href="http://www.revanthkolli.me" target="_blank">my website</a>. I love to watch movies, primarily Telugu and English, and aside from coding and films I spend my time reading, writing, singing, sketching, songwriting and dabbling at music production. 
+    <!--<b> What is Manasulo Maatalu? </b>
     <br><br> 
     Check out our mission above. 
     <br>
@@ -50,7 +51,7 @@ permalink: /about/
     <br><b> How do I keep up with new content from Manasulo Maatalu? </b>
     <br><br> 
     We currently only update two social networking platforms: <a href="http://facebook.com/ManasuloMaatalu" target="_blank">Facebook</a> and <a href="http://instagram.com/ManasuloMaatalu" target="_blank">Instagram</a>.
-    <br>
+    <br>-->
 </div>
 <div class="block">
     <div class="block-title">CONTACT US</div>
