@@ -9,7 +9,7 @@ author: revanth_kolli
 ---
 
 <div class="block block-dark block-lg block-first">
-    <div class="block-title">SUMMARY</div>
+    <div class="block-title">TL;DR</div>
     <br>
     There were a lot of great Telugu songs that were produced in 2016 and this video, directed by Harish Nagaraj and featuring Manisha Eerabathini's (from Padutha Theeyaga USA) beautiful vocals and Karthik Rodriguez's effective mixing, almost seamlessly blends some of the best into one entertaining mashup.
 </div>

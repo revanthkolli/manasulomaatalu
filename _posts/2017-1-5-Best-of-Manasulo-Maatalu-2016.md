@@ -9,7 +9,7 @@ author: revanth_kolli
 ---
 
 <div class="block block-dark block-lg block-first">
-    <div class="block-title">SUMMARY</div>
+    <div class="block-title">TL;DR</div>
     <br>
     2016 saw the inception of Manasulo Maatalu and it's been growing ever since. Looking back at the journey, we've compiled a list of our most popular posts and reviews in case you missed anything. 
 </div>
