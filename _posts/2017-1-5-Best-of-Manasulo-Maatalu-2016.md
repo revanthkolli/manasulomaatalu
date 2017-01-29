@@ -11,7 +11,7 @@ author: revanth_kolli
 <div class="block block-dark block-lg block-first">
     <div class="block-title">TL;DR</div>
     <br>
-    2016 saw the inception of Manasulo Maatalu and it's been growing ever since. Looking back at the journey, we've compiled a list of our most popular posts and reviews in case you missed anything. 
+    I started Manasulo Maatalu in 2016 and it's been a fun ride ever since. Looking back at the journey, I've compiled a list of the most popular posts and reviews on Manasulo Maatalu in case you missed anything. 
 </div>
 
 <div class="block">
@@ -60,6 +60,6 @@ author: revanth_kolli
     <br><br>
     <a href="{{ site.baseurl }}/Soggade-Chinni-Nayana-Extended-Film-Review/"><h4> What Does the Success of Soggade Chinni Nayana Say About Our Society? </h4>
     <div class="img-cover"><div class="img-preview" style="background-image: url('../img/soggade_chinni_nayana_poster.jpg');"></div></div></a>
-    The movie review that started it all, this was the first review that we published and received positive feedback from. While many other reviews have praised <i> Soggade Chinni Nayana </i> for it's "entertainment", our review took a different approach, analyzing the reasons behind why the Telugu audience found this movie entertaining despite its misogyny. Read the article to find out why we deserve better from seasoned and respected actors like Nagarjuna who have a large influence on the youth.
+    The movie review that started it all, this was the first review that I posted and received positive feedback from. While many other reviews have praised <i> Soggade Chinni Nayana </i> for it's "entertainment", my review took a different approach, analyzing the reasons behind why the Telugu audience found this movie entertaining despite its misogyny. Read the article to find out why we deserve better from seasoned and respected actors like Nagarjuna who have a large influence on the youth.
     <br>
 </div>
