@@ -7,7 +7,7 @@ categories: ['Movie Review', 'Telugu Cinema']
 tags: ['movie review', 'telugu movie', 'trinadha rao nakkina', 'dil raju', 'devi sri prasad', 'dsp', 'nani', 'keerthy suresh', 'naveen chandra', 'posani murali krishna', 'easwari rao', 'sachin khedekar', 'tulasi', 'rao ramesh']
 image: nenu_local_poster.jpg
 author: revanth_kolli
-rating: 3.25
+rating: 3
 year: 2017
 genre: ['Romance', 'Comedy']
 link: https://en.wikipedia.org/wiki/Nenu_Local
