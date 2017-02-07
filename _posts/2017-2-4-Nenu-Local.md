@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Nenu Local
-description: Your Average Telugu Rom Com
+description: Nani Shines in an Average Telugu Rom Com
 excerpt: With a thoroughly exhausted plot and lack of logical flow, <i>Nenu Local</i> fails to distinguish itself from the slew of recent Telugu romantic comedies, making it watchable only for Nani's natural performance, Devi Sri Prasad's melodies and some well-penned dialogues. 
 categories: ['Movie Review', 'Telugu Cinema']
 tags: ['movie review', 'telugu movie', 'trinadha rao nakkina', 'dil raju', 'devi sri prasad', 'dsp', 'nani', 'keerthy suresh', 'naveen chandra', 'posani murali krishna', 'easwari rao', 'sachin khedekar', 'tulasi', 'rao ramesh']
