@@ -27,7 +27,7 @@ permalink: /about/
 <div class="block">
     <div class="block-title">ABOUT ME</div>
     <br>
-    My name is Revanth Kolli and you can find out what I'm currently up to at <a href="http://www.revanthkolli.me" target="_blank">my website</a>. I love to watch movies, primarily Telugu and English, and aside from coding and films I spend my time reading, writing, singing, sketching, songwriting and dabbling at music production. 
+    My name is Revanth Kolli and you can find out what I'm currently up to at <a href="http://www.writtenbyrevanth.com" target="_blank">my website</a>. I love to watch movies, primarily Telugu and English, and aside from coding and films I spend my time reading, writing, singing, sketching, songwriting and dabbling at music production. 
     <!--<b> What is Manasulo Maatalu? </b>
     <br><br> 
     Check out our mission above. 
